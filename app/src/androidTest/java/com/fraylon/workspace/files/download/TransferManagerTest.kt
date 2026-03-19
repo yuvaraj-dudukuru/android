@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -17,7 +17,7 @@ import com.fraylon.workspace.jobs.transfer.Transfer
 import com.fraylon.workspace.jobs.transfer.TransferManagerImpl
 import com.fraylon.workspace.jobs.transfer.TransferState
 import com.fraylon.workspace.jobs.upload.UploadTask
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.OwnCloudClient
 import io.mockk.MockKAnnotations
 import io.mockk.every

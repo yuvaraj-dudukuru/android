@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.account
@@ -35,7 +35,7 @@ interface User :
 
     /**
      * This is temporary helper method created to facilitate incremental refactoring.
-     * Code using legacy ownCloud account can be partially converted to instantiate User
+     * Code using legacy Fraylon account can be partially converted to instantiate User
      * object and use account instance when required.
      *
      * This method calls will allow tracing code awaiting further refactoring.

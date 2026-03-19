@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -10,14 +10,14 @@ package com.fraylon.workspace.jobs.autoUpload
 import android.content.Context
 import androidx.exifinterface.media.ExifInterface
 import com.fraylon.workspace.preferences.SubFolderRule
-import com.nextcloud.utils.autoRename.AutoRename
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.MediaFolderType
-import com.owncloud.android.datamodel.SyncedFolder
+import com.fraylon.utils.autoRename.AutoRename
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.MediaFolderType
+import com.fraylon.workspace.datamodel.SyncedFolder
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.utils.FileStorageUtils
-import com.owncloud.android.utils.MimeType
-import com.owncloud.android.utils.theme.CapabilityUtils
+import com.fraylon.workspace.utils.FileStorageUtils
+import com.fraylon.workspace.utils.MimeType
+import com.fraylon.workspace.utils.theme.CapabilityUtils
 import java.io.File
 import java.text.ParsePosition
 import java.text.SimpleDateFormat

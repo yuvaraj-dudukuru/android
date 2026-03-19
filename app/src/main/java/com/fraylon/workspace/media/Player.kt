@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -15,8 +15,8 @@ import com.fraylon.workspace.account.User
 import com.fraylon.workspace.media.PlayerStateMachine.Event
 import com.fraylon.workspace.media.PlayerStateMachine.State
 import com.fraylon.workspace.network.ClientFactory
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC
 
 @Suppress("TooManyFunctions")

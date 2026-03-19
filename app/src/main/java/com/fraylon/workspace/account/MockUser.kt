@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.account
@@ -11,7 +11,7 @@ import android.accounts.Account
 import android.net.Uri
 import android.os.Parcel
 import android.os.Parcelable
-import com.owncloud.android.MainApp
+import com.fraylon.workspace.MainApp
 import com.owncloud.android.lib.common.OwnCloudAccount
 import com.owncloud.android.lib.common.OwnCloudBasicCredentials
 import java.net.URI

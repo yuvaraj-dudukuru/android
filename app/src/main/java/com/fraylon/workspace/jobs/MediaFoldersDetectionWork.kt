@@ -1,5 +1,5 @@
 /*
- * Nextcloud Android client application
+ * Fraylon Android client application
  *
  * @author Mario Danic
  * @author Andy Scherzinger
@@ -31,20 +31,20 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.core.Clock
 import com.fraylon.workspace.preferences.AppPreferences
 import com.fraylon.workspace.preferences.AppPreferencesImpl
-import com.owncloud.android.MainApp
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl
-import com.owncloud.android.datamodel.MediaFolderType
-import com.owncloud.android.datamodel.MediaFoldersModel
-import com.owncloud.android.datamodel.MediaProvider
-import com.owncloud.android.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl
+import com.fraylon.workspace.datamodel.MediaFolderType
+import com.fraylon.workspace.datamodel.MediaFoldersModel
+import com.fraylon.workspace.datamodel.MediaProvider
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.activity.ManageAccountsActivity
-import com.owncloud.android.ui.activity.SyncedFoldersActivity
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.SyncedFolderUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.ui.activity.ManageAccountsActivity
+import com.fraylon.workspace.ui.activity.SyncedFoldersActivity
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.SyncedFolderUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import java.util.Random
 
 @Suppress("LongParameterList") // dependencies injection

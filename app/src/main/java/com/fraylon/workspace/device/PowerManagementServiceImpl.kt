@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -11,8 +11,8 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.PowerManager
-import com.nextcloud.utils.extensions.registerBroadcastReceiver
-import com.owncloud.android.datamodel.ReceiverFlag
+import com.fraylon.utils.extensions.registerBroadcastReceiver
+import com.fraylon.workspace.datamodel.ReceiverFlag
 
 internal class PowerManagementServiceImpl(
     private val context: Context,

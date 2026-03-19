@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
  * SPDX-FileCopyrightText: 2019 Tobias Kaminsky <tobias@kaminsky.me>
@@ -13,8 +13,8 @@ package com.fraylon.workspace.errorhandling
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import com.owncloud.android.BuildConfig
-import com.owncloud.android.R
+import com.fraylon.workspace.BuildConfig
+import com.fraylon.workspace.R
 
 class ExceptionHandler(
     private val context: Context,

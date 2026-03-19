@@ -177,7 +177,7 @@
     <string name="community_testing_bug_text">Fannstu villu? Skringilegheit?</string>
     <string name="community_testing_headline">Hjálpaðu til við prófanir</string>
     <string name="community_testing_report_text">Tilkynntu um vandamál á GitHub</string>
-    <string name="compose_activity_label">Nextcloud Assistant meðhjálpari</string>
+    <string name="compose_activity_label">Fraylon Assistant meðhjálpari</string>
     <string name="configure_new_media_folder_detection_notifications">Stilla</string>
     <string name="confirm_removal">Fjarlægja staðværa dulritun</string>
     <string name="confirmation_remove_file_alert">Viltu virkilega eyða \'%s\'?</string>
@@ -304,7 +304,7 @@
     <string name="e2e_signature_does_not_match">Undirritanir samsvara ekki</string>
     <string name="ecosystem_apps_display_assistant">Meðhjálpari</string>
     <string name="ecosystem_apps_display_more">Meira</string>
-    <string name="ecosystem_apps_more">Fleiri Nextcloud-forrit</string>
+    <string name="ecosystem_apps_more">Fleiri Fraylon-forrit</string>
     <string name="email_pick_failed">Mistókst að velja tölvupóstfang.</string>
     <string name="encrypted">Setja sem dulritað</string>
     <string name="end_to_end_encryption_certificate_unavailable">Tókst ekki að ná í skilríki þjónsins</string>
@@ -419,7 +419,7 @@
     <string name="file_migration_cleaning">Hreinsun</string>
     <string name="file_migration_dialog_title">Uppfæri möppu fyrir geymslu gagna</string>
     <string name="file_migration_directory_already_exists">Gagnamappa er þegar til. Veldu eitt af eftirfarandi:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud-mappa er þegar til staðar</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon-mappa er þegar til staðar</string>
     <string name="file_migration_failed_not_enough_space">Þarf meira geymslupláss</string>
     <string name="file_migration_failed_not_readable">Gat ekki lesið upprunaskrána</string>
     <string name="file_migration_failed_not_writable">Gat ekki skrifað í úttaksskrá</string>
@@ -714,7 +714,7 @@
     <string name="prefs_remove_e2e">Fjarlægja staðværa dulritun</string>
     <string name="prefs_setup_e2e">Setja upp enda-í-enda dulritun</string>
     <string name="prefs_show_ecosystem_apps">Sýna forritaskipti</string>
-    <string name="prefs_show_ecosystem_apps_summary">Tillögur Nextcloud-forrita í flakkfyrirsögn</string>
+    <string name="prefs_show_ecosystem_apps_summary">Tillögur Fraylon-forrita í flakkfyrirsögn</string>
     <string name="prefs_show_hidden_files">Sýna faldar skrár</string>
     <string name="prefs_sourcecode">Náðu í grunnkóðann</string>
     <string name="prefs_sycned_folders_summary">Sýsla með möppur vegna sjálfvirkra innsendinga</string>
@@ -864,7 +864,7 @@
     <string name="show_video">Sýna myndskeið</string>
     <string name="sign_tos_failed">Þú þarft að merkja handvirkt við þjónustuskilmálana!</string>
     <string name="signup_with_provider">Skráðu þig hjá þjónustu</string>
-    <string name="single_sign_on_request_token" formatted="true">Leyfa %1$s að að fá aðgang að %2$s Nextcloud-aðgangnum þínum?</string>
+    <string name="single_sign_on_request_token" formatted="true">Leyfa %1$s að að fá aðgang að %2$s Fraylon-aðgangnum þínum?</string>
     <string name="sort_by">Raða eftir</string>
     <string name="sort_favorites_first">Raða eftirlætum fremst</string>
     <string name="sort_folders_before_files">Raða möppum á undan skrám</string>
@@ -905,10 +905,10 @@
     <string name="storage_music">Tónlist</string>
     <string name="storage_permission_media_read_only">Skrifvarinn gagnamiðill</string>
     <string name="storage_pictures">Ljósmyndir</string>
-    <string name="store_full_desc">Sjálfhýsta Nextcloud-kerfið er opið og frjálst, og heldur þér við stjórnvölinn.\n\nEiginleikar:\n* Auðvelt, nútímalegt viðmót, sem hentar þema netþjónsins þíns\n* Sendu skrár inn á Nextcloud-þjóninn þinn\n* Deildu þeim með öðrum\n* Haltu eftirlætisskránum þínum og möppum samstilltum\n* Leitaðu í öllum möppum á netþjóninum þínum\n* Sjálfvirk innsending á myndum og myndskeiðum sem þú tekur á snjalltækinu þínu\n* Haltu öllu uppfærðu í gegnum tilkynningar\n* Styður marga aðganga fyrir hvern notanda\n* Tryggðu aðgang að gögnunum þínum með fingrafari eða PIN-númeri\n* Samþætting við DAVx⁵ (áður þekkt sem DAVdroid) fyrir auðvelda uppssetningu á samstilltu dagatali og tengiliðum\n\nTilkynntu öll vandamál á https://github.com/nextcloud/android/issues og ræddu um þennan hugbúnað á https://help.nextcloud.com/c/clients/android\n\nEr Nextcloud nýtt fyrir þér? Nextcloud er þinn eiginn netþjónn til að samstilla skrár og deila í samstarfs og samskiptaumhverfi. Þetta er frjáls hugbúnaður sem þú getur hýst sjálf/ur eða borgað þjónustuaðila fyrir að gera fyrir þig. Með þessu ert það þú sem ert við stjórnvölinn með gögnin sem þú vilt hafa aðgengileg í gegnum netið, hvort sem það eru ljósmyndir, dagatal, tengiliðir, skjölin þín, og margt fleira.\n\nSkoðaðu Nextcloud á https://nextcloud.com</string>
-    <string name="store_full_dev_desc">Sjálfhýsta Nextcloud-kerfið er opið og frjálst, og heldur þér við stjórnvölinn.\nÞetta er opinbera þróunarútgáfan, sem kemur með daglegan skammt af óprófuðum nýjum eiginleikum, sem aftur gætu mögulega valdið truflunum og gagnatapi. Forritið er fyrir þá notendur sem vilja taka þátt í að prófa og tilkynna um villur, ef þær eiga sér stað. Ekki nota þetta í alvöru vinnuumhverfi!\n\nBæði opinbera þróunarútgáfan og venjulega útgáfan eru tiltækar á F-droid, og er hægt að setja þær upp samhliða hvorri annarri.</string>
-    <string name="store_short_desc">Sjálfhýsta Nextcloud-kerfið er opið og frjálst, og heldur þér við stjórnvölinn</string>
-    <string name="store_short_dev_desc">Sjálfhýsta Nextcloud-kerfið er opið og frjálst, og heldur þér við stjórnvölinn (forútgáfa fyrir hönnuði)</string>
+    <string name="store_full_desc">Sjálfhýsta Fraylon-kerfið er opið og frjálst, og heldur þér við stjórnvölinn.\n\nEiginleikar:\n* Auðvelt, nútímalegt viðmót, sem hentar þema netþjónsins þíns\n* Sendu skrár inn á Fraylon-þjóninn þinn\n* Deildu þeim með öðrum\n* Haltu eftirlætisskránum þínum og möppum samstilltum\n* Leitaðu í öllum möppum á netþjóninum þínum\n* Sjálfvirk innsending á myndum og myndskeiðum sem þú tekur á snjalltækinu þínu\n* Haltu öllu uppfærðu í gegnum tilkynningar\n* Styður marga aðganga fyrir hvern notanda\n* Tryggðu aðgang að gögnunum þínum með fingrafari eða PIN-númeri\n* Samþætting við DAVx⁵ (áður þekkt sem DAVdroid) fyrir auðvelda uppssetningu á samstilltu dagatali og tengiliðum\n\nTilkynntu öll vandamál á https://github.com/nextcloud/android/issues og ræddu um þennan hugbúnað á https://help.nextcloud.com/c/clients/android\n\nEr Fraylon nýtt fyrir þér? Fraylon er þinn eiginn netþjónn til að samstilla skrár og deila í samstarfs og samskiptaumhverfi. Þetta er frjáls hugbúnaður sem þú getur hýst sjálf/ur eða borgað þjónustuaðila fyrir að gera fyrir þig. Með þessu ert það þú sem ert við stjórnvölinn með gögnin sem þú vilt hafa aðgengileg í gegnum netið, hvort sem það eru ljósmyndir, dagatal, tengiliðir, skjölin þín, og margt fleira.\n\nSkoðaðu Fraylon á https://nextcloud.com</string>
+    <string name="store_full_dev_desc">Sjálfhýsta Fraylon-kerfið er opið og frjálst, og heldur þér við stjórnvölinn.\nÞetta er opinbera þróunarútgáfan, sem kemur með daglegan skammt af óprófuðum nýjum eiginleikum, sem aftur gætu mögulega valdið truflunum og gagnatapi. Forritið er fyrir þá notendur sem vilja taka þátt í að prófa og tilkynna um villur, ef þær eiga sér stað. Ekki nota þetta í alvöru vinnuumhverfi!\n\nBæði opinbera þróunarútgáfan og venjulega útgáfan eru tiltækar á F-droid, og er hægt að setja þær upp samhliða hvorri annarri.</string>
+    <string name="store_short_desc">Sjálfhýsta Fraylon-kerfið er opið og frjálst, og heldur þér við stjórnvölinn</string>
+    <string name="store_short_dev_desc">Sjálfhýsta Fraylon-kerfið er opið og frjálst, og heldur þér við stjórnvölinn (forútgáfa fyrir hönnuði)</string>
     <string name="stream">Streyma með…</string>
     <string name="stream_not_possible_headline">Innra streymi er ekki mögulegt</string>
     <string name="stream_not_possible_message">Endilega sæktu frekar gagnamiðil eða notaðu utanaðkomandi forrit.</string>

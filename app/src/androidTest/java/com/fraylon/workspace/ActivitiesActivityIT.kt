@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace
@@ -15,15 +15,15 @@ import androidx.test.espresso.contrib.DrawerActions
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.matcher.ViewMatchers.withId
-import com.owncloud.android.AbstractIT
-import com.owncloud.android.R
+import com.fraylon.workspace.AbstractIT
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.activities.model.Activity
 import com.owncloud.android.lib.resources.activities.model.RichElement
 import com.owncloud.android.lib.resources.activities.model.RichObject
 import com.owncloud.android.lib.resources.activities.models.PreviewObject
 import com.owncloud.android.lib.resources.status.OCCapability
-import com.owncloud.android.ui.activities.ActivitiesActivity
-import com.owncloud.android.utils.ScreenshotTest
+import com.fraylon.workspace.ui.activities.ActivitiesActivity
+import com.fraylon.workspace.utils.ScreenshotTest
 import org.junit.Test
 import java.util.GregorianCalendar
 

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2024 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2024 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.assistant
@@ -13,8 +13,8 @@ import com.fraylon.workspace.assistant.model.AssistantScreenState
 import com.fraylon.workspace.assistant.model.ScreenOverlayState
 import com.fraylon.workspace.assistant.repository.local.AssistantLocalRepository
 import com.fraylon.workspace.assistant.repository.remote.AssistantRemoteRepository
-import com.nextcloud.utils.TimeConstants.MILLIS_PER_SECOND
-import com.owncloud.android.R
+import com.fraylon.utils.TimeConstants.MILLIS_PER_SECOND
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.assistant.v2.model.Task
 import com.owncloud.android.lib.resources.assistant.v2.model.TaskTypeData

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Andy Scherzinger <info@andy-scherzinger.de>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -12,10 +12,10 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import com.owncloud.android.R
-import com.owncloud.android.databinding.ActivityShowErrorBinding
-import com.owncloud.android.utils.ClipboardUtil
-import com.owncloud.android.utils.DisplayUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.ActivityShowErrorBinding
+import com.fraylon.workspace.utils.ClipboardUtil
+import com.fraylon.workspace.utils.DisplayUtils
 
 class ShowErrorActivity : AppCompatActivity() {
     private lateinit var binding: ActivityShowErrorBinding

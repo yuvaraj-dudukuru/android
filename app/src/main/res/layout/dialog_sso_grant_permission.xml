@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2018 Andy Scherzinger <info@andy-scherzinger.de>
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -13,7 +13,7 @@
     android:orientation="horizontal"
     android:paddingHorizontal="@dimen/dialog_padding"
     android:paddingTop="@dimen/dialog_padding"
-    tools:context="com.owncloud.android.ui.activity.SsoGrantPermissionActivity"
+    tools:context="com.fraylon.workspace.ui.activity.SsoGrantPermissionActivity"
     tools:ignore="UseCompoundDrawables">
 
     <ImageView

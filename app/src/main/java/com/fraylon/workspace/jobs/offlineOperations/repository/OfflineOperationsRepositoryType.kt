@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -8,7 +8,7 @@
 package com.fraylon.workspace.jobs.offlineOperations.repository
 
 import com.fraylon.workspace.database.entity.OfflineOperationEntity
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 
 interface OfflineOperationsRepositoryType {
     fun getAllSubEntities(fileId: Long): List<OfflineOperationEntity>

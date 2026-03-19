@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.download
@@ -11,11 +11,11 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import com.fraylon.workspace.jobs.notification.WorkerNotificationManager
-import com.nextcloud.utils.numberFormatter.NumberFormatter
-import com.owncloud.android.R
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.utils.numberFormatter.NumberFormatter
+import com.fraylon.workspace.R
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import java.io.File
 import java.security.SecureRandom
 

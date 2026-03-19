@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -15,15 +15,15 @@ import androidx.core.app.NotificationCompat
 import com.fraylon.workspace.jobs.notification.WorkerNotificationManager
 import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.fraylon.workspace.jobs.upload.UploadBroadcastAction
-import com.nextcloud.utils.extensions.isFileSpecificError
-import com.owncloud.android.R
-import com.owncloud.android.authentication.AuthenticatorActivity
+import com.fraylon.utils.extensions.isFileSpecificError
+import com.fraylon.workspace.R
+import com.fraylon.workspace.authentication.AuthenticatorActivity
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.activity.ConflictsResolveActivity
-import com.owncloud.android.utils.ErrorMessageAdapter
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.activity.ConflictsResolveActivity
+import com.fraylon.workspace.utils.ErrorMessageAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -8,11 +8,11 @@
 package com.fraylon.workspace.jobs.offlineOperations.repository
 
 import com.fraylon.workspace.database.entity.OfflineOperationEntity
-import com.nextcloud.model.OfflineOperationType
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.utils.MimeType
-import com.owncloud.android.utils.MimeTypeUtil
+import com.fraylon.model.OfflineOperationType
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.utils.MimeType
+import com.fraylon.workspace.utils.MimeTypeUtil
 
 class OfflineOperationsRepository(private val fileDataStorageManager: FileDataStorageManager) :
     OfflineOperationsRepositoryType {

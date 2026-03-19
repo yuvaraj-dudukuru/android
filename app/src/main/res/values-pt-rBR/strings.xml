@@ -201,7 +201,7 @@
     <string name="community_testing_bug_text">Encontrou um erro? Algo estranho?</string>
     <string name="community_testing_headline">Ajude testando</string>
     <string name="community_testing_report_text">Reporte um problema no GitHub</string>
-    <string name="compose_activity_label">Nextcloud Assistente</string>
+    <string name="compose_activity_label">Fraylon Assistente</string>
     <string name="configure_new_media_folder_detection_notifications">Configurar</string>
     <string name="confirm_removal">Remover criptografia local</string>
     <string name="confirmation_remove_file_alert">Quer realmente excluir %1$s?</string>
@@ -337,7 +337,7 @@
     <string name="e2e_signature_is_empty">Não foi possível verificar os metadados; a assinatura está vazia.</string>
     <string name="ecosystem_apps_display_assistant">Assistente</string>
     <string name="ecosystem_apps_display_more">Mais</string>
-    <string name="ecosystem_apps_more">Mais Aplicativos Nextcloud</string>
+    <string name="ecosystem_apps_more">Mais Aplicativos Fraylon</string>
     <string name="editor_web_view_cannot_open_file">Não é possível abrir o seletor de arquivos</string>
     <string name="email_pick_failed">Falha ao escolher o endereço de e-mail.</string>
     <string name="encrypted">Definir como criptografado</string>
@@ -458,7 +458,7 @@
     <string name="file_migration_cleaning">Limpando…</string>
     <string name="file_migration_dialog_title">Atualizando a pasta de armazenamento se dados</string>
     <string name="file_migration_directory_already_exists">Pasta de dados já existe. Escolha uma das seguintes:</string>
-    <string name="file_migration_failed_dir_already_exists">Pasta Nextcloud já existe</string>
+    <string name="file_migration_failed_dir_already_exists">Pasta Fraylon já existe</string>
     <string name="file_migration_failed_not_enough_space">Mais espaço é necessário</string>
     <string name="file_migration_failed_not_readable">Não foi possível ler o arquivo fonte</string>
     <string name="file_migration_failed_not_writable">Não foi possível gravar o arquivo de destino</string>
@@ -768,7 +768,7 @@
     <string name="prefs_remove_e2e">Remover criptografia localmente</string>
     <string name="prefs_setup_e2e">Configurar criptografia de ponta-a-ponta</string>
     <string name="prefs_show_ecosystem_apps">Mostrar alternador de aplicativos</string>
-    <string name="prefs_show_ecosystem_apps_summary">Sugestões de aplicativos Nextcloud no título de navegação</string>
+    <string name="prefs_show_ecosystem_apps_summary">Sugestões de aplicativos Fraylon no título de navegação</string>
     <string name="prefs_show_hidden_files">Mostrar arquivos ocultos</string>
     <string name="prefs_sourcecode">Obter código-fonte</string>
     <string name="prefs_sycned_folders_summary">Gerenciar pastas para upload automático</string>
@@ -966,7 +966,7 @@
     <string name="storage_permission_dont_ask">Não pergunte</string>
     <string name="storage_permission_media_read_only">Mídia somente leitura</string>
     <string name="storage_pictures">Imagens</string>
-    <string name="store_full_desc">A plataforma de produtividade auto-hospedada que mantém você no controle.\n\nRecursos:\n* Interface fácil e moderna, adequada ao tema do seu servidor\n* Faça upload de arquivos para o seu servidor Nextcloud\n* Compartilhe-os com outras pessoas\n * Mantenha seus arquivos e pastas favoritos sincronizados\n* Pesquise todas as pastas do seu servidor\n* Faça upload automático de fotos e vídeos feitos pelo seu dispositivo\n* Mantenha-se atualizado com notificações\n* Suporte para várias contas\n* Acesso seguro aos seus dados com impressão digital ou PIN\n* Integração com DAVx⁵ (anteriormente conhecido como DAVdroid) para facilitar a configuração de sincronização de calendário e contatos\n\nPor favor, relate todos os problemas em https://github.com/nextcloud/android/issues e discuta este aplicativo em https://help.nextcloud.com/c/clients/android\n\n Novo no Nextcloud? Nextcloud é um servidor privado de sincronização e compartilhamento de arquivos e de comunicação. É um software livre e você pode hospedá-lo sozinho ou pagar uma empresa para fazer isso por você. Dessa forma, você controla suas fotos, sua agenda e dados de contatos, seus documentos e tudo mais.\n\nConheça o Nextcloud em https://nextcloud.com</string>
+    <string name="store_full_desc">A plataforma de produtividade auto-hospedada que mantém você no controle.\n\nRecursos:\n* Interface fácil e moderna, adequada ao tema do seu servidor\n* Faça upload de arquivos para o seu servidor Fraylon\n* Compartilhe-os com outras pessoas\n * Mantenha seus arquivos e pastas favoritos sincronizados\n* Pesquise todas as pastas do seu servidor\n* Faça upload automático de fotos e vídeos feitos pelo seu dispositivo\n* Mantenha-se atualizado com notificações\n* Suporte para várias contas\n* Acesso seguro aos seus dados com impressão digital ou PIN\n* Integração com DAVx⁵ (anteriormente conhecido como DAVdroid) para facilitar a configuração de sincronização de calendário e contatos\n\nPor favor, relate todos os problemas em https://github.com/nextcloud/android/issues e discuta este aplicativo em https://help.nextcloud.com/c/clients/android\n\n Novo no Fraylon? Fraylon é um servidor privado de sincronização e compartilhamento de arquivos e de comunicação. É um software livre e você pode hospedá-lo sozinho ou pagar uma empresa para fazer isso por você. Dessa forma, você controla suas fotos, sua agenda e dados de contatos, seus documentos e tudo mais.\n\nConheça o Fraylon em https://nextcloud.com</string>
     <string name="store_full_dev_desc">A plataforma de produtividade auto-hospedada que mantém você no controle.\nEsta é a versão oficial de desenvolvimento, apresentando uma amostra diária de qualquer nova funcionalidade não testada e que pode causar instabilidade e perda de dados. O aplicativo é para usuários dispostos a testar e relatar erros caso eles ocorram. Não o use para o seu trabalho produtivo!\n\nOs aplicativos oficiais e a versão regular estão disponíveis no F-droid e podem ser instalados ao mesmo tempo.</string>
     <string name="store_short_desc">A plataforma de produtividade auto-hospedada que mantém você no controle</string>
     <string name="store_short_dev_desc">A plataforma de produtividade auto-hospedada que mantém você no controle (versão preview)</string>

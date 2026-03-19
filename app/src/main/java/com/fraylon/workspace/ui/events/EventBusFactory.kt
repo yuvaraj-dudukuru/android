@@ -1,0 +1,18 @@
+/*
+ * Fraylon - Android Client
+ *
+ * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+package com.fraylon.workspace.ui.events
+
+import org.greenrobot.eventbus.EventBus
+
+object EventBusFactory {
+
+    val downloadProgressEventBus: EventBus = EventBus.builder()
+        .logNoSubscriberMessages(false)
+        .sendNoSubscriberEvent(false)
+        .build()
+}

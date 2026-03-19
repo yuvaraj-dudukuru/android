@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2020 Andy Scherzinger <info@andy-scherzinger>
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -79,28 +79,28 @@
         android:layout_marginEnd="-3dp"
         android:orientation="horizontal">
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
@@ -116,28 +116,28 @@
         android:layout_marginEnd="-3dp"
         android:orientation="horizontal">
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"
             android:layout_weight="1"
             android:contentDescription="@null" />
 
-        <com.nextcloud.ui.SquareLoaderImageView
+        <com.fraylon.ui.SquareLoaderImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="3dp"

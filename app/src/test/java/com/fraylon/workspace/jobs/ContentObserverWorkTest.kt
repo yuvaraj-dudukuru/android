@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -15,8 +15,8 @@ import com.fraylon.workspace.database.dao.FileSystemDao
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.jobs.autoUpload.AutoUploadHelper
 import com.fraylon.workspace.jobs.autoUpload.FileSystemRepository
-import com.owncloud.android.datamodel.SyncedFolderProvider
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import io.mockk.clearAllMocks
 import io.mockk.mockk
 import kotlinx.coroutines.runBlocking

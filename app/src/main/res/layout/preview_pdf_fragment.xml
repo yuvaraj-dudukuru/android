@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
-  ~ SPDX-FileCopyrightText: 2022 Nextcloud Gmbh
+  ~ SPDX-FileCopyrightText: 2022 Fraylon Gmbh
   ~ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -1,9 +1,9 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Philipp Hasper <vcs@hasper.info>
  * SPDX-FileCopyrightText: 2019 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2019 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2019 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 
@@ -26,19 +26,19 @@ import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
-import com.nextcloud.test.RetryTestRule
-import com.owncloud.android.AbstractOnServerIT
-import com.owncloud.android.R
+import com.fraylon.test.RetryTestRule
+import com.fraylon.workspace.AbstractOnServerIT
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.files.CreateFolderRemoteOperation
 import com.owncloud.android.lib.resources.files.ExistenceCheckRemoteOperation
 import com.owncloud.android.lib.resources.files.ToggleFavoriteRemoteOperation
 import com.owncloud.android.lib.resources.shares.CreateShareRemoteOperation
 import com.owncloud.android.lib.resources.shares.OCShare
 import com.owncloud.android.lib.resources.shares.ShareType
-import com.owncloud.android.operations.CreateFolderOperation
-import com.owncloud.android.ui.activity.FileDisplayActivity
-import com.owncloud.android.ui.adapter.OCFileListItemViewHolder
-import com.owncloud.android.utils.EspressoIdlingResource
+import com.fraylon.workspace.operations.CreateFolderOperation
+import com.fraylon.workspace.ui.activity.FileDisplayActivity
+import com.fraylon.workspace.ui.adapter.OCFileListItemViewHolder
+import com.fraylon.workspace.utils.EspressoIdlingResource
 import org.hamcrest.Matchers.allOf
 import org.junit.After
 import org.junit.Assert.assertEquals

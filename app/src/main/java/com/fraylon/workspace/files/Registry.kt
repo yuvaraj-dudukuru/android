@@ -1,15 +1,15 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.files
 
 import com.fraylon.workspace.jobs.transfer.Transfer
 import com.fraylon.workspace.jobs.transfer.TransferState
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 import java.util.UUID
 import kotlin.math.max
 import kotlin.math.min

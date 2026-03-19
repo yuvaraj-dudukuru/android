@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -9,12 +9,12 @@ package com.fraylon.workspace.jobs.operation
 
 import android.content.Context
 import com.fraylon.workspace.account.User
-import com.nextcloud.utils.extensions.getErrorMessage
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.utils.extensions.getErrorMessage
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.RemoveFileOperation
+import com.fraylon.workspace.operations.RemoveFileOperation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.withContext

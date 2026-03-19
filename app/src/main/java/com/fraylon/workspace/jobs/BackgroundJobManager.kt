@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -9,9 +9,9 @@ package com.fraylon.workspace.jobs
 import androidx.lifecycle.LiveData
 import androidx.work.ListenableWorker
 import com.fraylon.workspace.account.User
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.operations.DownloadType
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.operations.DownloadType
 
 /**
  * This interface allows to control, schedule and monitor all application

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -16,10 +16,10 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.fraylon.workspace.notifications.action.SyncConflictNotificationBroadcastReceiver
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.activity.UploadListActivity
-import com.owncloud.android.ui.notifications.NotificationUtils
+import com.fraylon.workspace.ui.activity.UploadListActivity
+import com.fraylon.workspace.ui.notifications.NotificationUtils
 
 /**
  * Responsible for showing **app-wide notifications** in the app.

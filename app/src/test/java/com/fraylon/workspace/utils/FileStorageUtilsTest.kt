@@ -1,14 +1,14 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2019 Nextcloud
+ * SPDX-FileCopyrightText: 2019 Fraylon
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.utils
 
 import com.fraylon.workspace.preferences.SubFolderRule
-import com.owncloud.android.utils.FileStorageUtils
+import com.fraylon.workspace.utils.FileStorageUtils
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

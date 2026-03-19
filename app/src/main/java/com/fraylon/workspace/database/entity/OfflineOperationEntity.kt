@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,9 +11,9 @@ import android.content.Context
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.nextcloud.model.OfflineOperationType
-import com.owncloud.android.R
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.model.OfflineOperationType
+import com.fraylon.workspace.R
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
 
 @Entity(tableName = ProviderTableMeta.OFFLINE_OPERATION_TABLE_NAME)
 data class OfflineOperationEntity(

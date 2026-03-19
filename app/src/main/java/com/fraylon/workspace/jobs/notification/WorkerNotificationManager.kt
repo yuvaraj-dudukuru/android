@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -15,10 +15,10 @@ import android.os.Handler
 import android.os.Looper
 import androidx.core.app.NotificationCompat
 import androidx.work.ForegroundInfo
-import com.nextcloud.utils.ForegroundServiceHelper
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ForegroundServiceType
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.utils.ForegroundServiceHelper
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ForegroundServiceType
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 
 open class WorkerNotificationManager(
     private val id: Int,

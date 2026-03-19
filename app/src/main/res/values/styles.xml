@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2022 Álvaro Brey  <alvaro@alvarobrey.com>
   ~ SPDX-FileCopyrightText: 2016-2022 Andy Scherzinger <info@andy-scherzinger.de>
   ~ SPDX-FileCopyrightText: 2020 Joris Bodin <joris.bodin@infomaniak.com>
   ~ SPDX-FileCopyrightText: 2017-2020 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
-  ~ SPDX-FileCopyrightText: 2015 ownCloud Inc.
+  ~ SPDX-FileCopyrightText: 2015 Fraylon Inc.
   ~ SPDX-FileCopyrightText: 2012 Bartosz Przybylski
   ~ SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="BaseTheme.ownCloud" parent="Theme.Material3.DayNight">
-        <item name="actionBarStyle">@style/Theme.ownCloud.Widget.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Theme.ownCloud.Widget.ActionBar</item>
+    <style name="BaseTheme.Fraylon" parent="Theme.Material3.DayNight">
+        <item name="actionBarStyle">@style/Theme.Fraylon.Widget.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Theme.Fraylon.Widget.ActionBar</item>
         <item name="actionBarPopupTheme">@style/ThemeOverlay.AppTheme.PopupMenu</item>
         <item name="actionModeStyle">@style/App.ActionMode</item>
-        <item name="alertDialogTheme">@style/ownCloud.AlertDialog</item>
-        <item name="android:alertDialogTheme">@style/ownCloud.AlertDialog</item>
+        <item name="alertDialogTheme">@style/Fraylon.AlertDialog</item>
+        <item name="android:alertDialogTheme">@style/Fraylon.AlertDialog</item>
         <item name="android:textColor">@color/text_color</item>
         <item name="android:textColorHint">@color/secondary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
@@ -26,7 +26,7 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorSecondary">@color/secondary_text_color</item>
-        <item name="searchViewStyle">@style/ownCloud.SearchView</item>
+        <item name="searchViewStyle">@style/Fraylon.SearchView</item>
         <item name="android:actionModeBackground">@color/action_mode_background</item>
         <item name="android:datePickerDialogTheme">@style/FallbackDatePickerDialogTheme</item>
         <item name="android:navigationBarColor">@color/bg_default</item>
@@ -34,7 +34,7 @@
         <item name="dialogCornerRadius">@dimen/dialogBorderRadius</item>
     </style>
 
-    <style name="Theme.ownCloud" parent="BaseTheme.ownCloud">
+    <style name="Theme.Fraylon" parent="BaseTheme.Fraylon">
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
@@ -101,28 +101,28 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
-    <style name="Theme.ownCloud.ToolbarBase" parent="BaseTheme.ownCloud.Toolbar">
+    <style name="Theme.Fraylon.ToolbarBase" parent="BaseTheme.Fraylon.Toolbar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:navigationBarColor">@color/bg_default</item>
     </style>
 
-    <style name="Theme.ownCloud.Toolbar" parent="Theme.ownCloud.ToolbarBase" />
+    <style name="Theme.Fraylon.Toolbar" parent="Theme.Fraylon.ToolbarBase" />
 
-    <style name="Theme.ownCloud.Toolbar.DrawerBase" parent="Theme.ownCloud.Toolbar">
+    <style name="Theme.Fraylon.Toolbar.DrawerBase" parent="Theme.Fraylon.Toolbar">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Theme.ownCloud.Toolbar.Drawer" parent="Theme.ownCloud.Toolbar.DrawerBase">
+    <style name="Theme.Fraylon.Toolbar.Drawer" parent="Theme.Fraylon.Toolbar.DrawerBase">
         <item name="android:navigationBarColor">@color/bg_default</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
-    <style name="Theme.ownCloud.Toolbar.NullBackground" parent="BaseTheme.ownCloud.Toolbar">
+    <style name="Theme.Fraylon.Toolbar.NullBackground" parent="BaseTheme.Fraylon.Toolbar">
         <item name="android:colorBackground">@null</item>
         <item name="android:background">@null</item>
     </style>
 
-    <style name="Theme.ownCloud.noActionBar.LoginBase" parent="Theme.ownCloud.Toolbar">
+    <style name="Theme.Fraylon.noActionBar.LoginBase" parent="Theme.Fraylon.Toolbar">
         <item name="android:windowBackground">@color/primary</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorControlNormal">@color/login_text_color</item>
@@ -133,25 +133,25 @@
         <item name="android:navigationBarColor">@color/primary</item>
     </style>
 
-    <style name="Theme.ownCloud.noActionBar.Login" parent="Theme.ownCloud.noActionBar.LoginBase">
+    <style name="Theme.Fraylon.noActionBar.Login" parent="Theme.Fraylon.noActionBar.LoginBase">
         <item name="android:windowLightNavigationBar">false</item>
     </style>
 
-    <style name="ownCloud.AlertDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+    <style name="Fraylon.AlertDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
         <item name="colorAccent">@color/color_accent</item>
-        <item name="searchViewStyle">@style/ownCloud.SearchView</item>
+        <item name="searchViewStyle">@style/Fraylon.SearchView</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:windowBackground">@color/bg_default</item>
         <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
     </style>
 
-    <style name="ownCloud.Dialog" parent="Theme.Material3.DayNight.Dialog">
-        <item name="searchViewStyle">@style/ownCloud.SearchView</item>
+    <style name="Fraylon.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="searchViewStyle">@style/Fraylon.SearchView</item>
         <item name="android:textAllCaps">false</item>
         <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
     </style>
 
-    <style name="ProgressDialogTheme" parent="ownCloud.Dialog">
+    <style name="ProgressDialogTheme" parent="Fraylon.Dialog">
         <item name="colorAccent">@color/color_accent</item>
         <item name="android:textColor">@color/login_text_color</item>
         <item name="android:windowFrame">@color/transparent</item>
@@ -159,7 +159,7 @@
         <item name="android:windowTitleBackgroundStyle">@drawable/process_dialog_background</item>
     </style>
 
-    <style name="ownCloud.SearchView" parent="Widget.AppCompat.SearchView">
+    <style name="Fraylon.SearchView" parent="Widget.AppCompat.SearchView">
         <!-- Close button icon -->
         <item name="closeIcon">@drawable/ic_close</item>
         <!-- Search button icon -->
@@ -221,23 +221,23 @@
     </style>
 
     <!-- separate translucent action bar style -->
-    <style name="Theme.ownCloud.OverlayBase" parent="Theme.ownCloud">
-        <item name="android:actionBarStyle">@style/Theme.ownCloud.Overlay.ActionBar</item>
+    <style name="Theme.Fraylon.OverlayBase" parent="Theme.Fraylon">
+        <item name="android:actionBarStyle">@style/Theme.Fraylon.Overlay.ActionBar</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowFullscreen">true</item>
         <!-- Support library compatibility -->
-        <item name="actionBarStyle">@style/Theme.ownCloud.Overlay.ActionBar</item>
+        <item name="actionBarStyle">@style/Theme.Fraylon.Overlay.ActionBar</item>
         <item name="windowActionBarOverlay">true</item>
     </style>
 
-    <style name="Theme.ownCloud.Overlay" parent="Theme.ownCloud.OverlayBase">
+    <style name="Theme.Fraylon.Overlay" parent="Theme.Fraylon.OverlayBase">
         <item name="android:navigationBarColor">@color/black</item>
-        <item name="toolbarStyle">@style/Theme.ownCloud.Overlay.ActionBar</item>
+        <item name="toolbarStyle">@style/Theme.Fraylon.Overlay.ActionBar</item>
         <item name="actionOverflowButtonStyle">@style/ToolbarStyle.Overflow</item>
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
     </style>
 
-    <style name="Theme.ownCloud.OverlayGrey" parent="Theme.ownCloud.OverlayBase">
+    <style name="Theme.Fraylon.OverlayGrey" parent="Theme.Fraylon.OverlayBase">
         <item name="android:navigationBarColor">@color/grey_400</item>
         <item name="android:background">@color/grey_400</item>
         <item name="android:windowBackground">@color/grey_400</item>
@@ -245,7 +245,7 @@
         <item name="android:windowLightNavigationBar">false</item>
     </style>
 
-    <style name="Theme.ownCloud.Media" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Fraylon.Media" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
     </style>
 
@@ -254,7 +254,7 @@
     </style>
 
     <!-- ACTION BAR STYLES -->
-    <style name="Theme.ownCloud.Overlay.ActionBar" parent="@style/Widget.Material3.Toolbar">
+    <style name="Theme.Fraylon.Overlay.ActionBar" parent="@style/Widget.Material3.Toolbar">
         <item name="android:background">@color/color_transparent</item>
         <item name="android:windowActionBarOverlay">true</item>
         <!-- Support library compatibility -->
@@ -264,14 +264,14 @@
     </style>
 
     <!-- Launch screen -->
-    <style name="Theme.ownCloud.Launcher">
+    <style name="Theme.Fraylon.Launcher">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@color/primary</item>
         <item name="android:windowBackground">@color/primary</item>
         <item name="android:textColorHint">@color/secondary_text_color</item>
     </style>
 
-    <style name="Theme.ownCloud.Widget.ActionBar" parent="@style/Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+    <style name="Theme.Fraylon.Widget.ActionBar" parent="@style/Theme.MaterialComponents.Light.DarkActionBar.Bridge">
         <item name="android:background">@color/primary</item>
         <item name="background">@color/primary</item>
         <item name="android:textColor">@color/text_color</item>
@@ -281,14 +281,14 @@
     </style>
 
     <!-- Dialogs -->
-    <style name="Theme.ownCloud.Dialog" parent="@style/Theme.Material3.DayNight.Dialog.Alert">
+    <style name="Theme.Fraylon.Dialog" parent="@style/Theme.Material3.DayNight.Dialog.Alert">
         <item name="windowNoTitle">false</item>
         <item name="colorAccent">@color/color_accent</item>
         <item name="android:textAllCaps">false</item>
         <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
     </style>
 
-    <style name="Theme.ownCloud.Dialog.NoTitle" parent="@style/Theme.ownCloud.Dialog">
+    <style name="Theme.Fraylon.Dialog.NoTitle" parent="@style/Theme.Fraylon.Dialog">
         <item name="windowNoTitle">true</item>
         <item name="colorAccent">@color/color_accent</item>
     </style>
@@ -316,12 +316,12 @@
         <item name="colorPrimary">@color/text_color</item>
     </style>
 
-    <style name="Theme.ownCloud.NoActionBar">
+    <style name="Theme.Fraylon.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.NoBackground" parent="Theme.ownCloud.Toolbar">
+    <style name="Theme.NoBackground" parent="Theme.Fraylon.Toolbar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -331,12 +331,12 @@
     </style>
 
     <!-- Text styles -->
-    <style name="NextcloudTextAppearanceHeadline" parent="@style/TextAppearance.AppCompat.Headline">
+    <style name="FraylonTextAppearanceHeadline" parent="@style/TextAppearance.AppCompat.Headline">
         <item name="android:textSize">26sp</item>
         <item name="android:textColor">@color/text_color</item>
     </style>
 
-    <style name="NextcloudTextAppearanceMedium" parent="@style/TextAppearance.AppCompat.Medium"></style>
+    <style name="FraylonTextAppearanceMedium" parent="@style/TextAppearance.AppCompat.Medium"></style>
 
     <style name="Widget.App.Login.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Login.TextInputLayout</item>
@@ -375,7 +375,7 @@
         <item name="android:textColorPrimary">@color/text_color</item>
     </style>
 
-    <style name="Nextcloud.Widget.PopupMenu" parent="@style/Widget.Material3.PopupMenu">
+    <style name="Fraylon.Widget.PopupMenu" parent="@style/Widget.Material3.PopupMenu">
         <item name="popupMenuBackground">@color/bg_default</item>
     </style>
 
@@ -438,12 +438,12 @@
         <item name="materialButtonStyle">@style/Widget.App.Button.BottomSheetItem</item>
     </style>
 
-    <style name="Nextcloud.Material.TextButton" parent="Widget.Material3.Button.TextButton.Icon">
+    <style name="Fraylon.Material.TextButton" parent="Widget.Material3.Button.TextButton.Icon">
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Widget.Nextcloud.AppWidget.Container" parent="android:Widget">
+    <style name="Widget.Fraylon.AppWidget.Container" parent="android:Widget">
         <item name="android:id">@android:id/background</item>
         <item name="android:background">?android:attr/colorBackground</item>
     </style>
@@ -482,7 +482,7 @@
 
         <!-- Set the theme of the Activity that directly follows your splash screen. -->
         <!-- Required -->
-        <item name="postSplashScreenTheme">@style/Theme.ownCloud.Launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Fraylon.Launcher</item>
     </style>
 
 </resources>

@@ -1,0 +1,12 @@
+/*
+ * Fraylon - Android Client
+ *
+ * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
+ * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
+ */
+package com.fraylon.model
+
+sealed class WorkerState {
+    data object OfflineOperationsCompleted : WorkerState()
+}

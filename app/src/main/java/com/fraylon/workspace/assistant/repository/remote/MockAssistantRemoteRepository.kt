@@ -1,12 +1,12 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 package com.fraylon.workspace.assistant.repository.remote
 
-import com.nextcloud.utils.extensions.getRandomString
+import com.fraylon.utils.extensions.getRandomString
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.resources.assistant.chat.model.ChatMessage
 import com.owncloud.android.lib.resources.assistant.chat.model.ChatMessageRequest

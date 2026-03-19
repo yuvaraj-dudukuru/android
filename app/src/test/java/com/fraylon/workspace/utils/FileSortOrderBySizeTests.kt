@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 
 package com.fraylon.workspace.utils
 
-import com.owncloud.android.utils.FileSortOrderBySize
+import com.fraylon.workspace.utils.FileSortOrderBySize
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertFalse
 import junit.framework.TestCase.assertTrue

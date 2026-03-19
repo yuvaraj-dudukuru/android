@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -29,8 +29,8 @@ import com.google.gson.Gson
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.integrations.deck.DeckApi
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.DecryptedPushMessage
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.DecryptedPushMessage
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.OwnCloudClientFactory
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
@@ -39,11 +39,11 @@ import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.notifications.DeleteNotificationRemoteOperation
 import com.owncloud.android.lib.resources.notifications.GetNotificationRemoteOperation
 import com.owncloud.android.lib.resources.notifications.models.Notification
-import com.owncloud.android.ui.activity.FileDisplayActivity
-import com.owncloud.android.ui.activity.NotificationsActivity
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.PushUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.ui.activity.FileDisplayActivity
+import com.fraylon.workspace.ui.activity.NotificationsActivity
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.PushUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import dagger.android.AndroidInjection
 import org.apache.commons.httpclient.HttpMethod
 import org.apache.commons.httpclient.HttpStatus

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -12,8 +12,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import com.fraylon.workspace.jobs.offlineOperations.OfflineOperationsNotificationManager
-import com.owncloud.android.MainApp
-import com.owncloud.android.datamodel.FileDataStorageManager
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.datamodel.FileDataStorageManager
 import javax.inject.Inject
 
 class OfflineOperationReceiver : BroadcastReceiver() {

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.download
@@ -10,14 +10,14 @@ package com.fraylon.workspace.jobs.download
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.jobs.BackgroundJobManager
 import com.fraylon.workspace.jobs.folderDownload.FolderDownloadWorker
-import com.owncloud.android.MainApp
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.operations.DownloadType
-import com.owncloud.android.utils.MimeTypeUtil
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.operations.DownloadType
+import com.fraylon.workspace.utils.MimeTypeUtil
 import java.io.File
 import javax.inject.Inject
 

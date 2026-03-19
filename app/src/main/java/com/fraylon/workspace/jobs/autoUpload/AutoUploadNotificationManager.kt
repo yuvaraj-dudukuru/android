@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -9,9 +9,9 @@ package com.fraylon.workspace.jobs.autoUpload
 
 import android.content.Context
 import com.fraylon.workspace.jobs.notification.WorkerNotificationManager
-import com.owncloud.android.R
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 
 class AutoUploadNotificationManager(context: Context, viewThemeUtils: ViewThemeUtils, id: Int) :
     WorkerNotificationManager(

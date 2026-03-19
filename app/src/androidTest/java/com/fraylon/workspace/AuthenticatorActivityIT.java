@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2021 Andy Scherzinger <info@andy-scherzinger.de>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -8,11 +8,11 @@ package com.fraylon.workspace;
 
 import android.widget.TextView;
 
-import com.nextcloud.test.GrantStoragePermissionRule;
-import com.owncloud.android.AbstractIT;
-import com.owncloud.android.R;
-import com.owncloud.android.authentication.AuthenticatorActivity;
-import com.owncloud.android.utils.ScreenshotTest;
+import com.fraylon.test.GrantStoragePermissionRule;
+import com.fraylon.workspace.AbstractIT;
+import com.fraylon.workspace.R;
+import com.fraylon.workspace.authentication.AuthenticatorActivity;
+import com.fraylon.workspace.utils.ScreenshotTest;
 
 import org.junit.Rule;
 import org.junit.Test;

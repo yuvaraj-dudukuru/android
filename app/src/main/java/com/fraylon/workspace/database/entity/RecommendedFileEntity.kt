@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,9 +11,9 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.nextcloud.android.lib.resources.recommendations.Recommendation
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
 
 @Entity(tableName = ProviderTableMeta.RECOMMENDED_FILE_TABLE_NAME)
 data class RecommendedFileEntity(

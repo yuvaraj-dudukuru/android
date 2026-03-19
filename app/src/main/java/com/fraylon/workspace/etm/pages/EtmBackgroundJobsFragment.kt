@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.etm.pages
@@ -26,7 +26,7 @@ import com.fraylon.workspace.etm.EtmBaseFragment
 import com.fraylon.workspace.jobs.BackgroundJobManagerImpl
 import com.fraylon.workspace.jobs.JobInfo
 import com.fraylon.workspace.preferences.AppPreferences
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 import java.text.SimpleDateFormat
 import java.util.Locale
 import javax.inject.Inject

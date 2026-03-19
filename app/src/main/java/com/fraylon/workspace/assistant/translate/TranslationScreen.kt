@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -54,11 +54,11 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.fraylon.workspace.assistant.AssistantViewModel
 import com.fraylon.workspace.assistant.model.AssistantScreenState
-import com.nextcloud.utils.extensions.getActivity
-import com.owncloud.android.R
+import com.fraylon.utils.extensions.getActivity
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.v2.model.TranslationLanguage
 import com.owncloud.android.lib.resources.assistant.v2.model.toTranslationLanguages
-import com.owncloud.android.utils.ClipboardUtil
+import com.fraylon.workspace.utils.ClipboardUtil
 
 @Suppress("LongMethod")
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -10,11 +10,11 @@ import android.content.ContentResolver
 import android.content.Context
 import com.fraylon.workspace.core.IsCancelled
 import com.fraylon.workspace.files.DownloadRequest
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.OwnCloudClient
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.utils.MimeTypeUtil
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.utils.MimeTypeUtil
 import java.io.File
 
 /**

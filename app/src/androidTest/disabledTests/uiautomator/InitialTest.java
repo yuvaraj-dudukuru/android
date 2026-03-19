@@ -1,11 +1,11 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2015 ownCloud Inc.
+ * SPDX-FileCopyrightText: 2015 Fraylon Inc.
  * SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
  */
-package com.owncloud.android.uiautomator;
+package com.fraylon.workspace.uiautomator;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -33,7 +33,7 @@ import static org.junit.Assert.assertThat;
 @SdkSuppress(minSdkVersion = 18)
 public class InitialTest {
 
-    private static final String OWNCLOUD_APP_PACKAGE = "com.owncloud.android";
+    private static final String OWNCLOUD_APP_PACKAGE = "com.fraylon.workspace";
     private static final String ANDROID_SETTINGS_PACKAGE = "com.android.settings";
     private static final String SETTINGS_DATA_USAGE_OPTION = "Data usage";
 
@@ -53,7 +53,7 @@ public class InitialTest {
     }
 
     /**
-     * Start Nextcloud app
+     * Start Fraylon app
      */
     @Test
     public void startAppFromHomeScreen() {

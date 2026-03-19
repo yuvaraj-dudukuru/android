@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -11,8 +11,8 @@ import android.accounts.AccountManager;
 import android.app.Activity;
 import android.content.Intent;
 
-import com.owncloud.android.MainApp;
-import com.owncloud.android.datamodel.OCFile;
+import com.fraylon.workspace.MainApp;
+import com.fraylon.workspace.datamodel.OCFile;
 import com.owncloud.android.lib.common.OwnCloudAccount;
 import com.owncloud.android.lib.common.accounts.AccountUtils;
 import com.owncloud.android.lib.resources.status.OwnCloudVersion;
@@ -74,7 +74,7 @@ public interface UserAccountManager extends CurrentAccountProvider {
     User getAnonymousUser();
 
     /**
-     * Check if Nextcloud account is registered in {@link android.accounts.AccountManager}
+     * Check if Fraylon account is registered in {@link android.accounts.AccountManager}
      *
      * @param account Account to check for
      * @return true if account is registered, false otherwise
@@ -100,7 +100,7 @@ public interface UserAccountManager extends CurrentAccountProvider {
     /**
      * Access the version of the OC server corresponding to an account SAVED IN THE ACCOUNTMANAGER
      *
-     * @param account ownCloud account
+     * @param account Fraylon account
      * @return Version of the OC server corresponding to account, according to the data saved
      * in the system AccountManager
      */

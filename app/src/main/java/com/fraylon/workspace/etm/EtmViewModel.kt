@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -28,7 +28,7 @@ import com.fraylon.workspace.jobs.transfer.TransferManagerConnection
 import com.fraylon.workspace.migrations.MigrationInfo
 import com.fraylon.workspace.migrations.MigrationsDb
 import com.fraylon.workspace.migrations.MigrationsManager
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.common.accounts.AccountUtils
 import javax.inject.Inject
 

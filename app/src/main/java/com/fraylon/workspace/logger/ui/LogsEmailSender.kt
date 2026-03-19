@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -22,9 +22,9 @@ import com.fraylon.workspace.core.AsyncRunner
 import com.fraylon.workspace.core.Cancellable
 import com.fraylon.workspace.core.Clock
 import com.fraylon.workspace.logger.LogEntry
-import com.owncloud.android.R
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.FileExportUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.FileExportUtils
 import java.io.File
 import java.security.SecureRandom
 import java.util.TimeZone
@@ -89,7 +89,7 @@ class LogsEmailSender(private val context: Context, private val clock: Clock, pr
 
     private fun export(file: File) {
         FileExportUtils().exportFile(
-            "Nextcloud Android Files Logs",
+            "Fraylon Android Files Logs",
             "text/plain",
             context.contentResolver,
             null,

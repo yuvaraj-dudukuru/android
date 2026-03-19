@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -15,7 +15,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.fraylon.workspace.logger.LogEntry
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 
 class LogsAdapter(private val context: Context) : RecyclerView.Adapter<LogsAdapter.ViewHolder>() {
 

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,8 +11,8 @@ import android.app.NotificationManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.owncloud.android.MainApp
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import javax.inject.Inject
 
 class FileUploadBroadcastReceiver : BroadcastReceiver() {

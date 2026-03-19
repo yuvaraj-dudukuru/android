@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,7 +11,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationManagerCompat
-import com.owncloud.android.ui.activity.UploadListActivity
+import com.fraylon.workspace.ui.activity.UploadListActivity
 
 class SyncConflictNotificationBroadcastReceiver : BroadcastReceiver() {
     companion object {

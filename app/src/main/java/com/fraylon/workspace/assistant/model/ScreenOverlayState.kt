@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -9,11 +9,11 @@ package com.fraylon.workspace.assistant.model
 
 import android.app.Activity
 import com.fraylon.workspace.assistant.extensions.getInputAndOutput
-import com.nextcloud.utils.extensions.showShareIntent
-import com.owncloud.android.R
+import com.fraylon.utils.extensions.showShareIntent
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.v2.model.Task
 import com.owncloud.android.lib.resources.assistant.v2.model.TaskTypeData
-import com.owncloud.android.utils.ClipboardUtil
+import com.fraylon.workspace.utils.ClipboardUtil
 
 sealed class ScreenOverlayState {
     data class DeleteTask(val id: Long) : ScreenOverlayState()

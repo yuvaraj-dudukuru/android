@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -35,10 +35,10 @@ import com.fraylon.workspace.jobs.offlineOperations.OfflineOperationsWorker
 import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.fraylon.workspace.jobs.upload.FileUploadWorker
 import com.fraylon.workspace.preferences.AppPreferences
-import com.nextcloud.utils.extensions.isWorkScheduled
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.operations.DownloadType
+import com.fraylon.utils.extensions.isWorkScheduled
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.operations.DownloadType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -71,7 +71,7 @@ internal class BackgroundJobManagerImpl(
     Injectable {
 
     companion object {
-        const val TAG_ALL = "*" // This tag allows us to retrieve list of all jobs run by Nextcloud client
+        const val TAG_ALL = "*" // This tag allows us to retrieve list of all jobs run by Fraylon client
         const val JOB_CONTENT_OBSERVER = "content_observer"
         const val JOB_PERIODIC_CONTACTS_BACKUP = "periodic_contacts_backup"
         const val JOB_IMMEDIATE_CONTACTS_BACKUP = "immediate_contacts_backup"

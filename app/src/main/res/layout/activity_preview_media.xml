@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~ SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
   ~ SPDX-FileCopyrightText: 2023 Parneet Singh <gurayaparneet@gmail.com>
   ~ SPDX-FileCopyrightText: 2020 Andy Scherzinger <info@andy-scherzinger.de>
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:show_buffering="always" />
 
-    <com.owncloud.android.media.MediaControlView
+    <com.fraylon.workspace.media.MediaControlView
         android:id="@+id/audio_controller_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

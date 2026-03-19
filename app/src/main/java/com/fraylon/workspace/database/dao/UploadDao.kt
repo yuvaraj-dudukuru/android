@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -12,7 +12,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.fraylon.workspace.database.entity.UploadEntity
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
 
 @Dao
 interface UploadDao {

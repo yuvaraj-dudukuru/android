@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 
 package com.fraylon.workspace.utils
 
-import com.owncloud.android.utils.FileStorageUtils
+import com.fraylon.workspace.utils.FileStorageUtils
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Before

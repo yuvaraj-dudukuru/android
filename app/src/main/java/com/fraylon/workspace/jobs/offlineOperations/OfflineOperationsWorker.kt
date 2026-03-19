@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -15,11 +15,11 @@ import com.fraylon.workspace.database.entity.OfflineOperationEntity
 import com.fraylon.workspace.jobs.offlineOperations.repository.OfflineOperationsRepository
 import com.fraylon.workspace.network.ClientFactoryImpl
 import com.fraylon.workspace.network.ConnectivityService
-import com.nextcloud.model.OfflineOperationType
-import com.nextcloud.model.WorkerState
-import com.nextcloud.model.WorkerStateObserver
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.model.OfflineOperationType
+import com.fraylon.model.WorkerState
+import com.fraylon.model.WorkerStateObserver
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.operations.RemoteOperation
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
@@ -28,11 +28,11 @@ import com.owncloud.android.lib.resources.files.ReadFileRemoteOperation
 import com.owncloud.android.lib.resources.files.ReadFolderRemoteOperation
 import com.owncloud.android.lib.resources.files.UploadFileRemoteOperation
 import com.owncloud.android.lib.resources.files.model.RemoteFile
-import com.owncloud.android.operations.CreateFolderOperation
-import com.owncloud.android.operations.RemoveFileOperation
-import com.owncloud.android.operations.RenameFileOperation
-import com.owncloud.android.utils.MimeTypeUtil
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.CreateFolderOperation
+import com.fraylon.workspace.operations.RemoveFileOperation
+import com.fraylon.workspace.operations.RenameFileOperation
+import com.fraylon.workspace.utils.MimeTypeUtil
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.resume

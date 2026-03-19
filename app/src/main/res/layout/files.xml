@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2023 Parneet Singh <gurayaparneet@gmail.com>
   ~ SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
   ~ SPDX-FileCopyrightText: 2018 Andy Scherzinger <info@andy-scherzinger.de>
   ~ SPDX-FileCopyrightText: 2015 Tobias Kaminsky <tobias@kaminsky.me>
-  ~ SPDX-FileCopyrightText: 2015 ownCloud Inc.
+  ~ SPDX-FileCopyrightText: 2015 Fraylon Inc.
   ~ SPDX-FileCopyrightText: 2012 Bartosz Przybylski
   ~ SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
 -->
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_menu"
-            app:layout_behavior="com.nextcloud.ui.behavior.OnScrollBehavior" />
+            app:layout_behavior="com.fraylon.ui.behavior.OnScrollBehavior" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_main"
@@ -63,7 +63,7 @@
             android:layout_marginBottom="@dimen/floating_action_button_bottom_margin"
             android:contentDescription="@string/fab_label"
             app:srcCompat="@drawable/ic_plus"
-            app:layout_behavior="com.nextcloud.ui.behavior.OnScrollBehavior"
+            app:layout_behavior="com.fraylon.ui.behavior.OnScrollBehavior"
             android:visibility="gone"
             tools:visibility="visible" />
 

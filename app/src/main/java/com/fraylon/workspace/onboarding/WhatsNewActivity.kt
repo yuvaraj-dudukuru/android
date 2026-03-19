@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2023 Álvaro Brey <alvaro@alvarobrey.com>
@@ -18,12 +18,12 @@ import com.nextcloud.android.common.ui.theme.utils.ColorRole
 import com.fraylon.workspace.appinfo.AppInfo
 import com.fraylon.workspace.di.Injectable
 import com.fraylon.workspace.preferences.AppPreferences
-import com.owncloud.android.BuildConfig
-import com.owncloud.android.R
-import com.owncloud.android.databinding.WhatsNewActivityBinding
-import com.owncloud.android.ui.adapter.FeaturesViewAdapter
-import com.owncloud.android.ui.adapter.FeaturesWebViewAdapter
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.BuildConfig
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.WhatsNewActivityBinding
+import com.fraylon.workspace.ui.adapter.FeaturesViewAdapter
+import com.fraylon.workspace.ui.adapter.FeaturesWebViewAdapter
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import javax.inject.Inject
 
 /**

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -14,8 +14,8 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import com.fraylon.workspace.etm.EtmBaseFragment
-import com.owncloud.android.R
-import com.owncloud.android.databinding.FragmentEtmMigrationsBinding
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.FragmentEtmMigrationsBinding
 import java.util.Locale
 
 class EtmMigrations : EtmBaseFragment() {

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database.migrations
@@ -12,7 +12,7 @@ import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.fraylon.workspace.core.Clock
-import com.fraylon.workspace.database.NextcloudDatabase
+import com.fraylon.workspace.database.FraylonDatabase
 
 private const val MIN_SUPPORTED_DB_VERSION = 24
 
@@ -38,11 +38,11 @@ class LegacyMigration(
  * This is needed because the [Migration] does not know which versions it's dealing with
  */
 @Suppress("ForEachOnRange")
-fun RoomDatabase.Builder<NextcloudDatabase>.addLegacyMigrations(
+fun RoomDatabase.Builder<FraylonDatabase>.addLegacyMigrations(
     clock: Clock,
     context: Context
-): RoomDatabase.Builder<NextcloudDatabase> {
-    (MIN_SUPPORTED_DB_VERSION until NextcloudDatabase.FIRST_ROOM_DB_VERSION - 1)
+): RoomDatabase.Builder<FraylonDatabase> {
+    (MIN_SUPPORTED_DB_VERSION until FraylonDatabase.FIRST_ROOM_DB_VERSION - 1)
         .map { from -> LegacyMigration(from, from + 1, clock, context) }
         .forEach { migration -> this.addMigrations(migration) }
     return this

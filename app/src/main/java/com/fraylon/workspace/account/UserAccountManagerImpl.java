@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023-2024 TSI-mc <surinder.kumar@t-systems.com>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -21,14 +21,14 @@ import android.text.TextUtils;
 
 import com.fraylon.workspace.onboarding.FirstRunActivity;
 import com.nextcloud.common.NextcloudClient;
-import com.nextcloud.utils.extensions.AccountExtensionsKt;
+import com.fraylon.utils.extensions.AccountExtensionsKt;
 import com.nmc.android.ui.LauncherActivity;
-import com.owncloud.android.MainApp;
-import com.owncloud.android.R;
-import com.owncloud.android.authentication.AuthenticatorActivity;
-import com.owncloud.android.datamodel.ArbitraryDataProvider;
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl;
-import com.owncloud.android.datamodel.OCFile;
+import com.fraylon.workspace.MainApp;
+import com.fraylon.workspace.R;
+import com.fraylon.workspace.authentication.AuthenticatorActivity;
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider;
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl;
+import com.fraylon.workspace.datamodel.OCFile;
 import com.owncloud.android.lib.common.OwnCloudAccount;
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;
 import com.owncloud.android.lib.common.UserInfo;
@@ -244,9 +244,9 @@ public class UserAccountManagerImpl implements UserAccountManager {
             return null;
         }
 
-        OwnCloudAccount ownCloudAccount;
+        OwnCloudAccount FraylonAccount;
         try {
-            ownCloudAccount = new OwnCloudAccount(account, safeContext);
+            FraylonAccount = new OwnCloudAccount(account, safeContext);
         } catch (Exception ex) {
             return null;
         }
@@ -273,7 +273,7 @@ public class UserAccountManagerImpl implements UserAccountManager {
 
         return new RegisteredUser(
             account,
-            ownCloudAccount,
+            FraylonAccount,
             new Server(serverUri, serverVersion)
         );
     }

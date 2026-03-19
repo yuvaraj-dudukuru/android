@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-FileCopyrightText: 2015-2016 Bartosz Przybylski
@@ -35,7 +35,7 @@
         android:layout_marginStart="@dimen/standard_margin"
         android:gravity="center"
         android:text=""
-        android:textAppearance="@style/NextcloudTextAppearanceHeadline"
+        android:textAppearance="@style/FraylonTextAppearanceHeadline"
         android:textColor="@color/text_color_inverse"
         android:textStyle="bold"/>
 

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.upload
@@ -22,15 +22,15 @@ import com.fraylon.workspace.jobs.BackgroundJobManagerImpl
 import com.fraylon.workspace.jobs.utils.UploadErrorNotificationManager
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.preferences.AppPreferences
-import com.nextcloud.utils.ForegroundServiceHelper
-import com.nextcloud.utils.extensions.getPercent
-import com.nextcloud.utils.extensions.updateStatus
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.ForegroundServiceType
-import com.owncloud.android.datamodel.ThumbnailsCacheManager
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.OCUpload
+import com.fraylon.utils.ForegroundServiceHelper
+import com.fraylon.utils.extensions.getPercent
+import com.fraylon.utils.extensions.updateStatus
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.ForegroundServiceType
+import com.fraylon.workspace.datamodel.ThumbnailsCacheManager
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.OCUpload
 import com.owncloud.android.lib.common.OwnCloudAccount
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
@@ -38,9 +38,9 @@ import com.owncloud.android.lib.common.network.OnDatatransferProgressListener
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext
@@ -375,7 +375,7 @@ class FileUploadWorker(
     private var lastUpdateTime = 0L
 
     /**
-     * Receives from [com.owncloud.android.operations.UploadFileOperation.normalUpload]
+     * Receives from [com.fraylon.workspace.operations.UploadFileOperation.normalUpload]
      */
     @Suppress("MagicNumber")
     override fun onTransferProgress(

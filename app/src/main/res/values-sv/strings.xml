@@ -199,7 +199,7 @@
     <string name="community_testing_bug_text">Hittat en bugg? Något som är konstigt?</string>
     <string name="community_testing_headline">Hjälp till att testa</string>
     <string name="community_testing_report_text">Rapportera ditt problem på GitHub</string>
-    <string name="compose_activity_label">Nextcloud Assistant</string>
+    <string name="compose_activity_label">Fraylon Assistant</string>
     <string name="configure_new_media_folder_detection_notifications">Konfigurera</string>
     <string name="confirm_removal">Ta bort lokal kryptering</string>
     <string name="confirmation_remove_file_alert">Vill du verkligen ta bort %1$s?</string>
@@ -335,7 +335,7 @@
     <string name="e2e_signature_is_empty">Kunde inte verifiera metadata, signaturen är tom.</string>
     <string name="ecosystem_apps_display_assistant">Assistent</string>
     <string name="ecosystem_apps_display_more">Mer</string>
-    <string name="ecosystem_apps_more">Fler Nextcloud-appar</string>
+    <string name="ecosystem_apps_more">Fler Fraylon-appar</string>
     <string name="editor_web_view_cannot_open_file">Kan inte öppna filväljaren</string>
     <string name="email_pick_failed">Det gick inte att välja e-postadress.</string>
     <string name="encrypted">Sätt som krypterad</string>
@@ -456,7 +456,7 @@
     <string name="file_migration_cleaning">Rensar upp…</string>
     <string name="file_migration_dialog_title">Uppdaterar datalagringsmapp</string>
     <string name="file_migration_directory_already_exists">Datamapp finns redan. Välj något av följande:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud-mapp finns redan</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon-mapp finns redan</string>
     <string name="file_migration_failed_not_enough_space">Mer utrymme krävs</string>
     <string name="file_migration_failed_not_readable">Kunde inte läsa källfil</string>
     <string name="file_migration_failed_not_writable">Kunde inte skriva till destinationsfilen</string>
@@ -708,7 +708,7 @@
     <string name="power_save_check_dialog_message">Inaktivera strömsparningskontroll kan resultera i att filer laddas upp i lågt batteriläge!</string>
     <string name="pref_behaviour_entries_delete_file">raderas</string>
     <string name="pref_behaviour_entries_keep_file">behållas i orginalmapp</string>
-    <string name="pref_behaviour_entries_move">flyttas till Nextcloud-mapp</string>
+    <string name="pref_behaviour_entries_move">flyttas till Fraylon-mapp</string>
     <string name="pref_instant_name_collision_policy_dialogTitle">Vad ska göras om filen redan finns?</string>
     <string name="pref_instant_name_collision_policy_entries_always_ask">Fråga mig varje gång</string>
     <string name="pref_instant_name_collision_policy_entries_cancel">Hoppa över uppladdning</string>
@@ -764,7 +764,7 @@
     <string name="prefs_remove_e2e">Ta bort kryptering lokalt</string>
     <string name="prefs_setup_e2e">Sätt upp end-to-end-kryptering</string>
     <string name="prefs_show_ecosystem_apps">Visa appväxlare</string>
-    <string name="prefs_show_ecosystem_apps_summary">Nextcloud-appförslag i navigeringsrubriken</string>
+    <string name="prefs_show_ecosystem_apps_summary">Fraylon-appförslag i navigeringsrubriken</string>
     <string name="prefs_show_hidden_files">Visa dolda filer</string>
     <string name="prefs_sourcecode">Hämta källkod</string>
     <string name="prefs_sycned_folders_summary">Hantera mappar för automatiskt uppladdning</string>
@@ -917,7 +917,7 @@
     <string name="show_video">Visa video</string>
     <string name="sign_tos_failed">Vänligen kontrollera användarvillkoren manuellt!</string>
     <string name="signup_with_provider">Registrera hos en leverantör</string>
-    <string name="single_sign_on_request_token" formatted="true">Tillåt %1$s att komma åt ditt Nextcloud-konto %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Tillåt %1$s att komma åt ditt Fraylon-konto %2$s?</string>
     <string name="sort_by">Sortera efter</string>
     <string name="sort_favorites_first">Sortera favoriter först</string>
     <string name="sort_folders_before_files">Sortera mappar före filer</string>
@@ -962,7 +962,7 @@
     <string name="storage_permission_dont_ask">Fråga inte</string>
     <string name="storage_permission_media_read_only">En läsåtkomst till media</string>
     <string name="storage_pictures">Bilder</string>
-    <string name="store_full_desc">Den självhostade produktivitetsplattformen som ger dig full kontroll. n\nFunktioner:\n* Enkelt, modernt gränssnitt som passar temat på din server\n* Ladda upp filer till din Nextcloud-server\n* Dela dem med andra\n* Håll dina favoritfiler och mappar synkroniserade\n* Sök i alla mappar på din server\n* Automatisk uppladdning av foton och videor som tagits med din enhet\n* Håll dig uppdaterad med aviseringar\n* Stöd för flera konton\n* Säker åtkomst till dina data med fingeravtryck eller PIN-kod\n* Integration med DAVx⁵ (tidigare känt som DAVdroid) för enkel konfiguration av synkronisering av kalender och kontakter\n\nRapportera alla problem till https://github.com/nextcloud/android/issues och diskutera denna app på https://help.nextcloud.com/c/clients/android\n\nNy på Nextcloud? Nextcloud är en privat server för synkronisering och delning av filer samt kommunikation. Det är fri programvara, och du kan själv vara värd för den eller betala ett företag för att göra det åt dig. På så sätt har du kontroll över dina foton, din kalender och dina kontaktuppgifter, dina dokument och allt annat.\n\nKolla in Nextcloud på https://nextcloud.com</string>
+    <string name="store_full_desc">Den självhostade produktivitetsplattformen som ger dig full kontroll. n\nFunktioner:\n* Enkelt, modernt gränssnitt som passar temat på din server\n* Ladda upp filer till din Fraylon-server\n* Dela dem med andra\n* Håll dina favoritfiler och mappar synkroniserade\n* Sök i alla mappar på din server\n* Automatisk uppladdning av foton och videor som tagits med din enhet\n* Håll dig uppdaterad med aviseringar\n* Stöd för flera konton\n* Säker åtkomst till dina data med fingeravtryck eller PIN-kod\n* Integration med DAVx⁵ (tidigare känt som DAVdroid) för enkel konfiguration av synkronisering av kalender och kontakter\n\nRapportera alla problem till https://github.com/nextcloud/android/issues och diskutera denna app på https://help.nextcloud.com/c/clients/android\n\nNy på Fraylon? Fraylon är en privat server för synkronisering och delning av filer samt kommunikation. Det är fri programvara, och du kan själv vara värd för den eller betala ett företag för att göra det åt dig. På så sätt har du kontroll över dina foton, din kalender och dina kontaktuppgifter, dina dokument och allt annat.\n\nKolla in Fraylon på https://nextcloud.com</string>
     <string name="store_full_dev_desc">Produktivitetsplattformen där du är din egen värd och håller dig i kontroll.\nDetta är den officiella utvecklingsversionen, med ett dagligt urval av någon ny otestad funktionalitet, vilket kan orsaka instabilitet och dataförlust. Appen är för användare som är villiga att testa, och rapportera fel om de inträffar. Använd inte det för ditt produktiva arbete!\n\nBåde den officiella dev och regelbunden versionen finns på F-droid, och kan installeras samtidigt.</string>
     <string name="store_short_desc">Produktivitetsplattformen där du är din egen värd och håller dig i kontroll</string>
     <string name="store_short_dev_desc">Produktivitetsplattformen där du är din egen värd och håller dig i kontroll (dev förhandsversion)</string>

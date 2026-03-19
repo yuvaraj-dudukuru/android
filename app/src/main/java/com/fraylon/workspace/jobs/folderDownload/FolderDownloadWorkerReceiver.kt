@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,7 +11,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import com.fraylon.workspace.jobs.BackgroundJobManager
-import com.owncloud.android.MainApp
+import com.fraylon.workspace.MainApp
 import javax.inject.Inject
 
 class FolderDownloadWorkerReceiver : BroadcastReceiver() {

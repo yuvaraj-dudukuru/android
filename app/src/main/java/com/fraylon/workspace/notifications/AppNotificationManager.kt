@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020-2021 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -8,7 +8,7 @@ package com.fraylon.workspace.notifications
 
 import android.app.Notification
 import com.fraylon.workspace.account.User
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 
 /**
  * Application-specific notification manager interface.

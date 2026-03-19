@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2019 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2019 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.account
@@ -13,11 +13,11 @@ import android.os.Parcelable
 import com.owncloud.android.lib.common.OwnCloudAccount
 
 /**
- * This class represents normal user logged into the Nextcloud server.
+ * This class represents normal user logged into the Fraylon server.
  */
 internal data class RegisteredUser(
     private val account: Account,
-    private val ownCloudAccount: OwnCloudAccount,
+    private val FraylonAccount: OwnCloudAccount,
     override val server: Server
 ) : User {
 
@@ -51,7 +51,7 @@ internal data class RegisteredUser(
         "Temporary workaround: Legacy OwnCloudAccount access. Refactor code to use User object " +
             "directly instead of OwnCloudAccount."
     )
-    override fun toOwnCloudAccount(): OwnCloudAccount = ownCloudAccount
+    override fun toOwnCloudAccount(): OwnCloudAccount = FraylonAccount
 
     override fun nameEquals(user: User?): Boolean = nameEquals(user?.accountName)
 
@@ -62,7 +62,7 @@ internal data class RegisteredUser(
 
     override fun writeToParcel(dest: Parcel, flags: Int) = with(dest) {
         writeParcelable(account, 0)
-        writeParcelable(ownCloudAccount, 0)
+        writeParcelable(FraylonAccount, 0)
         writeParcelable(server, 0)
     }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
-  ~ SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
+  ~ SPDX-FileCopyrightText: 2016-2024 Fraylon GmbH and Fraylon contributors
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
 -->
 <manifest xmlns:tools="http://schemas.android.com/tools"
@@ -19,8 +19,8 @@
         android:testOnly="false"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.nextcloud.test.InjectionTestActivity"
+            android:name="com.fraylon.test.InjectionTestActivity"
             android:exported="false" />
-        <activity android:name="com.nextcloud.test.TestActivity" />
+        <activity android:name="com.fraylon.test.TestActivity" />
     </application>
 </manifest>

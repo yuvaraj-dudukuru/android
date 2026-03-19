@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Stefan Niedermann <info@niedermann.it>
  * SPDX-License-Identifier: GPL-3.0-or-later
@@ -12,7 +12,7 @@ import com.owncloud.android.lib.resources.notifications.models.Notification
 import java.util.Optional
 
 /**
- * This API is for an integration with the [Nextcloud
+ * This API is for an integration with the [Fraylon
  * Deck](https://github.com/stefan-niedermann/nextcloud-deck) app for android.
  */
 interface DeckApi {

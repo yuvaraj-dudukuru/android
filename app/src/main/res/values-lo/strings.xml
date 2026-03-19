@@ -186,7 +186,7 @@
     <string name="community_testing_bug_text">ພົບຂໍ້ຜິດພາດບໍ? </string>
     <string name="community_testing_headline">ການຊ່ວຍເຫຼືອ ໂດຍການທົດສອບ</string>
     <string name="community_testing_report_text">ລາຍງານບັນຫາກ່ຽວກັບ GitHub</string>
-    <string name="compose_activity_label">ຜູ້ຊ່ວຍ Nextcloud</string>
+    <string name="compose_activity_label">ຜູ້ຊ່ວຍ Fraylon</string>
     <string name="configure_new_media_folder_detection_notifications">ຕັ້ງຄ່າຄອຍຟິກ</string>
     <string name="confirm_removal">Remove local encryption</string>
     <string name="confirmation_remove_file_alert">ທ່ານຕ້ອງການລືບແທ້ບໍ %1$s?</string>
@@ -318,7 +318,7 @@
     <string name="e2e_signature_does_not_match">Signature does not match</string>
     <string name="ecosystem_apps_display_assistant">Assistant</string>
     <string name="ecosystem_apps_display_more">More</string>
-    <string name="ecosystem_apps_more">More Nextcloud Apps</string>
+    <string name="ecosystem_apps_more">More Fraylon Apps</string>
     <string name="email_pick_failed">Failed to pick email address.</string>
     <string name="encrypted">ຕັ້ງເປັນການເຂົ້າລະຫັດ</string>
     <string name="end_to_end_encryption_certificate_unavailable">Unable to retrieve server certificate</string>
@@ -435,7 +435,7 @@
     <string name="file_migration_cleaning">ກຳລັງລ້າງ</string>
     <string name="file_migration_dialog_title">ອັບເດດໂຟນເດີຖານຂໍ້ມຸນ</string>
     <string name="file_migration_directory_already_exists">ໂຟນເດີຂໍ້ມູນມີຢູ່ແລ້ວ. ເລືອກໂຟນເດີດັ່ງຕໍ່ໄປນີ້</string>
-    <string name="file_migration_failed_dir_already_exists">ໂຟນເດີ Nextcloud ມີຢູ່ແລ້ວ</string>
+    <string name="file_migration_failed_dir_already_exists">ໂຟນເດີ Fraylon ມີຢູ່ແລ້ວ</string>
     <string name="file_migration_failed_not_enough_space">ຕ້ອງການພື້ນທີ່ວ່າງ</string>
     <string name="file_migration_failed_not_readable">ບໍ່ສາມາດອ່ານຟາຍໄດ້</string>
     <string name="file_migration_failed_not_writable">ບໍ່ສາມາດຂຽນຫາຟາຍຈຸດຫມາຍປາຍທາງໄດ້</string>
@@ -737,7 +737,7 @@
     <string name="prefs_remove_e2e">Remove encryption locally</string>
     <string name="prefs_setup_e2e">Set up end-to-end encryption</string>
     <string name="prefs_show_ecosystem_apps">Show app switcher</string>
-    <string name="prefs_show_ecosystem_apps_summary">Nextcloud app suggestions in navigation heading</string>
+    <string name="prefs_show_ecosystem_apps_summary">Fraylon app suggestions in navigation heading</string>
     <string name="prefs_show_hidden_files">ສະແດງຟາຍທີ່ເຊື່ອງໄວ້</string>
     <string name="prefs_sourcecode">ຮັບລະຫັດແຫຼ່ງຂໍ້ມູນ</string>
     <string name="prefs_sycned_folders_summary">ຈັດການໂຟນເດີສໍາລັບການອັບໂຫລດອັດຕະໂນມັດ</string>
@@ -888,7 +888,7 @@
     <string name="show_video">Show videos</string>
     <string name="sign_tos_failed">Please manually check terms of service!</string>
     <string name="signup_with_provider">ລົງທະບຽນກັບຜູ້ໃຫ້ບໍລິການ</string>
-    <string name="single_sign_on_request_token" formatted="true">ອະນຸຍາດ%1$sໃຫ້ເຂົ້າບັນຊີ Nextcloud ຂອງທ່ານ%2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">ອະນຸຍາດ%1$sໃຫ້ເຂົ້າບັນຊີ Fraylon ຂອງທ່ານ%2$s?</string>
     <string name="sort_by">ຈັດລຽງໂດຍ</string>
     <string name="sort_favorites_first">Sort favorites first</string>
     <string name="sort_folders_before_files">Sort folders before files</string>
@@ -929,7 +929,7 @@
     <string name="storage_music">ເພງ</string>
     <string name="storage_permission_media_read_only">Media read-only</string>
     <string name="storage_pictures">ຮູບພາບ</string>
-    <string name="store_full_desc">The self-hosted productivity platform that keeps you in control.\n\nFeatures:\n* Easy, modern interface, suited to the theme of your server\n* Upload files to your Nextcloud server\n* Share them with others\n* Keep your favorite files and folders synced\n* Search across all folders on your server\n* Auto Upload for photos and videos taken by your device\n* Keep up to date with notifications\n* Multi-account support\n* Secure access to your data with fingerprint or PIN\n* Integration with DAVx⁵ (formerly known as DAVdroid) for easy setup of calendar and contacts synchronization\n\nPlease report all issues at https://github.com/nextcloud/android/issues and discuss this app at https://help.nextcloud.com/c/clients/android\n\nNew to Nextcloud? Nextcloud is a private file sync and share and communication server. It is libre software, and you can host it yourself or pay a company to do it for you. That way, you are in control of your photos, your calendar and contact data, your documents and everything else.\n\nCheck out Nextcloud at https://nextcloud.com</string>
+    <string name="store_full_desc">The self-hosted productivity platform that keeps you in control.\n\nFeatures:\n* Easy, modern interface, suited to the theme of your server\n* Upload files to your Fraylon server\n* Share them with others\n* Keep your favorite files and folders synced\n* Search across all folders on your server\n* Auto Upload for photos and videos taken by your device\n* Keep up to date with notifications\n* Multi-account support\n* Secure access to your data with fingerprint or PIN\n* Integration with DAVx⁵ (formerly known as DAVdroid) for easy setup of calendar and contacts synchronization\n\nPlease report all issues at https://github.com/nextcloud/android/issues and discuss this app at https://help.nextcloud.com/c/clients/android\n\nNew to Fraylon? Fraylon is a private file sync and share and communication server. It is libre software, and you can host it yourself or pay a company to do it for you. That way, you are in control of your photos, your calendar and contact data, your documents and everything else.\n\nCheck out Fraylon at https://nextcloud.com</string>
     <string name="store_full_dev_desc">platform ການເຮັດວຽກ ເປັນ host ດ້ວຍຕົນເອງ ແມ່ນຊ່ວຍໃຫ້ທ່ານຄວບຄຸມໄດ້  .\n ເປັນເວີຊັ້ນການພັດທະນາຢ່າງເປັນທາງການ ຊຶ່ງມີຕົວຢ່າງການເຮັດວຽກທີ່ຍັງບໍ່ໄດ້ທົດລອງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສະຖຽນ ແລະ ການສູນເສຍຂອງຂໍ້ມູນ  ແອັບນີ້ສຳລັບຜູ້ທີ່ ຍິນດີຈະທົດລອງ ແລະ ລາຍງານຂໍ້ບົກຜ່ອງ. ຫ້າມໃຊ້ສຳລັບວຽກຕົວຈິງຂອງທ່ານ!\n\n ໃຫ້ຜູ້ພັດທະນາ ແລະ ເວີຊັ້ນຢ່າງເປັນທາງການພ້ອມໃຊ້ງານໃນ F-droid ແລະ ສາມາດຕິດຕັ້ງໄດ້ໃນເວລາດຽວກັນ. </string>
     <string name="store_short_desc">ປະສິດພາບການເຮັດວຽກຂອງ ຟາດຟອມ ທີ່ເຮັດໜ້າທີ່ດ້ວຍໂຕມັນເອງ ແລະ ທ່ານຄຸ້ມຄອງໄດ້</string>
     <string name="store_short_dev_desc">ປະສິດພາບການເຮັດວຽກຂອງ ຟາດຟອມ ທີ່ເຮັດໜ້າທີ່ດ້ວຍໂຕມັນເອງ ແລະ ທ່ານຄຸ້ມຄອງໄດ້ (ເວີຊັ້ນຕົວຢ່າງ)</string>

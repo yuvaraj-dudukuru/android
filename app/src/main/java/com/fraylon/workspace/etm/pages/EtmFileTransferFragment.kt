@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -25,9 +25,9 @@ import com.fraylon.workspace.files.DownloadRequest
 import com.fraylon.workspace.files.UploadRequest
 import com.fraylon.workspace.jobs.transfer.Transfer
 import com.fraylon.workspace.jobs.transfer.TransferManager
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.db.OCUpload
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.db.OCUpload
 import java.util.Locale
 
 class EtmFileTransferFragment : EtmBaseFragment() {

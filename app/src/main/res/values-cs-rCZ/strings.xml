@@ -200,7 +200,7 @@
     <string name="community_testing_bug_text">Našli jste chybu? Něco podivného?</string>
     <string name="community_testing_headline">Pomozte testováním</string>
     <string name="community_testing_report_text">Nahlásit problém prostřednictvím portálu Github</string>
-    <string name="compose_activity_label">Nextcloud Asistent</string>
+    <string name="compose_activity_label">Fraylon Asistent</string>
     <string name="configure_new_media_folder_detection_notifications">Nastavit</string>
     <string name="confirm_removal">Odebrat lokální šifrování</string>
     <string name="confirmation_remove_file_alert">Opravdu chcete %1$s odstranit?</string>
@@ -336,7 +336,7 @@
     <string name="e2e_signature_is_empty">Nebylo možné ověřit metadata, podpis je prázdný.</string>
     <string name="ecosystem_apps_display_assistant">Asistent</string>
     <string name="ecosystem_apps_display_more">Další</string>
-    <string name="ecosystem_apps_more">Další Nextcloud aplikace</string>
+    <string name="ecosystem_apps_more">Další Fraylon aplikace</string>
     <string name="editor_web_view_cannot_open_file">Nebylo možné otevřít výběr souborů</string>
     <string name="email_pick_failed">Nepodařilo se vybrat e-mailovou adresu.</string>
     <string name="encrypted">Nastavit jako šifrované</string>
@@ -456,7 +456,7 @@
     <string name="file_migration_cleaning">Čištění …</string>
     <string name="file_migration_dialog_title">Aktualizuje se složka pro ukládání dat</string>
     <string name="file_migration_directory_already_exists">Složka s daty už existuje. Vyberte z následujících možností:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud složka už existuje</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon složka už existuje</string>
     <string name="file_migration_failed_not_enough_space">Je zapotřebí více místa</string>
     <string name="file_migration_failed_not_readable">Ze zdrojového souboru se nedaří číst</string>
     <string name="file_migration_failed_not_writable">Do cílového souboru se nedaří zapsat</string>
@@ -763,7 +763,7 @@
     <string name="prefs_remove_e2e">Odebrat šifrování lokálně</string>
     <string name="prefs_setup_e2e">Nastavit šifrování mezi koncovými body</string>
     <string name="prefs_show_ecosystem_apps">Zobrazit přepínač aplikací</string>
-    <string name="prefs_show_ecosystem_apps_summary">Doporučování Nextcloud aplikací v záhlaví navigace</string>
+    <string name="prefs_show_ecosystem_apps_summary">Doporučování Fraylon aplikací v záhlaví navigace</string>
     <string name="prefs_show_hidden_files">Zobrazit skryté soubory</string>
     <string name="prefs_sourcecode">Získat zdrojové kódy</string>
     <string name="prefs_sycned_folders_summary">Spravovat složky pro automatické nahrávání</string>
@@ -916,7 +916,7 @@
     <string name="show_video">Zobrazit videa</string>
     <string name="sign_tos_failed">Prosíme ručně zkontrolujte všeobecné podmínky!</string>
     <string name="signup_with_provider">Zaregistrovat se u poskytovatele</string>
-    <string name="single_sign_on_request_token" formatted="true">Povolit %1$s přístup k vašemu Nextcloud účtu %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Povolit %1$s přístup k vašemu Fraylon účtu %2$s?</string>
     <string name="sort_by">Řadit podle</string>
     <string name="sort_favorites_first">Seřadit od oblíbených</string>
     <string name="sort_folders_before_files">Při řazení zobrazovat složky a pak až soubory</string>
@@ -961,7 +961,7 @@
     <string name="storage_permission_dont_ask">Neptat se</string>
     <string name="storage_permission_media_read_only">Média pouze pro čtení</string>
     <string name="storage_pictures">Obrázky</string>
-    <string name="store_full_desc">Platforma pro produktivitu hostovaná u vás, kde vaše data jsou opravdu vaše.\n\nFunkce:\n* Snadno použitelné moderní rozhraní, s motivem vzhledu sladěným s tím nastaveným na serveru\n* Nahrávání souborů na vámi využívaný Nextcloud server\n* Jejich sdílení s ostatními\n* Udržování vašich oblíbených souborů a složek synchronizovaných\n* Vyhledávání napříč všemi složkami na vámi využívaném serveru\n* Automatické nahrávání fotek a videí pořízených vaším zařízením\n* Budete v obraze díky upozorněním\n* Podpora vícero účtů\n* Zabezpečení přístupu k vašim datům otiskem prstu nebo PIN kódem\n*  Propojení s aplikací DAVx⁵ (dříve známé jako DAVdroid) pro snadné nastavení synchronizace kalendáře a kontaktů\n\nVeškeré problémy prosíme hlaste na https://github.com/nextcloud/android/issues, diskutovat lze na https://help.nextcloud.com/c/clients/android\n\nJeště Nextcloud neznáte? Je to server pro komunikaci, synchronizaci a sdílení vašich dat. Jedná se o svobodný software, který můžete provozovat sami, nebo si jako službu koupit u jiné společnosti. Díky tomu máte kontrolu nad svými fotkami, kalendářem, kontakty i dokumenty a vším ostatním.\n\nVíce o Nextcloud naleznete na  https://nextcloud.com</string>
+    <string name="store_full_desc">Platforma pro produktivitu hostovaná u vás, kde vaše data jsou opravdu vaše.\n\nFunkce:\n* Snadno použitelné moderní rozhraní, s motivem vzhledu sladěným s tím nastaveným na serveru\n* Nahrávání souborů na vámi využívaný Fraylon server\n* Jejich sdílení s ostatními\n* Udržování vašich oblíbených souborů a složek synchronizovaných\n* Vyhledávání napříč všemi složkami na vámi využívaném serveru\n* Automatické nahrávání fotek a videí pořízených vaším zařízením\n* Budete v obraze díky upozorněním\n* Podpora vícero účtů\n* Zabezpečení přístupu k vašim datům otiskem prstu nebo PIN kódem\n*  Propojení s aplikací DAVx⁵ (dříve známé jako DAVdroid) pro snadné nastavení synchronizace kalendáře a kontaktů\n\nVeškeré problémy prosíme hlaste na https://github.com/nextcloud/android/issues, diskutovat lze na https://help.nextcloud.com/c/clients/android\n\nJeště Fraylon neznáte? Je to server pro komunikaci, synchronizaci a sdílení vašich dat. Jedná se o svobodný software, který můžete provozovat sami, nebo si jako službu koupit u jiné společnosti. Díky tomu máte kontrolu nad svými fotkami, kalendářem, kontakty i dokumenty a vším ostatním.\n\nVíce o Fraylon naleznete na  https://nextcloud.com</string>
     <string name="store_full_dev_desc">Platforma pro produktivitu hostovaná u vás, kde vaše data jsou opravdu vaše.\nToto je oficiální vývojová verze, sloužící jako denně aktualizovaná ukázka nových nevyzkoušených funkcí, což může způsobovat nestabilitu a ztráty dat. Je určeno pro uživatele, kteří jsou ochotní testovat a hlásit chyby na které narazí. Nepoužívejte pro svou produktivní práci!\n\nJak vývojová tak produkční verze jsou k dispozici na F-droid a mohou být nainstalovány souběžně.</string>
     <string name="store_short_desc">Platforma pro produktivitu hostovaná u vás, kde vaše data jsou opravdu vaše</string>
     <string name="store_short_dev_desc">Platforma pro produktivitu hostovaná u vás, kde vaše data jsou opravdu vaše (vývojová verze)</string>

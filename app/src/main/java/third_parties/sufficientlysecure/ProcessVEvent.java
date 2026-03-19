@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2015 Jon Griffiths (jon_p_griffiths@yahoo.com)
  * SPDX-FileCopyrightText: 2013 Dominik Schürmann <dominik@dominikschuermann.de>
@@ -23,7 +23,7 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 
 import com.fraylon.workspace.preferences.AppPreferences;
-import com.owncloud.android.R;
+import com.fraylon.workspace.R;
 import com.owncloud.android.lib.common.utils.Log_OC;
 
 import net.fortuna.ical4j.model.Calendar;

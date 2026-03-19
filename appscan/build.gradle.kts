@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Jimly Asshiddiqy <jimly.asshiddiqy@accenture.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -12,7 +12,7 @@ plugins {
 }
 
 android {
-    namespace = "com.nextcloud.appscan"
+    namespace = "com.fraylon.appscan"
 
     defaultConfig {
         minSdk = 28
@@ -27,8 +27,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     lint.targetSdk = 36
@@ -36,7 +36,7 @@ android {
 }
 
 kotlin.compilerOptions {
-    jvmTarget.set(JvmTarget.JVM_21)
+    jvmTarget.set(JvmTarget.JVM_17)
     freeCompilerArgs.add("-opt-in=kotlin.RequiresOptIn")
 }
 

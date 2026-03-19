@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.upload
@@ -11,13 +11,13 @@ import android.content.Context
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.network.ConnectivityService
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.OCUpload
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.OCUpload
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.OwnCloudClient
-import com.owncloud.android.operations.UploadFileOperation
+import com.fraylon.workspace.operations.UploadFileOperation
 
 @Suppress("LongParameterList")
 class UploadTask(

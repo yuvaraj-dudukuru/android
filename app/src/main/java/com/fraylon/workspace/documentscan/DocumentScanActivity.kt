@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.documentscan
@@ -20,11 +20,11 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.fraylon.workspace.di.Injectable
 import com.fraylon.workspace.di.ViewModelFactory
 import com.fraylon.workspace.logger.Logger
-import com.owncloud.android.R
-import com.owncloud.android.databinding.ActivityDocumentScanBinding
-import com.owncloud.android.databinding.DialogScanExportTypeBinding
-import com.owncloud.android.ui.activity.ToolbarActivity
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.ActivityDocumentScanBinding
+import com.fraylon.workspace.databinding.DialogScanExportTypeBinding
+import com.fraylon.workspace.ui.activity.ToolbarActivity
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import javax.inject.Inject
 
 class DocumentScanActivity :

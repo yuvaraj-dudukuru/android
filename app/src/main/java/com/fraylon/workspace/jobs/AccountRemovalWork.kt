@@ -1,11 +1,11 @@
 /*
-* Nextcloud Android client application
+* Fraylon Android client application
 *
 * @author Tobias Kaminsky
 * @author Chris Narkiewicz
 *
 * Copyright (C) 2017 Tobias Kaminsky
-* Copyright (C) 2017 Nextcloud GmbH.
+* Copyright (C) 2017 Fraylon GmbH.
 * Copyright (C) 2020 Chris Narkiewicz <hello@ezaquarii.com>
 *
 * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -22,26 +22,26 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.core.Clock
 import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.common.NextcloudClient
-import com.owncloud.android.MainApp
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.FilesystemDataProvider
-import com.owncloud.android.datamodel.PushConfigurationState
-import com.owncloud.android.datamodel.SyncedFolderProvider
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.FilesystemDataProvider
+import com.fraylon.workspace.datamodel.PushConfigurationState
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.users.DeleteAppPasswordRemoteOperation
 import com.owncloud.android.lib.resources.users.RemoteWipeSuccessRemoteOperation
-import com.owncloud.android.providers.DocumentsStorageProvider
-import com.owncloud.android.ui.activity.ContactsPreferenceActivity
-import com.owncloud.android.ui.activity.ManageAccountsActivity
-import com.owncloud.android.ui.events.AccountRemovedEvent
-import com.owncloud.android.utils.EncryptionUtils
-import com.owncloud.android.utils.PushUtils
+import com.fraylon.workspace.providers.DocumentsStorageProvider
+import com.fraylon.workspace.ui.activity.ContactsPreferenceActivity
+import com.fraylon.workspace.ui.activity.ManageAccountsActivity
+import com.fraylon.workspace.ui.events.AccountRemovedEvent
+import com.fraylon.workspace.utils.EncryptionUtils
+import com.fraylon.workspace.utils.PushUtils
 import org.greenrobot.eventbus.EventBus
 import java.util.Optional
 

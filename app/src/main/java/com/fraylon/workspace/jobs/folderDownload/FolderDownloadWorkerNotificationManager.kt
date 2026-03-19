@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -13,10 +13,10 @@ import android.content.Context
 import android.content.Intent
 import androidx.work.ForegroundInfo
 import com.fraylon.workspace.jobs.notification.WorkerNotificationManager
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlin.random.Random
 
 class FolderDownloadWorkerNotificationManager(private val context: Context, viewThemeUtils: ViewThemeUtils) :

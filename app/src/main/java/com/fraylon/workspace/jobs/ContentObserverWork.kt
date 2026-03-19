@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -12,9 +12,9 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.jobs.autoUpload.AutoUploadHelper
-import com.owncloud.android.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.utils.FilesSyncHelper
+import com.fraylon.workspace.utils.FilesSyncHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

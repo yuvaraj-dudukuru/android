@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2024 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2024 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.assistant
@@ -70,13 +70,13 @@ import com.fraylon.workspace.assistant.task.TaskView
 import com.fraylon.workspace.assistant.taskTypes.TaskTypesRow
 import com.fraylon.workspace.assistant.translate.TranslationScreen
 import com.fraylon.workspace.assistant.translate.TranslationViewModel
-import com.nextcloud.ui.composeActivity.ComposeActivity
-import com.nextcloud.ui.composeActivity.ComposeViewModel
-import com.nextcloud.ui.composeComponents.alertDialog.SimpleAlertDialog
-import com.nextcloud.ui.composeComponents.alertDialog.TaskSelectionAlertDialog
-import com.nextcloud.ui.composeComponents.bottomSheet.MoreActionsBottomSheet
-import com.nextcloud.utils.extensions.getChat
-import com.owncloud.android.R
+import com.fraylon.ui.composeActivity.ComposeActivity
+import com.fraylon.ui.composeActivity.ComposeViewModel
+import com.fraylon.ui.composeComponents.alertDialog.SimpleAlertDialog
+import com.fraylon.ui.composeComponents.alertDialog.TaskSelectionAlertDialog
+import com.fraylon.ui.composeComponents.bottomSheet.MoreActionsBottomSheet
+import com.fraylon.utils.extensions.getChat
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.v2.model.Task
 import com.owncloud.android.lib.resources.assistant.v2.model.TaskTypeData
 import com.owncloud.android.lib.resources.status.OCCapability

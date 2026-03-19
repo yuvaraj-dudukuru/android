@@ -189,7 +189,7 @@
     <string name="community_testing_bug_text">خاتالىق بايقالدى؟ قالدۇق؟</string>
     <string name="community_testing_headline">سىناق ئارقىلىق ياردەم</string>
     <string name="community_testing_report_text">GitHub دىكى بىر مەسىلىنى دوكلات قىلىڭ</string>
-    <string name="compose_activity_label">Nextcloud ياردەمچىسى</string>
+    <string name="compose_activity_label">Fraylon ياردەمچىسى</string>
     <string name="configure_new_media_folder_detection_notifications">سەپلەڭ</string>
     <string name="confirm_removal">يەرلىك مەخپىيلەشتۈرۈشنى ئۆچۈرۈڭ</string>
     <string name="confirmation_remove_file_alert">راستىنلا%1$s نى ئۆچۈرمەكچىمۇ؟</string>
@@ -325,7 +325,7 @@
     <string name="e2e_signature_is_empty">خام-ئۇچۇرنى تەكشۈرەلمىدى، ئىمزاسى يوق.</string>
     <string name="ecosystem_apps_display_assistant">ياردەمچى</string>
     <string name="ecosystem_apps_display_more">تېخىمۇ كۆپ</string>
-    <string name="ecosystem_apps_more">تېخىمۇ كۆپ Nextcloud ئەپلىرى</string>
+    <string name="ecosystem_apps_more">تېخىمۇ كۆپ Fraylon ئەپلىرى</string>
     <string name="editor_web_view_cannot_open_file">ھۆججەت تاللىغۇچنى ئاچالمىدى</string>
     <string name="email_pick_failed">ئېلېكترونلۇق خەت ئادرېسىنى تاللىيالمىدى.</string>
     <string name="encrypted">شىفىرلانغان قىلىپ تەڭشەڭ</string>
@@ -444,7 +444,7 @@
     <string name="file_migration_cleaning">تازىلاش…</string>
     <string name="file_migration_dialog_title">سانلىق مەلۇمات ساقلاش قىسقۇچىنى يېڭىلاش</string>
     <string name="file_migration_directory_already_exists">سانلىق مەلۇمات قىسقۇچ مەۋجۇت. تۆۋەندىكىلەردىن بىرىنى تاللاڭ:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud ھۆججەت قىسقۇچى ئاللىبۇرۇن مەۋجۇت</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon ھۆججەت قىسقۇچى ئاللىبۇرۇن مەۋجۇت</string>
     <string name="file_migration_failed_not_enough_space">تېخىمۇ كۆپ بوشلۇق لازىم</string>
     <string name="file_migration_failed_not_readable">مەنبە ھۆججىتىنى ئوقۇيالمىدى</string>
     <string name="file_migration_failed_not_writable">مەنزىل ھۆججىتىگە يازالمىدى</string>
@@ -749,7 +749,7 @@
     <string name="prefs_remove_e2e">يەرلىك شىفىرنى ئۆچۈرۈڭ</string>
     <string name="prefs_setup_e2e">ئاخىرىدىن ئاخىرىغىچە مەخپىيلەشتۈرۈشنى تەڭشەڭ</string>
     <string name="prefs_show_ecosystem_apps">ئەپ ئالماشتۇرغۇچنى كۆرسەت</string>
-    <string name="prefs_show_ecosystem_apps_summary">يول باشلاش ماۋزۇسىدىكى Nextcloud ئەپ تەكلىپلىرى</string>
+    <string name="prefs_show_ecosystem_apps_summary">يول باشلاش ماۋزۇسىدىكى Fraylon ئەپ تەكلىپلىرى</string>
     <string name="prefs_show_hidden_files">يوشۇرۇن ھۆججەتلەرنى كۆرسەت</string>
     <string name="prefs_sourcecode">ئەسلى كودقا ئېرىشىش</string>
     <string name="prefs_sycned_folders_summary">ئاپتوماتىك يوللاش ئۈچۈن ھۆججەت قىسقۇچلارنى باشقۇرۇڭ</string>
@@ -901,7 +901,7 @@
     <string name="show_video">سىنلارنى كۆرسەت</string>
     <string name="sign_tos_failed">مۇلازىمەت ماددىلىرىنى قولدا تەكشۈرۈڭ!</string>
     <string name="signup_with_provider">تەمىنلىگۈچى بىلەن تىزىملىتىڭ</string>
-    <string name="single_sign_on_request_token" formatted="true">%1$s نىڭ Nextcloud ھېساباتىڭىزنى زىيارەت قىلىشىغا يول قويۇڭ%2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">%1$s نىڭ Fraylon ھېساباتىڭىزنى زىيارەت قىلىشىغا يول قويۇڭ%2$s?</string>
     <string name="sort_by">تەرتىپلەش</string>
     <string name="sort_favorites_first">ياقتۇرىدىغانلارنى رەتلەڭ</string>
     <string name="sort_folders_before_files">ھۆججەتلەرنى ھۆججەتتىن بۇرۇن تەرتىپلەڭ</string>
@@ -946,7 +946,7 @@
     <string name="storage_permission_dont_ask">سورىما</string>
     <string name="storage_permission_media_read_only">مېدىيا ئوقۇشقىلا بولىدۇ</string>
     <string name="storage_pictures">رەسىملەر</string>
-    <string name="store_full_desc">ئۆزىڭىز باشقۇرىدىغان ئىشلەپچىقىرىش ئىقتىدارى سۇپىسى سىزنى كونترول قىلالايدۇ.\n\n ئالاھىدىلىكلىرى:\n* ئاسان، زامانىۋى كۆرۈنمە يۈزى، مۇلازىمېتىرىڭىزنىڭ تېمىسىغا ماس كېلىدۇ\n* ھۆججەتلەرنى Nextcloud مۇلازىمېتىرىڭىزغا يۈكلەش\n* باشقىلار بىلەن ئورتاقلىشىش\n* ياقتۇرىدىغان ھۆججەت ۋە قىسقۇچلىرىڭىزنى ماسلاشتۇرۇڭ\n* مۇلازىمېتىرىڭىزدىكى بارلىق قىسقۇچلارنى ئىزدەش\n* ئۈسكۈنىڭىز تارتقان رەسىم ۋە سىنلارنى ئاپتوماتىك يۈكلەش\n* ئۇقتۇرۇشلار بىلەن يېڭى ئۇچۇرلارنى ساقلاڭ\n* كۆپ ھېسابات قوللاش\n* بارماق ئىزى ياكى PIN ئارقىلىق سانلىق مەلۇماتلىرىڭىزغا بىخەتەر كىرىش\n* كالېندار ۋە ئالاقىلىشىشلارنى ماسلاشتۇرۇشنى ئاسانلاشتۇرۇش ئۈچۈن DAVx⁵ (ئىلگىرى DAVdroid دەپ ئاتالغان) بىلەن بىرلەشتۈرۈش\n\n بارلىق مەسىلىلەرنى https://github.com/nextcloud/android/issues دا دوكلات قىلىڭ ۋە بۇ ئەپنى https://help.nextcloud.com/c/clients/android دا مۇزاكىرە قىلىڭ\n\nNextcloud غا يېڭى كەلدىڭىزمۇ؟ Nextcloud شەخسىي ھۆججەت ماسلاشتۇرۇش ۋە ئورتاقلىشىش ۋە ئالاقە مۇلازىمېتىرى. ئۇ ھەقسىز يۇمشاق دېتال بولۇپ، ئۇنى ئۆزىڭىز ساقلىيالايسىز ياكى شىركەتكە پۇل تۆلەپ قىلالايسىز. بۇ ئۇسۇل ئارقىلىق، سىز رەسىملىرىڭىزنى، كالېندارىڭىزنى ۋە ئالاقە ئۇچۇرلىرىڭىزنى، ھۆججەتلىرىڭىزنى ۋە باشقا ھەممە نەرسىنى كونترول قىلالايسىز.\n\nNextcloud نى https://nextcloud.com دىن كۆرۈڭ.</string>
+    <string name="store_full_desc">ئۆزىڭىز باشقۇرىدىغان ئىشلەپچىقىرىش ئىقتىدارى سۇپىسى سىزنى كونترول قىلالايدۇ.\n\n ئالاھىدىلىكلىرى:\n* ئاسان، زامانىۋى كۆرۈنمە يۈزى، مۇلازىمېتىرىڭىزنىڭ تېمىسىغا ماس كېلىدۇ\n* ھۆججەتلەرنى Fraylon مۇلازىمېتىرىڭىزغا يۈكلەش\n* باشقىلار بىلەن ئورتاقلىشىش\n* ياقتۇرىدىغان ھۆججەت ۋە قىسقۇچلىرىڭىزنى ماسلاشتۇرۇڭ\n* مۇلازىمېتىرىڭىزدىكى بارلىق قىسقۇچلارنى ئىزدەش\n* ئۈسكۈنىڭىز تارتقان رەسىم ۋە سىنلارنى ئاپتوماتىك يۈكلەش\n* ئۇقتۇرۇشلار بىلەن يېڭى ئۇچۇرلارنى ساقلاڭ\n* كۆپ ھېسابات قوللاش\n* بارماق ئىزى ياكى PIN ئارقىلىق سانلىق مەلۇماتلىرىڭىزغا بىخەتەر كىرىش\n* كالېندار ۋە ئالاقىلىشىشلارنى ماسلاشتۇرۇشنى ئاسانلاشتۇرۇش ئۈچۈن DAVx⁵ (ئىلگىرى DAVdroid دەپ ئاتالغان) بىلەن بىرلەشتۈرۈش\n\n بارلىق مەسىلىلەرنى https://github.com/nextcloud/android/issues دا دوكلات قىلىڭ ۋە بۇ ئەپنى https://help.nextcloud.com/c/clients/android دا مۇزاكىرە قىلىڭ\n\nFraylon غا يېڭى كەلدىڭىزمۇ؟ Fraylon شەخسىي ھۆججەت ماسلاشتۇرۇش ۋە ئورتاقلىشىش ۋە ئالاقە مۇلازىمېتىرى. ئۇ ھەقسىز يۇمشاق دېتال بولۇپ، ئۇنى ئۆزىڭىز ساقلىيالايسىز ياكى شىركەتكە پۇل تۆلەپ قىلالايسىز. بۇ ئۇسۇل ئارقىلىق، سىز رەسىملىرىڭىزنى، كالېندارىڭىزنى ۋە ئالاقە ئۇچۇرلىرىڭىزنى، ھۆججەتلىرىڭىزنى ۋە باشقا ھەممە نەرسىنى كونترول قىلالايسىز.\n\nFraylon نى https://nextcloud.com دىن كۆرۈڭ.</string>
     <string name="store_full_dev_desc">ئۆزى كونترول قىلىدىغان ئىشلەپچىقىرىش سۇپىسى سىزنى كونترول قىلىدۇ. \ N بۇ رەسمىي تەرەققىيات نۇسخىسى بولۇپ ، ھەر كۈنى يېڭى سىناقتىن ئۆتمىگەن ئىقتىدارلارنىڭ ئەۋرىشكىسى بار ، بۇ مۇقىمسىزلىق ۋە سانلىق مەلۇماتلارنىڭ يوقىلىشىنى كەلتۈرۈپ چىقىرىشى مۇمكىن. بۇ ئەپ سىناق قىلىشنى خالايدىغان ئىشلەتكۈچىلەر ئۈچۈن بولۇپ ، خاتالىق كۆرۈلسە دوكلات قىلىدۇ. ئۇنى ئىشلەپچىقىرىش خىزمىتىڭىزگە ئىشلەتمەڭ! \ N \ n ھەر ئىككىلىسى رەسمىي dev ۋە دائىملىق نۇسخىسى F-droid دا بار ، بىرلا ۋاقىتتا ئورنىتىشقا بولىدۇ.</string>
     <string name="store_short_desc">ئۆزىڭىزنى كونترول قىلىدىغان ئۆزى ساھىبخانلىق ئىشلەپچىقىرىش سۇپىسى</string>
     <string name="store_short_dev_desc">سىزنى كونترول قىلىدىغان ئۆزى ساھىبخانلىق قىلغان ئىشلەپچىقىرىش سۇپىسى (dev ئالدىن كۆرۈش نۇسخىسى)</string>

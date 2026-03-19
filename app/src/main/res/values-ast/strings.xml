@@ -98,7 +98,7 @@
     <string name="common_switch_account">Cambiar de cuenta</string>
     <string name="common_yes">Sí</string>
     <string name="community_contribute_translate_translate">Traducir</string>
-    <string name="compose_activity_label">Asistente de Nextcloud</string>
+    <string name="compose_activity_label">Asistente de Fraylon</string>
     <string name="confirmation_remove_local">Namái llocal</string>
     <string name="conflict_local_file">Ficheru llocal</string>
     <string name="contacts">Contautos</string>
@@ -168,7 +168,7 @@
     <string name="e2e_offline">Nun ye posible ensin la conexón a internet</string>
     <string name="ecosystem_apps_display_assistant">Asistente</string>
     <string name="ecosystem_apps_display_more">Más</string>
-    <string name="ecosystem_apps_more">Más aplicaciones de Nextcloud</string>
+    <string name="ecosystem_apps_more">Más aplicaciones de Fraylon</string>
     <string name="email_pick_failed">Nun se pue escoyer la direición de corréu electrónicu.</string>
     <string name="end_to_end_encryption_confirm_button">Configurar el cifráu</string>
     <string name="end_to_end_encryption_decrypting">Descifrando…</string>
@@ -490,7 +490,7 @@
     <string name="show_less">Amosar menos</string>
     <string name="show_video">Amosar los vídeos</string>
     <string name="signup_with_provider">Rexistrase con un fornidor</string>
-    <string name="single_sign_on_request_token" formatted="true">¿Quies permitr que %1$s acceda a la cuenta de Nextcloud %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">¿Quies permitr que %1$s acceda a la cuenta de Fraylon %2$s?</string>
     <string name="sort_by">Ordenar per</string>
     <string name="sort_favorites_first">Ordenar los favoritos primero</string>
     <string name="sort_folders_before_files">Ordenar les carpetes enantes que los ficheros</string>

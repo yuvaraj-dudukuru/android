@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
@@ -8,7 +8,7 @@
 package com.fraylon.workspace.media
 
 import android.os.AsyncTask
-import com.owncloud.android.files.StreamMediaFileOperation
+import com.fraylon.workspace.files.StreamMediaFileOperation
 import com.owncloud.android.lib.common.OwnCloudClient
 
 internal class LoadUrlTask(

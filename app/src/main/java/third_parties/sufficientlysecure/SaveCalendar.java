@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2015 Jon Griffiths (jon_p_griffiths@yahoo.com)
  * SPDX-FileCopyrightText: 2013 Dominik Schürmann <dominik@dominikschuermann.de>
@@ -36,9 +36,9 @@ import com.fraylon.workspace.jobs.transfer.TransferManagerConnection;
 import com.fraylon.workspace.jobs.upload.PostUploadAction;
 import com.fraylon.workspace.jobs.upload.UploadTrigger;
 import com.fraylon.workspace.preferences.AppPreferences;
-import com.owncloud.android.R;
-import com.owncloud.android.datamodel.OCFile;
-import com.owncloud.android.files.services.NameCollisionPolicy;
+import com.fraylon.workspace.R;
+import com.fraylon.workspace.datamodel.OCFile;
+import com.fraylon.workspace.files.services.NameCollisionPolicy;
 import com.owncloud.android.lib.common.utils.Log_OC;
 
 import net.fortuna.ical4j.data.CalendarOutputter;

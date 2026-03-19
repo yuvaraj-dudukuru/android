@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2024 TSI-mc <surinder.kumar@t-systems.com>
-  ~ SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
+  ~ SPDX-FileCopyrightText: 2016-2024 Fraylon GmbH and Fraylon contributors
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -119,13 +119,13 @@
         android:icon="@mipmap/ic_launcher"
         android:installLocation="internalOnly"
         android:label="@string/app_name"
-        android:manageSpaceActivity="com.owncloud.android.ui.activity.ManageSpaceActivity"
+        android:manageSpaceActivity="com.fraylon.workspace.ui.activity.ManageSpaceActivity"
         android:memtagMode="async"
         android:networkSecurityConfig="@xml/network_security_config"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ownCloud.Toolbar"
+        android:theme="@style/Theme.Fraylon.Toolbar"
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute"
         tools:replace="android:allowBackup">
@@ -135,13 +135,13 @@
             android:resource="@xml/app_config" />
 
         <activity
-            android:name="com.nextcloud.ui.composeActivity.ComposeActivity"
+            android:name="com.fraylon.ui.composeActivity.ComposeActivity"
             android:exported="true"
             android:label="@string/compose_activity_label"/>
 
         <activity-alias
-            android:name="com.nextcloud.ui.composeActivity.ComposeProcessTextAlias"
-            android:targetActivity="com.nextcloud.ui.composeActivity.ComposeActivity"
+            android:name="com.fraylon.ui.composeActivity.ComposeProcessTextAlias"
+            android:targetActivity="com.fraylon.ui.composeActivity.ComposeActivity"
             android:exported="true">
 
             <intent-filter>
@@ -161,10 +161,10 @@
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.ownCloud.Launcher">
+            android:theme="@style/Theme.Fraylon.Launcher">
 
             <intent-filter>
-                <action android:name="com.nextcloud.intent.OPEN_ECOSYSTEM_APP" />
+                <action android:name="com.fraylon.intent.OPEN_ECOSYSTEM_APP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
@@ -372,7 +372,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:taskAffinity=""
-            android:theme="@style/Theme.ownCloud.NoActionBar">
+            android:theme="@style/Theme.Fraylon.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -396,12 +396,12 @@
         <activity
             android:name=".ui.preview.PreviewImageActivity"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.Overlay" />
+            android:theme="@style/Theme.Fraylon.Overlay" />
         <activity
             android:name=".ui.preview.PreviewMediaActivity"
             android:configChanges="orientation|screenLayout|screenSize|keyboardHidden"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.Media" />
+            android:theme="@style/Theme.Fraylon.Media" />
 
         <service
             android:name="com.fraylon.workspace.media.BackgroundPlayerService"
@@ -527,9 +527,9 @@
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.ownCloud.noActionBar.Login">
+            android:theme="@style/Theme.Fraylon.noActionBar.Login">
             <intent-filter>
-                <action android:name="com.owncloud.android.workaround.accounts.CREATE" />
+                <action android:name="com.fraylon.workspace.workaround.accounts.CREATE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -540,7 +540,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.ownCloud.noActionBar.Login">
+            android:theme="@style/Theme.Fraylon.noActionBar.Login">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -595,7 +595,7 @@
             android:finishOnTaskLaunch="true"
             android:launchMode="singleInstance"
             android:process=":crash"
-            android:theme="@style/Theme.ownCloud.Toolbar" />
+            android:theme="@style/Theme.Fraylon.Toolbar" />
         <activity
             android:name=".ui.activity.UploadListActivity"
             android:exported="false" />
@@ -605,12 +605,12 @@
             android:exported="true" />
         <activity
             android:name="com.fraylon.workspace.onboarding.WhatsNewActivity"
-            android:theme="@style/Theme.ownCloud.noActionBar.Login" />
+            android:theme="@style/Theme.Fraylon.noActionBar.Login" />
         <activity
             android:name="com.fraylon.workspace.onboarding.FirstRunActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.noActionBar.Login" />
+            android:theme="@style/Theme.Fraylon.noActionBar.Login" />
 
         <receiver
             android:name=".files.BootupBroadcastReceiver"
@@ -639,14 +639,14 @@
             android:name=".ui.activity.FilePickerActivity"
             android:exported="false"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.ownCloud.Dialog.NoTitle"
+            android:theme="@style/Theme.Fraylon.Dialog.NoTitle"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ui.activity.ShareActivity"
             android:exported="false"
             android:label="@string/share_dialog_title"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.ownCloud.Dialog.NoTitle"
+            android:theme="@style/Theme.Fraylon.Dialog.NoTitle"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -670,23 +670,23 @@
         <activity
             android:name=".ui.activity.SsoGrantPermissionActivity"
             android:exported="true"
-            android:theme="@style/Theme.ownCloud.Dialog.NoTitle" />
+            android:theme="@style/Theme.Fraylon.Dialog.NoTitle" />
         <activity
             android:name="com.fraylon.workspace.etm.EtmActivity"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.Toolbar" />
+            android:theme="@style/Theme.Fraylon.Toolbar" />
         <activity
             android:name=".ui.preview.PreviewBitmapActivity"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.OverlayGrey" />
+            android:theme="@style/Theme.Fraylon.OverlayGrey" />
         <activity
             android:name="com.fraylon.workspace.documentscan.DocumentScanActivity"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.Toolbar" />
+            android:theme="@style/Theme.Fraylon.Toolbar" />
         <activity
             android:name="com.fraylon.workspace.editimage.EditImageActivity"
             android:exported="false"
-            android:theme="@style/Theme.ownCloud.Toolbar.NullBackground" />
+            android:theme="@style/Theme.Fraylon.Toolbar.NullBackground" />
         <activity
             android:name="com.nmc.android.ui.LauncherActivity"
             android:exported="true"

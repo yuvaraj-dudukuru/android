@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -12,13 +12,13 @@ import androidx.work.WorkManager
 import com.fraylon.workspace.core.ClockImpl
 import com.fraylon.workspace.preferences.AppPreferences
 import com.fraylon.workspace.preferences.AppPreferencesImpl
-import com.nextcloud.test.RetryTestRule
-import com.nextcloud.utils.extensions.toByteArray
-import com.owncloud.android.AbstractOnServerIT
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.test.RetryTestRule
+import com.fraylon.utils.extensions.toByteArray
+import com.fraylon.workspace.AbstractOnServerIT
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadFileOperation
+import com.fraylon.workspace.operations.DownloadFileOperation
 import ezvcard.Ezvcard
 import ezvcard.VCard
 import org.apache.commons.io.FileUtils

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.documentscan
@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.owncloud.android.databinding.DocumentPageItemBinding
+import com.fraylon.workspace.databinding.DocumentPageItemBinding
 
 class DocumentPageListAdapter :
     ListAdapter<String, DocumentPageListAdapter.DocumentPageViewHolder>(DiffItemCallback()) {

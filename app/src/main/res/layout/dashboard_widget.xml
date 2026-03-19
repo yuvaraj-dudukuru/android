@@ -1,19 +1,19 @@
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
-  ~ SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+  ~ SPDX-FileCopyrightText: 2022 Fraylon GmbH
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@android:id/background"
-    style="@style/Widget.Nextcloud.AppWidget.Container"
+    style="@style/Widget.Fraylon.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/grey_200"
     android:orientation="vertical"
-    android:theme="@style/Theme.ownCloud.Toolbar.AppWidgetContainer">
+    android:theme="@style/Theme.Fraylon.Toolbar.AppWidgetContainer">
 
     <LinearLayout
         android:layout_width="match_parent"

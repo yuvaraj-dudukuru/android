@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,8 +11,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fraylon.workspace.assistant.conversation.model.ConversationScreenState
 import com.fraylon.workspace.assistant.conversation.repository.ConversationRemoteRepository
-import com.nextcloud.utils.TimeConstants.MILLIS_PER_SECOND
-import com.owncloud.android.R
+import com.fraylon.utils.TimeConstants.MILLIS_PER_SECOND
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.assistant.chat.model.Conversation
 import kotlinx.coroutines.Dispatchers

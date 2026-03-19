@@ -201,7 +201,7 @@
     <string name="community_testing_bug_text">Leidsid vea? Midagi veidrat?</string>
     <string name="community_testing_headline">Aita testimisega</string>
     <string name="community_testing_report_text">Teavita probleemist GitHubis</string>
-    <string name="compose_activity_label">Nextcloudi Abiline</string>
+    <string name="compose_activity_label">Frayloni Abiline</string>
     <string name="configure_new_media_folder_detection_notifications">Seadista</string>
     <string name="confirm_removal">Eemalda kohalik krüptimine</string>
     <string name="confirmation_remove_file_alert">Oled sa kindel, et soovid %1$s kustutada?</string>
@@ -337,7 +337,7 @@
     <string name="e2e_signature_is_empty">Kuna allkiri on tühi, siis metainfo verifitseerimine ei õnnestunud</string>
     <string name="ecosystem_apps_display_assistant">Abiline</string>
     <string name="ecosystem_apps_display_more">Veel</string>
-    <string name="ecosystem_apps_more">Veel Nextcloudi rakendusi</string>
+    <string name="ecosystem_apps_more">Veel Frayloni rakendusi</string>
     <string name="editor_web_view_cannot_open_file">Failivalija avamine ei õnnestu</string>
     <string name="email_pick_failed">Ei õnnestu valida e-posti aadressi</string>
     <string name="encrypted">Määra krüptituks</string>
@@ -458,7 +458,7 @@
     <string name="file_migration_cleaning">Puhastamine...</string>
     <string name="file_migration_dialog_title">Uuendan andmeruumi kausta</string>
     <string name="file_migration_directory_already_exists">Andmekaust on juba olemas. Vali üks alljärgnevast:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloudi kaust on juba olemas</string>
+    <string name="file_migration_failed_dir_already_exists">Frayloni kaust on juba olemas</string>
     <string name="file_migration_failed_not_enough_space">On vaja rohkem ruumi</string>
     <string name="file_migration_failed_not_readable">Lähtefaili lugemine ei õnnestunud</string>
     <string name="file_migration_failed_not_writable">Sihtfaili kirjutamine ei õnnestu.</string>
@@ -768,7 +768,7 @@
     <string name="prefs_remove_e2e">Eemalda krüptimine kohalikus seadmes</string>
     <string name="prefs_setup_e2e">Võta läbiv krüptimine kasutusele</string>
     <string name="prefs_show_ecosystem_apps">Näita rakenduste vahetajat</string>
-    <string name="prefs_show_ecosystem_apps_summary">Nextcloudi rakenduse soovitused päises</string>
+    <string name="prefs_show_ecosystem_apps_summary">Frayloni rakenduse soovitused päises</string>
     <string name="prefs_show_hidden_files">Näita peidetud faile</string>
     <string name="prefs_sourcecode">Vaata lähtekoodi</string>
     <string name="prefs_sycned_folders_summary">Halda automaatse üleslaadimise kaustasid</string>
@@ -921,7 +921,7 @@
     <string name="show_video">Näita videoid</string>
     <string name="sign_tos_failed">Palun tutvu kasutustingimustega!</string>
     <string name="signup_with_provider">Või liitu teenusepakkujaga</string>
-    <string name="single_sign_on_request_token" formatted="true">Kas lubad „%1$s“ teenusel ligipääsu sinu Nextcloudi kasutajakontole „%2$s“?</string>
+    <string name="single_sign_on_request_token" formatted="true">Kas lubad „%1$s“ teenusel ligipääsu sinu Frayloni kasutajakontole „%2$s“?</string>
     <string name="sort_by">Sorteeri</string>
     <string name="sort_favorites_first">Järjesta lemmikud esimesena</string>
     <string name="sort_folders_before_files">Järjesta kaustad enne faile</string>
@@ -966,7 +966,7 @@
     <string name="storage_permission_dont_ask">Ära küsi</string>
     <string name="storage_permission_media_read_only">Meedium on vaid lugemisõigustes</string>
     <string name="storage_pictures">Pildid</string>
-    <string name="store_full_desc">Tarbetarkvara sinu serveris ja sinu kontrolli all.\n\nOmadused:\n* Lihtne ja moodne kasutajaliides, mille välimus ühtib serveris seadistatud kujundusega\n* Laadi oma failid üles enda Nextcloudi serverisse\n* Jaga oma faile teistega\n* Hoia oma lemmikfailid ja -kaustad sünkroonis\n* Otsi kõigist kaustadest oma serveris\n* Oma seadmega tehtud piltide ja videode automaatne üleslaadimine\n* Hoia end kursis uuenduste abil\n* Mitme konto kasutamise võimalus\n* Muuda oma andmetele ligipääs turvalisemaks kasutades sõrmejälge või PIN-koodi\n* Lõiming DAVx⁵ rakendusega (vana nimega DAVdroid), mis võimaldab lihtsalt kalender ja kontaktid sünkroonis hoida\n\nTeavita kõigist probleemidest aadressil https://github.com/nextcloud/android/issues ja osale rakenduse kohta käivas arutelus aadressil https://help.nextcloud.com/c/clients/android\n\nKas Nextcloud on sinu jaoks midagi uut? Nextcloud on privaatne failide sünkroniseerimise ja jagamise ning suhtlusserver. Lahendus on vaba tarkvara ja põhineb avatud lähtekoodil ning sa saad selle oma serverisse püsti panna või lasta seda kellelgi teisel teha või osta lahendus valmisteenusena. Nii omad kontrolli oma piltide, kalendri, kontaktandmete, dokumentide ja kõige muu üle.\n\nUuri Nextcloudi kohta aadressil https://nextcloud.com</string>
+    <string name="store_full_desc">Tarbetarkvara sinu serveris ja sinu kontrolli all.\n\nOmadused:\n* Lihtne ja moodne kasutajaliides, mille välimus ühtib serveris seadistatud kujundusega\n* Laadi oma failid üles enda Frayloni serverisse\n* Jaga oma faile teistega\n* Hoia oma lemmikfailid ja -kaustad sünkroonis\n* Otsi kõigist kaustadest oma serveris\n* Oma seadmega tehtud piltide ja videode automaatne üleslaadimine\n* Hoia end kursis uuenduste abil\n* Mitme konto kasutamise võimalus\n* Muuda oma andmetele ligipääs turvalisemaks kasutades sõrmejälge või PIN-koodi\n* Lõiming DAVx⁵ rakendusega (vana nimega DAVdroid), mis võimaldab lihtsalt kalender ja kontaktid sünkroonis hoida\n\nTeavita kõigist probleemidest aadressil https://github.com/nextcloud/android/issues ja osale rakenduse kohta käivas arutelus aadressil https://help.nextcloud.com/c/clients/android\n\nKas Fraylon on sinu jaoks midagi uut? Fraylon on privaatne failide sünkroniseerimise ja jagamise ning suhtlusserver. Lahendus on vaba tarkvara ja põhineb avatud lähtekoodil ning sa saad selle oma serverisse püsti panna või lasta seda kellelgi teisel teha või osta lahendus valmisteenusena. Nii omad kontrolli oma piltide, kalendri, kontaktandmete, dokumentide ja kõige muu üle.\n\nUuri Frayloni kohta aadressil https://nextcloud.com</string>
     <string name="store_full_dev_desc">Tarbetarkvara sinu serveris ja sinu kontrolli all.\nSee on ametlik arendusversioon, milles leidub uut ja testimata funktsionaalsust ning mis võib põhjustada töö katkemist ja andmekadu. Rakenduse see variant sobib kasutajatele, kes on huvitatud testimisest ja soovivad leitud vigadest arendajatele teada anda. Palun ära kasuta seda oma igapäevasteks tegemisteks!\n\nNii tavaversioon kui arendusversioon leiduvad F-Droidis ja sa saad neid paigaldada samaaegselt.</string>
     <string name="store_short_desc">Tarbetarkvara platvorm sinu omas serveris ja sinu kontrolli all</string>
     <string name="store_short_dev_desc">Tarbetarkvara platvorm sinu omas serveris ja sinu kontrolli all (arendusversioon)</string>

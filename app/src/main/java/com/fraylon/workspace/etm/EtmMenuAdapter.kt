@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -14,7 +14,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 
 class EtmMenuAdapter(context: Context, val onItemClicked: (Int) -> Unit) :
     RecyclerView.Adapter<EtmMenuAdapter.PageViewHolder>() {

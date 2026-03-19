@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -17,7 +17,7 @@ import androidx.work.WorkerFactory
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.core.Clock
-import com.fraylon.workspace.database.NextcloudDatabase
+import com.fraylon.workspace.database.FraylonDatabase
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.documentscan.GeneratePDFUseCase
 import com.fraylon.workspace.documentscan.GeneratePdfFromImagesWork
@@ -33,10 +33,10 @@ import com.fraylon.workspace.jobs.upload.FileUploadWorker
 import com.fraylon.workspace.logger.Logger
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.preferences.AppPreferences
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.SyncedFolderProvider
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import org.greenrobot.eventbus.EventBus
 import javax.inject.Inject
 import javax.inject.Provider
@@ -66,7 +66,7 @@ class BackgroundJobFactory @Inject constructor(
     private val localBroadcastManager: Provider<LocalBroadcastManager>,
     private val generatePdfUseCase: GeneratePDFUseCase,
     private val syncedFolderProvider: SyncedFolderProvider,
-    private val database: NextcloudDatabase
+    private val database: FraylonDatabase
 ) : WorkerFactory() {
 
     @SuppressLint("NewApi")

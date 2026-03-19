@@ -201,7 +201,7 @@
     <string name="community_testing_bug_text">Bir hata mı buldunuz? Bir gariplik mi var?</string>
     <string name="community_testing_headline">Deneyerek bize yardımcı olun</string>
     <string name="community_testing_report_text">GitHub üzerinden sorun bildirin</string>
-    <string name="compose_activity_label">Nextcloud Yardımcısı</string>
+    <string name="compose_activity_label">Fraylon Yardımcısı</string>
     <string name="configure_new_media_folder_detection_notifications">Yapılandır</string>
     <string name="confirm_removal">Yerel şifrelemeyi kaldır</string>
     <string name="confirmation_remove_file_alert">%1$s dosyasını silmek istediğinize emin misiniz?</string>
@@ -337,7 +337,7 @@
     <string name="e2e_signature_is_empty">Üst veriler doğrulanamadı. İmza boş.</string>
     <string name="ecosystem_apps_display_assistant">Yardımcı</string>
     <string name="ecosystem_apps_display_more">Diğer</string>
-    <string name="ecosystem_apps_more">Diğer Nextcloud uygulamaları</string>
+    <string name="ecosystem_apps_more">Diğer Fraylon uygulamaları</string>
     <string name="editor_web_view_cannot_open_file">Dosya seçici açılamadı</string>
     <string name="email_pick_failed">E-posta adresi alınamadı.</string>
     <string name="encrypted">Şifrelensin</string>
@@ -458,7 +458,7 @@
     <string name="file_migration_cleaning">Temizleniyor …</string>
     <string name="file_migration_dialog_title">Veri depolama klasörü güncelleniyor</string>
     <string name="file_migration_directory_already_exists">Veri klasörü zaten var. Şunlardan birini seçin:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud klasörü zaten var</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon klasörü zaten var</string>
     <string name="file_migration_failed_not_enough_space">Disk alanı yetersiz</string>
     <string name="file_migration_failed_not_readable">Kaynak dosya okunamadı</string>
     <string name="file_migration_failed_not_writable">Hedef dosyaya yazılamadı</string>
@@ -768,7 +768,7 @@
     <string name="prefs_remove_e2e">Şifrelemeyi yerel olarak kaldır</string>
     <string name="prefs_setup_e2e">Uçtan uca şifrelemeyi kur</string>
     <string name="prefs_show_ecosystem_apps">Uygulama değiştiriciyi görüntüle</string>
-    <string name="prefs_show_ecosystem_apps_summary">Gezinme başlığında Nextcloud uygulama önerileri</string>
+    <string name="prefs_show_ecosystem_apps_summary">Gezinme başlığında Fraylon uygulama önerileri</string>
     <string name="prefs_show_hidden_files">Gizli dosyaları görüntüle</string>
     <string name="prefs_sourcecode">Kaynak kodunu alın</string>
     <string name="prefs_sycned_folders_summary">Otomatik yükleme klasörleri yönetimi</string>
@@ -921,7 +921,7 @@
     <string name="show_video">Görüntüler görüntülensin</string>
     <string name="sign_tos_failed">Lütfen hizmet koşullarını el ile denetleyin!</string>
     <string name="signup_with_provider">Hizmet sağlayıcı ile hesap aç</string>
-    <string name="single_sign_on_request_token" formatted="true">%1$s, %2$s Nextcloud hesabınıza erişebilsin mi?</string>
+    <string name="single_sign_on_request_token" formatted="true">%1$s, %2$s Fraylon hesabınıza erişebilsin mi?</string>
     <string name="sort_by">Sıralama</string>
     <string name="sort_favorites_first">Sık kullanılanlar üstte sıralansın</string>
     <string name="sort_folders_before_files">Klasörler dosyaların üzerinde sıralansın</string>
@@ -966,8 +966,8 @@
     <string name="storage_permission_dont_ask">Sorulmasın</string>
     <string name="storage_permission_media_read_only">Ortam dosyalarına salt okunur erişim</string>
     <string name="storage_pictures">Fotoğraflar</string>
-    <string name="store_full_desc">Sizin kontrolunuz altında barındırılan üretkenlik platformu.\n\nÖzellikleri:\n* Sunucunuzun temasına uygun, kolay kullanılan, modern arayüz\n* Dosyaları Nextcloud sunucunuza yükleme\n* Başkaları ile paylaşma\n* İstediğiniz dosya ve klasörleri eşitleme\n* Sunucunuzdaki tüm klasörlerde arama\n* Aygıtınızdaki fotoğraf ve görüntüleri otomatik olarak yükleme\n* Güncelleme bildirimleri\n* Birden çok hesap desteği\n* Verilere parmak izi ya da PIN kodu ile güvenli erişim\n* Kolay takvim ve kişi eşitleme kurulumu için DAVx⁵ bütünleştirmesi (eski adı DAVdroid)\n\nLütfen olabilecek sorunları https://github.com/nextcloud/android/issues adresine bildirin ve uygulama ile ilgili görüşlerinizi https://help.nextcloud.com/c/clients/android adresine yazın\n\nNextcloud kullanmaya yeni mi başladınız? Nextcloud kişisel dosyaları eşitlemek ve paylaşmak için kullanılan bir iletişim sunucusudur. Özgür bir yazılımdır ve kendiniz barındırabileceğiniz gibi bir kuruluş üzerinde ücretli olarak barındırabilirsiniz. Böylece fotoğraflarınız, takviminiz, kişi bilgileriniz ve belgeleriniz gibi pek çok veriyi kendi kontrolunuz altında tutabilirsiniz.\n\nNextcloud hakkında bilgi almak için https://nextcloud.com sitesine bakabilirsiniz.</string>
-    <string name="store_full_dev_desc">Sizin kontrolunuz altında barındırılan üretkenlik platformu.\nBu sürüm resmi Nextcloud uygulamasının geliştirici sürümü olduğundan, kararsız çalışabilir ve veri kaybına yol açabilecek yeterince sınanmamış yeni özellikler bulundurur. Bu sürüm yeni özellikleri sınamak ve hataları bildirmek isteyen kullanıcılar için tasarlanmıştır. Bu sürümü günlük işleriniz için kullanmayın!\n\nNormal ve Geliştirici sürümleri F-Droid üzerinde bulunur ve aynı anda kurulup kullanılabilir.</string>
+    <string name="store_full_desc">Sizin kontrolunuz altında barındırılan üretkenlik platformu.\n\nÖzellikleri:\n* Sunucunuzun temasına uygun, kolay kullanılan, modern arayüz\n* Dosyaları Fraylon sunucunuza yükleme\n* Başkaları ile paylaşma\n* İstediğiniz dosya ve klasörleri eşitleme\n* Sunucunuzdaki tüm klasörlerde arama\n* Aygıtınızdaki fotoğraf ve görüntüleri otomatik olarak yükleme\n* Güncelleme bildirimleri\n* Birden çok hesap desteği\n* Verilere parmak izi ya da PIN kodu ile güvenli erişim\n* Kolay takvim ve kişi eşitleme kurulumu için DAVx⁵ bütünleştirmesi (eski adı DAVdroid)\n\nLütfen olabilecek sorunları https://github.com/nextcloud/android/issues adresine bildirin ve uygulama ile ilgili görüşlerinizi https://help.nextcloud.com/c/clients/android adresine yazın\n\nFraylon kullanmaya yeni mi başladınız? Fraylon kişisel dosyaları eşitlemek ve paylaşmak için kullanılan bir iletişim sunucusudur. Özgür bir yazılımdır ve kendiniz barındırabileceğiniz gibi bir kuruluş üzerinde ücretli olarak barındırabilirsiniz. Böylece fotoğraflarınız, takviminiz, kişi bilgileriniz ve belgeleriniz gibi pek çok veriyi kendi kontrolunuz altında tutabilirsiniz.\n\nFraylon hakkında bilgi almak için https://nextcloud.com sitesine bakabilirsiniz.</string>
+    <string name="store_full_dev_desc">Sizin kontrolunuz altında barındırılan üretkenlik platformu.\nBu sürüm resmi Fraylon uygulamasının geliştirici sürümü olduğundan, kararsız çalışabilir ve veri kaybına yol açabilecek yeterince sınanmamış yeni özellikler bulundurur. Bu sürüm yeni özellikleri sınamak ve hataları bildirmek isteyen kullanıcılar için tasarlanmıştır. Bu sürümü günlük işleriniz için kullanmayın!\n\nNormal ve Geliştirici sürümleri F-Droid üzerinde bulunur ve aynı anda kurulup kullanılabilir.</string>
     <string name="store_short_desc">Sizin kontrolunuz altında barındırılan üretkenlik platformu</string>
     <string name="store_short_dev_desc">Sizin denetiminiz altında barındırılan üretkenlik platformu (geliştirici ön izlemesi)</string>
     <string name="stream">Şununla akıt …</string>

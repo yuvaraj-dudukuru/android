@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -10,8 +10,8 @@ import androidx.work.WorkManager
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.jobs.BackgroundJobManager
 import com.fraylon.workspace.logger.Logger
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.ui.activity.ContactsPreferenceActivity
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.ui.activity.ContactsPreferenceActivity
 import javax.inject.Inject
 
 /**

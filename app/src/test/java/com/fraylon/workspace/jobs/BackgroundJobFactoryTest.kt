@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -15,7 +15,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.core.Clock
-import com.fraylon.workspace.database.NextcloudDatabase
+import com.fraylon.workspace.database.FraylonDatabase
 import com.fraylon.workspace.database.dao.FileDao
 import com.fraylon.workspace.database.dao.FileSystemDao
 import com.fraylon.workspace.device.DeviceInfo
@@ -25,11 +25,11 @@ import com.fraylon.workspace.integrations.deck.DeckApi
 import com.fraylon.workspace.logger.Logger
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.preferences.AppPreferences
-import com.owncloud.android.MainApp
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.SyncedFolderProvider
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic
@@ -106,7 +106,7 @@ class BackgroundJobFactoryTest {
     private lateinit var syncedFolderProvider: SyncedFolderProvider
 
     @Mock
-    private lateinit var db: NextcloudDatabase
+    private lateinit var db: FraylonDatabase
 
     @Mock private lateinit var fileSystemDao: FileSystemDao
 

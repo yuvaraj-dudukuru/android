@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2026 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2026 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.download
@@ -12,7 +12,7 @@ import android.content.Intent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadFileOperation
+import com.fraylon.workspace.operations.DownloadFileOperation
 
 class FileDownloadEventBroadcaster(private val context: Context, private val broadcastManager: LocalBroadcastManager) {
     companion object {

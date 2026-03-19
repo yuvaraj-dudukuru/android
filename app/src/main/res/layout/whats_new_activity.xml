@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-FileCopyrightText: 2015-2016 Bartosz Przybylski
@@ -55,13 +55,13 @@
             android:text="@string/whats_new_skip"
             tools:ignore="NestedWeights" />
 
-        <com.owncloud.android.ui.whatsnew.ProgressIndicator
+        <com.fraylon.workspace.ui.whatsnew.ProgressIndicator
             android:id="@+id/progressIndicator"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_weight="1">
-        </com.owncloud.android.ui.whatsnew.ProgressIndicator>
+        </com.fraylon.workspace.ui.whatsnew.ProgressIndicator>
 
         <LinearLayout
             android:layout_width="0dp"

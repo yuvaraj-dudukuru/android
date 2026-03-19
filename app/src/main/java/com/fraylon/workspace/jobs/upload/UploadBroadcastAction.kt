@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -11,8 +11,8 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
-import com.owncloud.android.R
-import com.owncloud.android.operations.UploadFileOperation
+import com.fraylon.workspace.R
+import com.fraylon.workspace.operations.UploadFileOperation
 
 sealed class UploadBroadcastAction {
     data class PauseAndCancel(val operation: UploadFileOperation) : UploadBroadcastAction() {

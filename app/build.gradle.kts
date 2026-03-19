@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Jimly Asshiddiqy <jimly.asshiddiqy@accenture.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later-later
@@ -195,8 +195,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     lint {
@@ -240,7 +240,7 @@ ksp.arg("room.schemaLocation", "$projectDir/schemas")
 // Configure KSP for test variants
 ksp.arg("dagger.moduleName", project.name)
 
-kotlin.compilerOptions.jvmTarget.set(JvmTarget.JVM_21)
+kotlin.compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
 
 spotless.kotlin {
     target("**/*.kt")
@@ -331,7 +331,7 @@ tasks.named("check").configure {
 }
 
 dependencies {
-    // region Nextcloud library
+    // region Fraylon library
     implementation(libs.android.library) {
         exclude(group = "org.ogce", module = "xpp3") // unused in Android and brings wrong Junit version
     }

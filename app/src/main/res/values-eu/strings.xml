@@ -175,7 +175,7 @@
     <string name="community_testing_bug_text">Errore bat topatu duzu? Gauza arraroren bat?</string>
     <string name="community_testing_headline">Lagundu probatzen</string>
     <string name="community_testing_report_text">Jakinarazi arazoa GitHub-en</string>
-    <string name="compose_activity_label">Nextcloud Assistant</string>
+    <string name="compose_activity_label">Fraylon Assistant</string>
     <string name="configure_new_media_folder_detection_notifications">Konfiguratu</string>
     <string name="confirm_removal">Kendu enkriptatze lokala</string>
     <string name="confirmation_remove_file_alert">Ziur zaude %1$s ezabatu nahi duzula?</string>
@@ -297,7 +297,7 @@
     <string name="e2e_signature_does_not_match">Sinadura ez dator bat</string>
     <string name="ecosystem_apps_display_assistant">Morroia</string>
     <string name="ecosystem_apps_display_more">Gehiago</string>
-    <string name="ecosystem_apps_more">Nextcloud aplikazio gehiago</string>
+    <string name="ecosystem_apps_more">Fraylon aplikazio gehiago</string>
     <string name="email_pick_failed">Ezin izan da helbide elektronikoa hautatu.</string>
     <string name="encrypted">Ezarri zifratu gisa</string>
     <string name="end_to_end_encryption_certificate_unavailable">Ezin da zerbitzariaren ziurtagiria berreskuratu</string>
@@ -407,7 +407,7 @@
     <string name="file_migration_cleaning">Garbitzen…</string>
     <string name="file_migration_dialog_title">Datu-biltegiratze karpeta eguneratzen</string>
     <string name="file_migration_directory_already_exists">Datuen karpeta dagoeneko badago. Aukeratu hauetako bat:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud karpeta badago dagoeneko</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon karpeta badago dagoeneko</string>
     <string name="file_migration_failed_not_enough_space">Leku gehiago behar da</string>
     <string name="file_migration_failed_not_readable">Ezin izan da iturburu-fitxategia irakurri</string>
     <string name="file_migration_failed_not_writable">Ezin izan da helburuko fitxategia idatzi</string>
@@ -693,7 +693,7 @@
     <string name="prefs_remove_e2e">Kendu enkriptatzea lokalean</string>
     <string name="prefs_setup_e2e">Konfiguratu muturretik muturrerako enkriptatzea</string>
     <string name="prefs_show_ecosystem_apps">Erakutsi aplikazioen aldatzailea</string>
-    <string name="prefs_show_ecosystem_apps_summary">Nextcloud aplikazioaren iradokizunak nabigazio goiburuan</string>
+    <string name="prefs_show_ecosystem_apps_summary">Fraylon aplikazioaren iradokizunak nabigazio goiburuan</string>
     <string name="prefs_show_hidden_files">Erakutsi ezkutuko fitxategiak</string>
     <string name="prefs_sourcecode">Eskuratu iturburu-kodea</string>
     <string name="prefs_sycned_folders_summary">Kudeatu karpeten igotze automatikoa</string>
@@ -836,7 +836,7 @@
     <string name="show_video">Erakutsi bideoak</string>
     <string name="sign_tos_failed">Mesedez, egiaztatu zerbitzuko baldintzak!</string>
     <string name="signup_with_provider">Erregistratu hornitzaile batekin</string>
-    <string name="single_sign_on_request_token" formatted="true">%1$s zure %2$s Nextcloud kontuan sartzea baimendu nahi duzu?</string>
+    <string name="single_sign_on_request_token" formatted="true">%1$s zure %2$s Fraylon kontuan sartzea baimendu nahi duzu?</string>
     <string name="sort_by">Ordenatu honen arabera</string>
     <string name="sort_favorites_first">Ordenatu gogokoak lehenengo</string>
     <string name="sort_folders_before_files">Ordenatu karpetak fitxategien aurretik</string>
@@ -877,7 +877,7 @@
     <string name="storage_music">Musika</string>
     <string name="storage_permission_media_read_only">Mutimediak irakurtzeko soilik</string>
     <string name="storage_pictures">Irudiak</string>
-    <string name="store_full_desc">Zure kontrola bermatzen dituzten auto-ostatatutako produktibitate-plataformak.\n\nEzaugarriak:\n* Interfaze erraza, modernoa, zure zerbitzariaren gaira egokitua\n* Igo fitxategiak zure Nextcloud zerbitzarira\n* Partekatu beste batzuekin\n* Mantendu zure fitxategi eta karpeta sinkronizatuak\n* Bilatu zure zerbitzariko karpeta guztietan\n* Igo automatikoki zure gailuz hartutako argazki eta bideoak\n* Eguneratuta egon jakinarazpenekin\n* Kontu anitzak onartzen dira\n* Datu seguruak zure zerbitzarian hatz-marka edo PINaren bidez* Davx⁵-ekin integratzea (lehenago Davdroid izenarekin ezagutzen dena) egutegiaren eta kontaktuen sinkronizazioa erraz konfiguratzeko\n\n Mesedez akatsen berri eman  https://github.com/nextcloud/android web orrian eta eztabaidatu aplikazio honi buruz https://help.nextcloud.com/c/clients/android web orrian\n\n Berria Nextclouden?  Nextcloud fitxategi pribatuen sinkronizatu eta partekatzeko zerbitzaria da. Software librea da, eta zuk zeuk ostatatu edo ordaindu dezakezu enpresa bati zure ordez egiteko. Horrela, zure argazkiak, egutegia eta harremanetarako datuak, dokumentuak eta gainerako guztia kontrolatzen ahal dituzu.\n\nBegiratu Nextcloud informazioa https://nextcloud.com webgunean.</string>
+    <string name="store_full_desc">Zure kontrola bermatzen dituzten auto-ostatatutako produktibitate-plataformak.\n\nEzaugarriak:\n* Interfaze erraza, modernoa, zure zerbitzariaren gaira egokitua\n* Igo fitxategiak zure Fraylon zerbitzarira\n* Partekatu beste batzuekin\n* Mantendu zure fitxategi eta karpeta sinkronizatuak\n* Bilatu zure zerbitzariko karpeta guztietan\n* Igo automatikoki zure gailuz hartutako argazki eta bideoak\n* Eguneratuta egon jakinarazpenekin\n* Kontu anitzak onartzen dira\n* Datu seguruak zure zerbitzarian hatz-marka edo PINaren bidez* Davx⁵-ekin integratzea (lehenago Davdroid izenarekin ezagutzen dena) egutegiaren eta kontaktuen sinkronizazioa erraz konfiguratzeko\n\n Mesedez akatsen berri eman  https://github.com/nextcloud/android web orrian eta eztabaidatu aplikazio honi buruz https://help.nextcloud.com/c/clients/android web orrian\n\n Berria Fraylonen?  Fraylon fitxategi pribatuen sinkronizatu eta partekatzeko zerbitzaria da. Software librea da, eta zuk zeuk ostatatu edo ordaindu dezakezu enpresa bati zure ordez egiteko. Horrela, zure argazkiak, egutegia eta harremanetarako datuak, dokumentuak eta gainerako guztia kontrolatzen ahal dituzu.\n\nBegiratu Fraylon informazioa https://nextcloud.com webgunean.</string>
     <string name="store_full_dev_desc">Kontrola zuri ematen dizun norberak ostatatutako produktibitate-plataforma.\nHau garapeneko bertsio ofiziala da. Probatu gabeko funtzionalitateen eguneroko lagina hartzen du, eta horrek ezegonkortasuna eta datu-galera eragin ditzake. Aplikazio hau probatu eta gertatzen diren akatsen berri eman nahi duten erabiltzaileentzat da. Ez erabili zure produkzio-lanerako!\n\nBi bertsio ofizialak, garapenekoa eta normala, F-Droiden daude eskuragarri eta aldi berean instalatu daitezke.</string>
     <string name="store_short_desc">Kontrola zuri ematen dizun norberak ostatutako produktibitate plataforma</string>
     <string name="store_short_dev_desc">Kontrola zuri ematen dizun norberak ostatutako produktibitate plataforma (garapeneko aurrerapen bertsioa)</string>

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.etm
@@ -12,8 +12,8 @@ import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
-import com.owncloud.android.AbstractIT
-import com.owncloud.android.utils.ScreenshotTest
+import com.fraylon.workspace.AbstractIT
+import com.fraylon.workspace.utils.ScreenshotTest
 import org.junit.Test
 
 class EtmActivityTest : AbstractIT() {

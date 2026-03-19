@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -67,7 +67,7 @@ public class ClientFactoryImpl implements ClientFactory {
     }
 
     @Override
-    public OwnCloudClient create(Uri uri, boolean followRedirects, boolean useNextcloudUserAgent) {
+    public OwnCloudClient create(Uri uri, boolean followRedirects, boolean useFraylonUserAgent) {
         return OwnCloudClientFactory.createOwnCloudClient(uri, context, followRedirects);
     }
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
-  ~ SPDX-FileCopyrightText: 2019-2024 Nextcloud GmbH and Nextcloud contributors
+  ~ SPDX-FileCopyrightText: 2019-2024 Fraylon GmbH and Fraylon contributors
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
 -->
 <resources>
@@ -13,18 +13,18 @@
     <!-- App name  and other strings-->
     <string name="app_name">Fraylon Workspace</string>
     <string name="account_type">nextcloud</string>     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
-    <string name="authority">org.nextcloud</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
-    <string name="users_and_groups_search_authority">com.nextcloud.android.providers.UsersAndGroupsSearchProvider</string>
-    <string name="users_and_groups_share_with">com.nextcloud.android.providers.UsersAndGroupsSearchProvider.action.SHARE_WITH</string>
-    <string name="document_provider_authority">org.nextcloud.documents</string>
-    <string name="file_provider_authority">org.nextcloud.files</string>
-    <string name="image_cache_provider_authority">org.nextcloud.imageCache.provider</string>
+    <string name="authority">org.fraylon</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
+    <string name="users_and_groups_search_authority">com.fraylon.android.providers.UsersAndGroupsSearchProvider</string>
+    <string name="users_and_groups_share_with">com.fraylon.android.providers.UsersAndGroupsSearchProvider.action.SHARE_WITH</string>
+    <string name="document_provider_authority">org.fraylon.documents</string>
+    <string name="file_provider_authority">org.fraylon.files</string>
+    <string name="image_cache_provider_authority">org.fraylon.imageCache.provider</string>
     <string name="db_file">nextcloud.db</string>
     <string name="db_name">nextcloud</string>
     <string name="data_folder">nextcloud</string>
-    <string name="default_display_name_for_root_folder">Nextcloud</string>
-    <string name="nextcloud_user_agent">Mozilla/5.0 (Android) Nextcloud-android/%1$s%2$s</string>
-    <string name="only_office_user_agent">Mozilla/5.0 (Android %1$s) Mobile Nextcloud-android/%2$s</string>
+    <string name="default_display_name_for_root_folder">Fraylon</string>
+    <string name="nextcloud_user_agent">Mozilla/5.0 (Android) Fraylon-android/%1$s%2$s</string>
+    <string name="only_office_user_agent">Mozilla/5.0 (Android %1$s) Mobile Fraylon-android/%2$s</string>
     <string name="name_for_branded_user_agent"></string>
 
     <!-- URLs and flags related -->
@@ -113,7 +113,7 @@
     <!-- Determine is participate enabled -->
     <bool name="participate_enabled">false</bool>
     <!-- Participate links -->
-    <string name="fdroid_beta_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.nextcloud.android.beta</string>
+    <string name="fdroid_beta_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.fraylon.android.beta</string>
     <string name="beta_apk_link" translatable="false">https://download.nextcloud.com/android/dev/latest.apk</string>
     <string name="play_store_register_beta" translatable="false">https://play.google.com/apps/testing/com.fraylon.workspace</string>
     <string name="fdroid_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.fraylon.workspace</string>

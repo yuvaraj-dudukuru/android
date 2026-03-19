@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.files
@@ -12,10 +12,10 @@ import android.os.Parcelable
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.jobs.upload.PostUploadAction
 import com.fraylon.workspace.jobs.upload.UploadTrigger
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.OCUpload
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.OCUpload
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import java.util.UUID
 
 sealed class Request(val user: User, val file: OCFile, val uuid: UUID, val type: Direction, val test: Boolean) :

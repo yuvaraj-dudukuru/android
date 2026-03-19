@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2021 Tobias Kaminsky <tobias@kaminsky.me>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -8,6 +8,6 @@
 package com.fraylon.workspace.media
 
 import com.fraylon.workspace.account.User
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 
 data class PlaylistItem(val file: OCFile, val startPositionMs: Long, val autoPlay: Boolean, val user: User)

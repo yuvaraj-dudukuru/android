@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Stefan Niedermann <info@niedermann.it>
  * SPDX-License-Identifier: GPL-3.0-or-later

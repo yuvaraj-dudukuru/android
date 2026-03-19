@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -8,7 +8,7 @@ package com.fraylon.workspace.onboarding
 
 import android.app.Activity
 import android.content.Context
-import com.owncloud.android.features.FeatureItem
+import com.fraylon.workspace.features.FeatureItem
 
 interface OnboardingService {
     val whatsNew: Array<FeatureItem>

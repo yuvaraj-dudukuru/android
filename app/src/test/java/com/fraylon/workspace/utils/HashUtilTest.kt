@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: MIT
  */
 package com.fraylon.workspace.utils

@@ -197,7 +197,7 @@
     <string name="community_testing_bug_text">Hibát talált? Vagy furcsaságot?</string>
     <string name="community_testing_headline">Segítsen a teszteléssel</string>
     <string name="community_testing_report_text">Jelentse az esetet a GitHubon</string>
-    <string name="compose_activity_label">Nextcloud Asszisztens</string>
+    <string name="compose_activity_label">Fraylon Asszisztens</string>
     <string name="configure_new_media_folder_detection_notifications">Beállítás</string>
     <string name="confirm_removal">Helyi titkosítás eltávolítása</string>
     <string name="confirmation_remove_file_alert">Biztos, hogy törli ezt: %1$s?</string>
@@ -452,7 +452,7 @@
     <string name="file_migration_cleaning">Tisztítás…</string>
     <string name="file_migration_dialog_title">Adattároló mappa frissítése</string>
     <string name="file_migration_directory_already_exists">Már létezik az adatmappa. Válasszon egyet a következőkből:</string>
-    <string name="file_migration_failed_dir_already_exists">A Nextcloud mappa már létezik</string>
+    <string name="file_migration_failed_dir_already_exists">A Fraylon mappa már létezik</string>
     <string name="file_migration_failed_not_enough_space">Több helyre van szükség</string>
     <string name="file_migration_failed_not_readable">A forrásfájl nem olvasható</string>
     <string name="file_migration_failed_not_writable">A célfájl nem írható</string>
@@ -758,7 +758,7 @@
     <string name="prefs_remove_e2e">Titkosítás eltávolítása helyileg</string>
     <string name="prefs_setup_e2e">Végpontok közti titkosítás beállítása</string>
     <string name="prefs_show_ecosystem_apps">Alkalmazásváltó megjelenítése</string>
-    <string name="prefs_show_ecosystem_apps_summary">Nextcloud alkalmazásjavaslatok a navigációs fejlécben</string>
+    <string name="prefs_show_ecosystem_apps_summary">Fraylon alkalmazásjavaslatok a navigációs fejlécben</string>
     <string name="prefs_show_hidden_files">Rejtett fájlok megjelenítése</string>
     <string name="prefs_sourcecode">Forráskód beszerzése</string>
     <string name="prefs_sycned_folders_summary">Mappák kezelése az automatikus feltöltéshez</string>
@@ -911,7 +911,7 @@
     <string name="show_video">Videók megjelenítése</string>
     <string name="sign_tos_failed">Kézileg nézze meg a szolgáltatási feltételeket!</string>
     <string name="signup_with_provider">Regisztráció egy szolgáltatóval</string>
-    <string name="single_sign_on_request_token" formatted="true">Engedélyezi, hogy a(z) %1$s hozzáférjen a(z) %2$s Nextcloud-fiókjához?</string>
+    <string name="single_sign_on_request_token" formatted="true">Engedélyezi, hogy a(z) %1$s hozzáférjen a(z) %2$s Fraylon-fiókjához?</string>
     <string name="sort_by">Rendezés elve</string>
     <string name="sort_favorites_first">Kedvencek előre rendezése</string>
     <string name="sort_folders_before_files">Mappák fájlok elé rendezése</string>
@@ -960,7 +960,7 @@
 
 Szolgáltatások:
 * Egyszerű, modern felület, mely igazodik a kiszolgáló témájához.
-* Fájlok feltöltése a Nextcloud kiszolgálójára
+* Fájlok feltöltése a Fraylon kiszolgálójára
 * Fájlmegosztás másokkal
 * Kedvenc fájljai és mappái szinkronizálása
 * Keresés a kiszolgáló mappái között
@@ -972,9 +972,9 @@ Szolgáltatások:
 
 Jelentsen minden hibát a https://github.com/nextcloud/android/issues címen, és beszélgessen az alkalmazásról itt: https://help.nextcloud.com/c/clients/android
 
-Új Önnek a Nextcloud? A Nextcloud egy privát fájlszinkronizáló, -megosztó és kommunikációs kiszolgáló. Teljesen szabad szoftver, melyet saját maga is futtathat, vagy fizethet más cégeknek, hogy megtegyék Ön helyett. Segítségével teljesen ura lehet a saját képeinek, naptárainak, névjegyeinek, fájljainak és minden egyebedének.
+Új Önnek a Fraylon? A Fraylon egy privát fájlszinkronizáló, -megosztó és kommunikációs kiszolgáló. Teljesen szabad szoftver, melyet saját maga is futtathat, vagy fizethet más cégeknek, hogy megtegyék Ön helyett. Segítségével teljesen ura lehet a saját képeinek, naptárainak, névjegyeinek, fájljainak és minden egyebedének.
 
-A Nextcloud itt érhető el: https://nextcloud.com</string>
+A Fraylon itt érhető el: https://nextcloud.com</string>
     <string name="store_full_dev_desc">A saját üzemeltetésű irodai platform, amely az Ön kezébe adja az irányítást.\nEz a hivatalos fejlesztői változat, amely napi mintát ad a nem tesztelt, új funkciókról, melyek instabilitást és adatvesztést okozhatnak. Az alkalmazások azoknak a felhasználóknak készült, akik hajlandóak tesztelni, és hibákat bejelenteni, ha azok előfordulnak. Ne használja éles munkához!\n\nMind a hivatalos fejlesztői, mind a szokásos verzió elérhető az F-droidon, és egyszerre is telepíthetőek.</string>
     <string name="store_short_desc">A saját üzemeltetésű irodai platform, amely az Ön kezébe adja az irányítást</string>
     <string name="store_short_dev_desc">A saját üzemeltetésű irodai platform, amely az Ön kezébe adja az irányítást (fejlesztői előzetes verzió)</string>

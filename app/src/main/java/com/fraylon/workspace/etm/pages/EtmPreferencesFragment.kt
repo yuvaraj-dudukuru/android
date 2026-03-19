@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -15,8 +15,8 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import com.fraylon.workspace.etm.EtmBaseFragment
-import com.owncloud.android.R
-import com.owncloud.android.databinding.FragmentEtmPreferencesBinding
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.FragmentEtmPreferencesBinding
 
 class EtmPreferencesFragment : EtmBaseFragment() {
     private var _binding: FragmentEtmPreferencesBinding? = null
@@ -56,7 +56,7 @@ class EtmPreferencesFragment : EtmBaseFragment() {
 
     private fun onClickedShare() {
         val intent = Intent(Intent.ACTION_SEND)
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Nextcloud preferences")
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Fraylon preferences")
         intent.putExtra(Intent.EXTRA_TEXT, binding.etmPreferencesText.text)
         intent.type = "text/plain"
         startActivity(intent)

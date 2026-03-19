@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -13,12 +13,12 @@ import android.os.Build
 import android.provider.MediaStore
 import com.fraylon.workspace.database.dao.FileSystemDao
 import com.fraylon.workspace.database.entity.FilesystemEntity
-import com.nextcloud.utils.extensions.shouldSkipFile
-import com.nextcloud.utils.extensions.toFile
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.utils.extensions.shouldSkipFile
+import com.fraylon.utils.extensions.toFile
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.utils.SyncedFolderUtils
+import com.fraylon.workspace.utils.SyncedFolderUtils
 import java.io.File
 import java.util.zip.CRC32
 

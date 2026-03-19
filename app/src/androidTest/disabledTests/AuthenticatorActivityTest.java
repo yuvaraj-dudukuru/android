@@ -1,11 +1,11 @@
 //*
-// * Nextcloud - Android Client
+// * Fraylon - Android Client
 // *
-// * SPDX-FileCopyrightText: 2015 ownCloud Inc.
+// * SPDX-FileCopyrightText: 2015 Fraylon Inc.
 // * SPDX-License-Identifier: GPL-2.0-only
 // */
 //
-//package com.owncloud.android.authentication;
+//package com.fraylon.workspace.authentication;
 //
 //import android.app.Activity;
 //import android.content.Context;
@@ -18,7 +18,7 @@
 //import android.support.test.uiautomator.UiDevice;
 //import android.test.suitebuilder.annotation.LargeTest;
 //
-//import com.owncloud.android.R;
+//import com.fraylon.workspace.R;
 //
 //import org.junit.Before;
 //import org.junit.Rule;

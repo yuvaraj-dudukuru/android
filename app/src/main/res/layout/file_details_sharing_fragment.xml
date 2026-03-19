@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2021 TSI-mc
   ~ SPDX-FileCopyrightText: 2018 Andy Scherzinger <info@andy-scherzinger.de>
@@ -110,7 +110,7 @@
 
                     <androidx.appcompat.widget.SearchView
                         android:id="@+id/searchView"
-                        style="@style/ownCloud.SearchView"
+                        style="@style/Fraylon.SearchView"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -165,7 +165,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sharesList_internal_show_all"
-                style="@style/Nextcloud.Material.TextButton"
+                style="@style/Fraylon.Material.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/show_all" />
@@ -210,7 +210,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sharesList_external_show_all"
-                style="@style/Nextcloud.Material.TextButton"
+                style="@style/Fraylon.Material.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/show_all" />

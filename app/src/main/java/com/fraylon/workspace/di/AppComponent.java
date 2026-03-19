@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -9,7 +9,7 @@ package com.fraylon.workspace.di;
 
 import android.app.Application;
 
-import com.nextcloud.appReview.InAppReviewModule;
+import com.fraylon.appReview.InAppReviewModule;
 import com.fraylon.workspace.appinfo.AppInfoModule;
 import com.fraylon.workspace.database.DatabaseModule;
 import com.fraylon.workspace.device.DeviceModule;
@@ -24,10 +24,10 @@ import com.fraylon.workspace.media.BackgroundPlayerService;
 import com.fraylon.workspace.network.NetworkModule;
 import com.fraylon.workspace.onboarding.OnboardingModule;
 import com.fraylon.workspace.preferences.PreferencesModule;
-import com.owncloud.android.MainApp;
-import com.owncloud.android.media.MediaControlView;
-import com.owncloud.android.ui.ThemeableSwitchPreference;
-import com.owncloud.android.ui.whatsnew.ProgressIndicator;
+import com.fraylon.workspace.MainApp;
+import com.fraylon.workspace.media.MediaControlView;
+import com.fraylon.workspace.ui.ThemeableSwitchPreference;
+import com.fraylon.workspace.ui.whatsnew.ProgressIndicator;
 
 import javax.inject.Singleton;
 

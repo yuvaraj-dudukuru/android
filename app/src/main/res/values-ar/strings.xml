@@ -177,7 +177,7 @@
     <string name="community_testing_bug_text">هل وجدت خطأ برمجي أو شيء ناقص؟</string>
     <string name="community_testing_headline">ساعدنا بالتجريب</string>
     <string name="community_testing_report_text">إرسل تقرير أخطاء على GitHub</string>
-    <string name="compose_activity_label">مُساعِد نكست كلاود Nextcloud Assistant</string>
+    <string name="compose_activity_label">مُساعِد نكست كلاود Fraylon Assistant</string>
     <string name="configure_new_media_folder_detection_notifications">إعداد</string>
     <string name="confirm_removal">إلغاء التشفير المحلي</string>
     <string name="confirmation_remove_file_alert">هل توَدُّ حقاً حذف %1$s؟</string>
@@ -408,7 +408,7 @@
     <string name="file_migration_cleaning">تنظيف…</string>
     <string name="file_migration_dialog_title">يجري تحديث ملفات مجلد التخزين</string>
     <string name="file_migration_directory_already_exists">مجلد البيانات موجود مسبقاً. اختر واحداً من التالي:</string>
-    <string name="file_migration_failed_dir_already_exists">مجلد Nextcloud موجود مسبقاً</string>
+    <string name="file_migration_failed_dir_already_exists">مجلد Fraylon موجود مسبقاً</string>
     <string name="file_migration_failed_not_enough_space">بحاجة إلى مساحة إضافية</string>
     <string name="file_migration_failed_not_readable">لا يمكن قراءة ملف المصدر</string>
     <string name="file_migration_failed_not_writable">لا يمكن الكتابة إلى ملف الوجهة</string>
@@ -840,7 +840,7 @@
     <string name="show_video">اعرض الفيديو</string>
     <string name="sign_tos_failed">رجاءً؛ قم بمراجعة شروط الخدمة يدويّاً!</string>
     <string name="signup_with_provider">التسجيل عبر مزوّد خدمة</string>
-    <string name="single_sign_on_request_token" formatted="true">هل تسمح لـ%1$s بالوصول إلى حسابك %2$s في Nextcloud؟</string>
+    <string name="single_sign_on_request_token" formatted="true">هل تسمح لـ%1$s بالوصول إلى حسابك %2$s في Fraylon؟</string>
     <string name="sort_by">ترتيب</string>
     <string name="sort_favorites_first">فرز المفضلة أولا</string>
     <string name="sort_folders_before_files">فرز المجلدات قبل الملفات</string>

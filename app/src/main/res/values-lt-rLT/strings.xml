@@ -262,7 +262,7 @@
     <string name="e2e_signature_does_not_match">Parašas nesutampa</string>
     <string name="ecosystem_apps_display_assistant">Asistentas.</string>
     <string name="ecosystem_apps_display_more">Daugiau</string>
-    <string name="ecosystem_apps_more">Daugiau Nextcloud programėlių</string>
+    <string name="ecosystem_apps_more">Daugiau Fraylon programėlių</string>
     <string name="email_pick_failed">Nepavyko pasirinkti el. pašto adreso.</string>
     <string name="encrypted">Nustatyti kaip šifruotą</string>
     <string name="end_to_end_encryption_confirm_button">Nustatyti šifravimą</string>
@@ -349,7 +349,7 @@
     <string name="file_migration_cleaning">Išvaloma…</string>
     <string name="file_migration_dialog_title">Atnaujinamas duomenų saugyklos aplankas</string>
     <string name="file_migration_directory_already_exists">Duomenų aplankas jau yra. Pasirinkite vieną iš šių:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud aplankas jau yra</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon aplankas jau yra</string>
     <string name="file_migration_failed_not_enough_space">Reikia daugiau vietos</string>
     <string name="file_migration_failed_not_readable">Nepavyko perskaityti šaltinio failo</string>
     <string name="file_migration_failed_not_writable">Nepavyko rašyti į paskirties failą</string>
@@ -701,7 +701,7 @@
     <string name="show_less">Rodyti mažiau</string>
     <string name="show_video">Rodyti vaizdo įrašus</string>
     <string name="signup_with_provider">Registruotis su tiekėju</string>
-    <string name="single_sign_on_request_token" formatted="true">Leisti %1$s gauti prieigą prie jūsų Nextcloud paskyros %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Leisti %1$s gauti prieigą prie jūsų Fraylon paskyros %2$s?</string>
     <string name="sort_by">Rikiuoti pagal</string>
     <string name="ssl_validator_btn_details_hide">Slėpti</string>
     <string name="ssl_validator_btn_details_see">Informacija</string>

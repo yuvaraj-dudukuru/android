@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2017-2025 Andy Scherzinger <info@andy-scherzinger>
   ~ SPDX-FileCopyrightText: 2018-2020 Tobias Kaminsky <tobias@kaminsky.me>
@@ -34,7 +34,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sort_button"
-                style="@style/Nextcloud.Material.TextButton"
+                style="@style/Fraylon.Material.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="7dp"

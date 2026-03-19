@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -17,9 +17,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.fraylon.workspace.di.ViewModelFactory
-import com.owncloud.android.R
-import com.owncloud.android.databinding.LogsActivityBinding
-import com.owncloud.android.ui.activity.ToolbarActivity
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.LogsActivityBinding
+import com.fraylon.workspace.ui.activity.ToolbarActivity
 import javax.inject.Inject
 
 class LogsActivity : ToolbarActivity() {

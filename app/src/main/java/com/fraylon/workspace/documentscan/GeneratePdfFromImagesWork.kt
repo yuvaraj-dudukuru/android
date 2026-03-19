@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.documentscan
@@ -20,12 +20,12 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.fraylon.workspace.jobs.upload.FileUploadWorker
 import com.fraylon.workspace.logger.Logger
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.files.services.NameCollisionPolicy
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.files.services.NameCollisionPolicy
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import java.io.File
 import java.security.SecureRandom
 

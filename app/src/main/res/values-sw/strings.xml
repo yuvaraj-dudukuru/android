@@ -200,7 +200,7 @@
     <string name="community_testing_bug_text">Je, umepata mdudu? Odds?</string>
     <string name="community_testing_headline">Msaada kwa kupima</string>
     <string name="community_testing_report_text">Ripoti suala kwenye GitHub</string>
-    <string name="compose_activity_label">Msaidizi wa Nextcloud</string>
+    <string name="compose_activity_label">Msaidizi wa Fraylon</string>
     <string name="configure_new_media_folder_detection_notifications">Sanidi</string>
     <string name="confirm_removal">Ondoa usimbaji fiche wa ndani</string>
     <string name="confirmation_remove_file_alert">Je, kweli unataka kufuta %1$s?</string>
@@ -336,7 +336,7 @@
     <string name="e2e_signature_is_empty">Haikuweza kuthibitisha metadata, sahihi ni tupu.</string>
     <string name="ecosystem_apps_display_assistant">Msaidizi</string>
     <string name="ecosystem_apps_display_more">Zaidi</string>
-    <string name="ecosystem_apps_more">Programu zaidi za Nextcloud</string>
+    <string name="ecosystem_apps_more">Programu zaidi za Fraylon</string>
     <string name="editor_web_view_cannot_open_file">Haiwezi kufungua kichagua faili</string>
     <string name="email_pick_failed">Imeshindwa kuchagua anwani ya barua pepe.</string>
     <string name="encrypted">Weka kama iliyosimbwa</string>
@@ -456,7 +456,7 @@
     <string name="file_migration_cleaning">Inasafisha...</string>
     <string name="file_migration_dialog_title">Inasasisha folda ya hifadhi ya data</string>
     <string name="file_migration_directory_already_exists">Folda ya data tayari ipo. Chagua mojawapo ya yafuatayo:</string>
-    <string name="file_migration_failed_dir_already_exists">Folda ya Nextcloud tayari ipo</string>
+    <string name="file_migration_failed_dir_already_exists">Folda ya Fraylon tayari ipo</string>
     <string name="file_migration_failed_not_enough_space">Nafasi zaidi inahitajika</string>
     <string name="file_migration_failed_not_readable">Haikuweza kusoma faili chanzo</string>
     <string name="file_migration_failed_not_writable">Haikuweza kuandika kwa faili lengwa</string>
@@ -762,7 +762,7 @@
     <string name="prefs_remove_e2e">Ondoa usimbaji fiche ndani</string>
     <string name="prefs_setup_e2e">Sanidi usimbaji fiche kutoka mwisho hadi mwisho</string>
     <string name="prefs_show_ecosystem_apps">Onesha kibadilisha programu</string>
-    <string name="prefs_show_ecosystem_apps_summary">Mapendekezo ya programu ya Nextcloud katika kichwa cha urambazaji</string>
+    <string name="prefs_show_ecosystem_apps_summary">Mapendekezo ya programu ya Fraylon katika kichwa cha urambazaji</string>
     <string name="prefs_show_hidden_files">Onesha mafaili yaliyofichwa</string>
     <string name="prefs_sourcecode">Pata msimbo wa chanzo</string>
     <string name="prefs_sycned_folders_summary">Dhibiti folda za upakiaji otomatiki</string>
@@ -915,7 +915,7 @@
     <string name="show_video">Onesha video</string>
     <string name="sign_tos_failed">Tafadhali angalia sheria na masharti ya huduma!</string>
     <string name="signup_with_provider">Jisajili na mtoa huduma</string>
-    <string name="single_sign_on_request_token" formatted="true">Ruhusu %1$s kufikia akaunti yako ya Nextcloud %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Ruhusu %1$s kufikia akaunti yako ya Fraylon %2$s?</string>
     <string name="sort_by">Panga kwa </string>
     <string name="sort_favorites_first">Chagua za upendeleo kwanza</string>
     <string name="sort_folders_before_files">Chagua vikasha kabla ya mafaili</string>
@@ -960,7 +960,7 @@
     <string name="storage_permission_dont_ask">Usiulize</string>
     <string name="storage_permission_media_read_only">Vyombo vya habari vya kusoma pekee</string>
     <string name="storage_pictures">Picha</string>
-    <string name="store_full_desc">Mfumo wa tija unaojiendesha unaokuweka katika udhibiti.\n\nVipengele:\n* Kiolesura rahisi, cha kisasa, kinacholingana na mandhari ya seva yako\n* Pakia faili kwenye seva yako ya Nextcloud\n* Zishiriki na wengine\n* Weka faili na folda zako uzipendazo zisawazishwe\n* Tafuta kwenye folda zote kwenye seva yako\n* Pakia Kiotomatiki kwa picha na video zilizochukuliwa na kifaa chako* Usaidizi wa data nyingi\n* Linda ufikiaji salama wa data yako ukitumia alama za vidole au PIN\n* Kuunganishwa na DAVx⁵ (zamani ikijulikana kama DAVdroid) kwa usanidi rahisi wa kalenda na ulandanishi wa anwani\n\nTafadhali ripoti matatizo yote katika https://github.com/nextcloud/android/issues na ujadili programu hii kwenye https://help.nextclouds/android/Nextclouds/android? Nextcloud ni upatanishi wa faili binafsi na seva ya kushiriki na mawasiliano. Ni programu isiyolipishwa, na unaweza kuikaribisha wewe mwenyewe au kulipa kampuni ili ikufanyie hivyo. Kwa njia hiyo, unadhibiti picha zako, kalenda na data yako ya mawasiliano, hati zako na kila kitu kingine.\n\nAngalia Nextcloud katika https://nextcloud.com</string>
+    <string name="store_full_desc">Mfumo wa tija unaojiendesha unaokuweka katika udhibiti.\n\nVipengele:\n* Kiolesura rahisi, cha kisasa, kinacholingana na mandhari ya seva yako\n* Pakia faili kwenye seva yako ya Fraylon\n* Zishiriki na wengine\n* Weka faili na folda zako uzipendazo zisawazishwe\n* Tafuta kwenye folda zote kwenye seva yako\n* Pakia Kiotomatiki kwa picha na video zilizochukuliwa na kifaa chako* Usaidizi wa data nyingi\n* Linda ufikiaji salama wa data yako ukitumia alama za vidole au PIN\n* Kuunganishwa na DAVx⁵ (zamani ikijulikana kama DAVdroid) kwa usanidi rahisi wa kalenda na ulandanishi wa anwani\n\nTafadhali ripoti matatizo yote katika https://github.com/nextcloud/android/issues na ujadili programu hii kwenye https://help.nextclouds/android/Fraylons/android? Fraylon ni upatanishi wa faili binafsi na seva ya kushiriki na mawasiliano. Ni programu isiyolipishwa, na unaweza kuikaribisha wewe mwenyewe au kulipa kampuni ili ikufanyie hivyo. Kwa njia hiyo, unadhibiti picha zako, kalenda na data yako ya mawasiliano, hati zako na kila kitu kingine.\n\nAngalia Fraylon katika https://nextcloud.com</string>
     <string name="store_full_dev_desc">Mfumo wa tija unaojipangisha unaokuweka katika udhibiti.\nHili ni toleo rasmi la usanidi, linaloangazia sampuli ya kila siku ya utendakazi wowote mpya ambao haujajaribiwa, ambao unaweza kusababisha kukosekana kwa uthabiti na kupoteza data. Programu ni ya watumiaji walio tayari kufanya majaribio, na kuripoti hitilafu iwapo zitatokea. Usiitumie kwa kazi yako ya uzalishaji!\n\nToleo rasmi la dev na la kawaida linapatikana kwenye F-droid, na linaweza kusakinishwa kwa wakati mmoja.</string>
     <string name="store_short_desc">Jukwaa la tija linalojipangisha mwenyewe ambalo hukuweka katika udhibiti</string>
     <string name="store_short_dev_desc">Jukwaa la tija linalojipangisha mwenyewe ambalo hukuweka katika udhibiti (toleo la onyesho la kukagua dev)</string>

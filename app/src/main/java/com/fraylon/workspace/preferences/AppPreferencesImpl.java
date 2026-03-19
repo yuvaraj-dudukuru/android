@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 TSI-mc
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
@@ -17,18 +17,18 @@ import android.content.res.Configuration;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import com.nextcloud.appReview.AppReviewShownModel;
+import com.fraylon.appReview.AppReviewShownModel;
 import com.fraylon.workspace.account.User;
 import com.fraylon.workspace.account.UserAccountManager;
 import com.fraylon.workspace.account.UserAccountManagerImpl;
 import com.fraylon.workspace.jobs.LogEntry;
-import com.owncloud.android.datamodel.ArbitraryDataProvider;
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl;
-import com.owncloud.android.datamodel.FileDataStorageManager;
-import com.owncloud.android.datamodel.OCFile;
-import com.owncloud.android.ui.activity.PassCodeActivity;
-import com.owncloud.android.ui.activity.SettingsActivity;
-import com.owncloud.android.utils.FileSortOrder;
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider;
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl;
+import com.fraylon.workspace.datamodel.FileDataStorageManager;
+import com.fraylon.workspace.datamodel.OCFile;
+import com.fraylon.workspace.ui.activity.PassCodeActivity;
+import com.fraylon.workspace.ui.activity.SettingsActivity;
+import com.fraylon.workspace.utils.FileSortOrder;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -39,7 +39,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import static com.owncloud.android.ui.fragment.OCFileListFragment.FOLDER_LAYOUT_LIST;
+import static com.fraylon.workspace.ui.fragment.OCFileListFragment.FOLDER_LAYOUT_LIST;
 import static java.util.Collections.emptyList;
 
 /**

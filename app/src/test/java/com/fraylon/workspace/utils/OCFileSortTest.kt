@@ -1,15 +1,15 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
  * SPDX-FileCopyrightText: 2017 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2017 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2017 Fraylon GmbH
  * SPDX-License-Identifier: MIT
  */
 package com.fraylon.workspace.utils
 
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.utils.FileSortOrder
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.utils.FileSortOrder
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith

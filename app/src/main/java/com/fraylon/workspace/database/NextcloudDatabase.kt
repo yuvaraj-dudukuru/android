@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database
@@ -43,8 +43,8 @@ import com.fraylon.workspace.database.migrations.Migration67to68
 import com.fraylon.workspace.database.migrations.RoomMigration
 import com.fraylon.workspace.database.migrations.addLegacyMigrations
 import com.fraylon.workspace.database.typeConverter.OfflineOperationTypeConverter
-import com.owncloud.android.MainApp
-import com.owncloud.android.db.ProviderMeta
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.db.ProviderMeta
 
 @Database(
     entities = [
@@ -100,7 +100,7 @@ import com.owncloud.android.db.ProviderMeta
 )
 @Suppress("Detekt.UnnecessaryAbstractClass") // needed by Room
 @TypeConverters(OfflineOperationTypeConverter::class)
-abstract class NextcloudDatabase : RoomDatabase() {
+abstract class FraylonDatabase : RoomDatabase() {
 
     abstract fun arbitraryDataDao(): ArbitraryDataDao
     abstract fun fileDao(): FileDao
@@ -114,18 +114,18 @@ abstract class NextcloudDatabase : RoomDatabase() {
 
     companion object {
         const val FIRST_ROOM_DB_VERSION = 65
-        private var instance: NextcloudDatabase? = null
+        private var instance: FraylonDatabase? = null
 
         @JvmStatic
         @Suppress("DeprecatedCallableAddReplaceWith")
         @Deprecated("Here for legacy purposes, inject this class or use getInstance(context, clock) instead")
-        fun getInstance(context: Context): NextcloudDatabase = getInstance(context, ClockImpl())
+        fun getInstance(context: Context): FraylonDatabase = getInstance(context, ClockImpl())
 
         @JvmStatic
-        fun getInstance(context: Context, clock: Clock): NextcloudDatabase {
+        fun getInstance(context: Context, clock: Clock): FraylonDatabase {
             if (instance == null) {
                 instance = Room
-                    .databaseBuilder(context, NextcloudDatabase::class.java, ProviderMeta.DB_NAME)
+                    .databaseBuilder(context, FraylonDatabase::class.java, ProviderMeta.DB_NAME)
                     .allowMainThreadQueries()
                     .addTypeConverter(OfflineOperationTypeConverter())
                     .addLegacyMigrations(clock, context)
@@ -140,6 +140,6 @@ abstract class NextcloudDatabase : RoomDatabase() {
 
         @Suppress("DEPRECATION")
         @JvmStatic
-        fun instance(): NextcloudDatabase = getInstance(MainApp.getAppContext())
+        fun instance(): FraylonDatabase = getInstance(MainApp.getAppContext())
     }
 }

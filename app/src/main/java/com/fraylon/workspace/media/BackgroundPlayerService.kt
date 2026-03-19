@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2024 Parneet Singh <gurayaparneet@gmail.com>
@@ -41,15 +41,15 @@ import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.di.Injectable
-import com.fraylon.workspace.media.NextcloudExoPlayer.createNextcloudExoplayer
+import com.fraylon.workspace.media.FraylonExoPlayer.createFraylonExoplayer
 import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.common.NextcloudClient
-import com.nextcloud.utils.extensions.registerBroadcastReceiver
-import com.owncloud.android.MainApp
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ReceiverFlag
+import com.fraylon.utils.extensions.registerBroadcastReceiver
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ReceiverFlag
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.notifications.NotificationUtils
+import com.fraylon.workspace.ui.notifications.NotificationUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -163,7 +163,7 @@ class BackgroundPlayerService :
                     clientFactory.createNextcloudClient(userAccountManager.user)
                 }
 
-                val realPlayer = createNextcloudExoplayer(this@BackgroundPlayerService, nextcloudClient)
+                val realPlayer = createFraylonExoplayer(this@BackgroundPlayerService, nextcloudClient)
                 exoPlayer.release()
                 exoPlayer = realPlayer
                 isPlayerReady = true
@@ -171,7 +171,7 @@ class BackgroundPlayerService :
                 // Update the session to use the real player
                 mediaSession?.player = realPlayer
             } catch (e: Exception) {
-                Log_OC.e(TAG, "Failed to initialise Nextcloud ExoPlayer: ${e.message}")
+                Log_OC.e(TAG, "Failed to initialise Fraylon ExoPlayer: ${e.message}")
                 stopSelf()
             }
         }

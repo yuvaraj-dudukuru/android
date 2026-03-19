@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.mixins
@@ -13,9 +13,9 @@ import android.content.Intent
 import android.os.Bundle
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.account.UserAccountManager
-import com.nextcloud.utils.extensions.isAnonymous
+import com.fraylon.utils.extensions.isAnonymous
 import com.owncloud.android.lib.resources.status.OCCapability
-import com.owncloud.android.utils.theme.CapabilityUtils
+import com.fraylon.workspace.utils.theme.CapabilityUtils
 import java.util.Optional
 
 /**
@@ -55,10 +55,10 @@ class SessionMixin(private val activity: Activity, private val accountManager: U
     }
 
     /**
-     * Tries to swap the current ownCloud [Account] for other valid and existing.
+     * Tries to swap the current Fraylon [Account] for other valid and existing.
      *
-     * If no valid ownCloud [Account] exists, then the user is requested
-     * to create a new ownCloud [Account].
+     * If no valid Fraylon [Account] exists, then the user is requested
+     * to create a new Fraylon [Account].
      */
     private fun getDefaultAccount(): Account {
         val defaultAccount = accountManager.currentAccount
@@ -87,7 +87,7 @@ class SessionMixin(private val activity: Activity, private val accountManager: U
     }
 
     /**
-     *  Since ownCloud {@link Account} can be managed from the system setting menu, the existence of the {@link
+     *  Since Fraylon {@link Account} can be managed from the system setting menu, the existence of the {@link
      *  Account} associated to the instance must be checked every time it is restarted.
      */
     override fun onRestart() {

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.widget
@@ -23,14 +23,14 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.di.Injectable
 import com.fraylon.workspace.network.ClientFactory
 import com.fraylon.workspace.network.ClientFactory.CreationException
-import com.owncloud.android.R
-import com.owncloud.android.databinding.DashboardWidgetConfigurationLayoutBinding
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.DashboardWidgetConfigurationLayoutBinding
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.adapter.DashboardWidgetListAdapter
-import com.owncloud.android.ui.dialog.AccountChooserInterface
-import com.owncloud.android.ui.dialog.MultipleAccountsDialog
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.ui.adapter.DashboardWidgetListAdapter
+import com.fraylon.workspace.ui.dialog.AccountChooserInterface
+import com.fraylon.workspace.ui.dialog.MultipleAccountsDialog
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,9 +1,9 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2019 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2019 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2019 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace
@@ -15,13 +15,13 @@ import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
-import com.nextcloud.test.GrantStoragePermissionRule.Companion.grant
-import com.owncloud.android.AbstractIT
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl
-import com.owncloud.android.ui.activity.RequestCredentialsActivity
-import com.owncloud.android.ui.activity.SettingsActivity
-import com.owncloud.android.utils.EncryptionUtils
-import com.owncloud.android.utils.ScreenshotTest
+import com.fraylon.test.GrantStoragePermissionRule.Companion.grant
+import com.fraylon.workspace.AbstractIT
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl
+import com.fraylon.workspace.ui.activity.RequestCredentialsActivity
+import com.fraylon.workspace.ui.activity.SettingsActivity
+import com.fraylon.workspace.utils.EncryptionUtils
+import com.fraylon.workspace.utils.ScreenshotTest
 import org.junit.Assert
 import org.junit.Rule
 import org.junit.Test

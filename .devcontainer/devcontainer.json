@@ -1,4 +1,4 @@
 {
-	"name": "NextcloudAndroid",
+	"name": "FraylonAndroid",
 	"dockerFile": "Dockerfile",
 }

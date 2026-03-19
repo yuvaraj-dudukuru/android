@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
@@ -24,17 +24,17 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.appinfo.AppInfo
 import com.fraylon.workspace.di.Injectable
 import com.fraylon.workspace.preferences.AppPreferences
-import com.nextcloud.utils.mdm.MDMConfig
-import com.owncloud.android.BuildConfig
-import com.owncloud.android.R
-import com.owncloud.android.authentication.AuthenticatorActivity
-import com.owncloud.android.databinding.FirstRunActivityBinding
-import com.owncloud.android.features.FeatureItem
-import com.owncloud.android.ui.activity.BaseActivity
-import com.owncloud.android.ui.activity.FileDisplayActivity
-import com.owncloud.android.ui.adapter.FeaturesViewAdapter
-import com.owncloud.android.utils.DisplayUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.utils.mdm.MDMConfig
+import com.fraylon.workspace.BuildConfig
+import com.fraylon.workspace.R
+import com.fraylon.workspace.authentication.AuthenticatorActivity
+import com.fraylon.workspace.databinding.FirstRunActivityBinding
+import com.fraylon.workspace.features.FeatureItem
+import com.fraylon.workspace.ui.activity.BaseActivity
+import com.fraylon.workspace.ui.activity.FileDisplayActivity
+import com.fraylon.workspace.ui.adapter.FeaturesViewAdapter
+import com.fraylon.workspace.utils.DisplayUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import javax.inject.Inject
 
 /**

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -53,8 +53,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.fraylon.workspace.assistant.conversation.model.ConversationScreenState
-import com.nextcloud.ui.composeComponents.bottomSheet.MoreActionsBottomSheet
-import com.owncloud.android.R
+import com.fraylon.ui.composeComponents.bottomSheet.MoreActionsBottomSheet
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.chat.model.Conversation
 
 @OptIn(ExperimentalMaterial3Api::class)

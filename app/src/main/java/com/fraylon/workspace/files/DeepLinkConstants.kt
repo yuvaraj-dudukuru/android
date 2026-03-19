@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 TSI-mc <surinder.kumar@t-systems.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 
 package com.fraylon.workspace.files
 
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 
 enum class DeepLinkConstants(val route: String, val navId: Int) {
     OPEN_FILES("openFiles", R.id.nav_all_files),

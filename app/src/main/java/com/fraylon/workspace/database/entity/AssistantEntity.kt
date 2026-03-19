@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -9,7 +9,7 @@ package com.fraylon.workspace.database.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.owncloud.android.db.ProviderMeta
+import com.fraylon.workspace.db.ProviderMeta
 
 @Entity(tableName = ProviderMeta.ProviderTableMeta.ASSISTANT_TABLE_NAME)
 data class AssistantEntity(

@@ -1,17 +1,17 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.di
 
 import com.nextcloud.android.common.ui.theme.MaterialSchemes
-import com.owncloud.android.utils.theme.MaterialSchemesProvider
-import com.owncloud.android.utils.theme.MaterialSchemesProviderImpl
-import com.owncloud.android.utils.theme.ThemeColorUtils
-import com.owncloud.android.utils.theme.ThemeUtils
+import com.fraylon.workspace.utils.theme.MaterialSchemesProvider
+import com.fraylon.workspace.utils.theme.MaterialSchemesProviderImpl
+import com.fraylon.workspace.utils.theme.ThemeColorUtils
+import com.fraylon.workspace.utils.theme.ThemeUtils
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

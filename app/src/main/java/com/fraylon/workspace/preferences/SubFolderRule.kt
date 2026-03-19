@@ -1,9 +1,9 @@
 /*
- * Nextcloud Android client application
+ * Fraylon Android client application
  *
  * @author Dean Birch
  * Copyright (C) 2023 Dean Birch
- * Copyright (C) 2023 Nextcloud GmbH
+ * Copyright (C) 2023 Fraylon GmbH
  *
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */

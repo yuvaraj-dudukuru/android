@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -9,9 +9,9 @@ package com.fraylon.workspace.jobs.autoUpload
 
 import android.provider.MediaStore
 import androidx.core.net.toUri
-import com.nextcloud.utils.extensions.toLocalPath
-import com.owncloud.android.datamodel.MediaFolderType
-import com.owncloud.android.datamodel.SyncedFolder
+import com.fraylon.utils.extensions.toLocalPath
+import com.fraylon.workspace.datamodel.MediaFolderType
+import com.fraylon.workspace.datamodel.SyncedFolder
 import com.owncloud.android.lib.common.utils.Log_OC
 import java.io.IOException
 import java.nio.file.AccessDeniedException

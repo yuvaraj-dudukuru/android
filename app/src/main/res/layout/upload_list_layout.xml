@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2017-2020 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-FileCopyrightText: 2016-2018 Andy Scherzinger <info@andy-scherzinger>
-  ~ SPDX-FileCopyrightText: 2016 ownCloud Inc.
+  ~ SPDX-FileCopyrightText: 2016 Fraylon Inc.
   ~ SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
 -->
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -34,7 +34,7 @@
                 android:footerDividersEnabled="false"
                 android:visibility="visible">
 
-                <com.owncloud.android.ui.EmptyRecyclerView
+                <com.fraylon.workspace.ui.EmptyRecyclerView
                     android:id="@android:id/list"
                     android:padding="@dimen/standard_half_padding"
                     android:layout_width="match_parent"

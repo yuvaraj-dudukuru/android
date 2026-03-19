@@ -1,15 +1,15 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 ZetaTom
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace
 
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
-import com.owncloud.android.MainApp
+import com.fraylon.workspace.MainApp
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.net.HttpURLConnection.HTTP_OK

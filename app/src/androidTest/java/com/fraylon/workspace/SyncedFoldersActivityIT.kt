@@ -1,9 +1,9 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2020 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace
@@ -17,13 +17,13 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import com.fraylon.workspace.preferences.SubFolderRule
-import com.owncloud.android.AbstractIT
-import com.owncloud.android.datamodel.MediaFolderType
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.datamodel.SyncedFolderDisplayItem
-import com.owncloud.android.ui.activity.SyncedFoldersActivity
-import com.owncloud.android.ui.dialog.SyncedFolderPreferencesDialogFragment.Companion.newInstance
-import com.owncloud.android.utils.ScreenshotTest
+import com.fraylon.workspace.AbstractIT
+import com.fraylon.workspace.datamodel.MediaFolderType
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.datamodel.SyncedFolderDisplayItem
+import com.fraylon.workspace.ui.activity.SyncedFoldersActivity
+import com.fraylon.workspace.ui.dialog.SyncedFolderPreferencesDialogFragment.Companion.newInstance
+import com.fraylon.workspace.utils.ScreenshotTest
 import org.junit.Test
 
 class SyncedFoldersActivityIT : AbstractIT() {

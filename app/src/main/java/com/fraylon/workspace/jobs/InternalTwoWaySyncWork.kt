@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Tobias Kaminsky <tobias.kaminsky@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -14,12 +14,12 @@ import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.preferences.AppPreferences
-import com.owncloud.android.MainApp
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.SynchronizeFolderOperation
-import com.owncloud.android.utils.FileStorageUtils
+import com.fraylon.workspace.operations.SynchronizeFolderOperation
+import com.fraylon.workspace.utils.FileStorageUtils
 import java.io.File
 
 @Suppress("Detekt.NestedBlockDepth", "ReturnCount", "LongParameterList")

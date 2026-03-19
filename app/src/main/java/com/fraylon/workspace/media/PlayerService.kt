@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -18,15 +18,15 @@ import androidx.core.app.NotificationCompat
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.network.ClientFactory
-import com.nextcloud.utils.ForegroundServiceHelper
-import com.nextcloud.utils.extensions.getParcelableArgument
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ForegroundServiceType
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.utils.ForegroundServiceHelper
+import com.fraylon.utils.extensions.getParcelableArgument
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ForegroundServiceType
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.ui.preview.PreviewMediaActivity
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.ui.preview.PreviewMediaActivity
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import dagger.android.AndroidInjection
 import java.util.Locale
 import javax.inject.Inject

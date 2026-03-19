@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 
 package com.fraylon.workspace.assistant.translate
 
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.v2.model.TaskTypeData
 import com.owncloud.android.lib.resources.assistant.v2.model.toTranslationLanguages
 

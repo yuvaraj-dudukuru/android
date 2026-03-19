@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs
@@ -19,15 +19,15 @@ import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.jobs.download.FileDownloadHelper
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadType
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.FileExportUtils
-import com.owncloud.android.utils.FileStorageUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.DownloadType
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.FileExportUtils
+import com.fraylon.workspace.utils.FileStorageUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import java.security.SecureRandom
 
 class FilesExportWork(

@@ -12,7 +12,7 @@ import android.graphics.Bitmap;
 import android.os.RemoteException;
 import android.provider.ContactsContract;
 
-import com.nextcloud.utils.GlideHelper;
+import com.fraylon.utils.GlideHelper;
 import com.owncloud.android.lib.common.utils.Log_OC;
 
 import java.io.ByteArrayOutputStream;

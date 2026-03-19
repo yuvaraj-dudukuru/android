@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.upload
@@ -23,17 +23,17 @@ import com.fraylon.workspace.jobs.upload.FileUploadWorker.Companion.currentUploa
 import com.fraylon.workspace.network.Connectivity
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.notifications.AppWideNotificationManager
-import com.nextcloud.utils.extensions.checkWCFRestrictions
-import com.nextcloud.utils.extensions.getUploadIds
-import com.owncloud.android.MainApp
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.datamodel.UploadsStorageManager.UploadStatus
-import com.owncloud.android.db.OCUpload
-import com.owncloud.android.db.UploadResult
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.utils.extensions.checkWCFRestrictions
+import com.fraylon.utils.extensions.getUploadIds
+import com.fraylon.workspace.MainApp
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.datamodel.UploadsStorageManager.UploadStatus
+import com.fraylon.workspace.db.OCUpload
+import com.fraylon.workspace.db.UploadResult
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.network.OnDatatransferProgressListener
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
@@ -41,10 +41,10 @@ import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.files.ReadFileRemoteOperation
 import com.owncloud.android.lib.resources.files.model.RemoteFile
 import com.owncloud.android.lib.resources.status.OCCapability
-import com.owncloud.android.operations.RemoveFileOperation
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.utils.DisplayUtils
-import com.owncloud.android.utils.FileUtil
+import com.fraylon.workspace.operations.RemoveFileOperation
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.utils.DisplayUtils
+import com.fraylon.workspace.utils.FileUtil
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

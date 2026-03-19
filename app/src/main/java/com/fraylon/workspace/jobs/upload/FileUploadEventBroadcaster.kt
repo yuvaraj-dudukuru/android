@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2026 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2026 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.upload
@@ -12,7 +12,7 @@ import android.content.Intent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.UploadFileOperation
+import com.fraylon.workspace.operations.UploadFileOperation
 
 /**
  * Manages local broadcasts related to file upload lifecycle events.
@@ -47,7 +47,7 @@ class FileUploadEventBroadcaster(private val broadcastManager: LocalBroadcastMan
      * - [UploadFileOperation] added
      *
      *  ### Observed by
-     *  - [com.owncloud.android.ui.activity.UploadListActivity.UploadFinishReceiver]
+     *  - [com.fraylon.workspace.ui.activity.UploadListActivity.UploadFinishReceiver]
      *
      */
     fun sendUploadEnqueued(context: Context) {
@@ -66,7 +66,7 @@ class FileUploadEventBroadcaster(private val broadcastManager: LocalBroadcastMan
      * - [UploadFileOperation] started
      *
      *  ### Observed by
-     *  - [com.owncloud.android.ui.activity.UploadListActivity.UploadFinishReceiver]
+     *  - [com.fraylon.workspace.ui.activity.UploadListActivity.UploadFinishReceiver]
      *
      */
     fun sendUploadStarted(upload: UploadFileOperation, context: Context) {
@@ -89,8 +89,8 @@ class FileUploadEventBroadcaster(private val broadcastManager: LocalBroadcastMan
      * - [UploadFileOperation] completes execution
      *
      *  ### Observed by
-     *  - [com.owncloud.android.ui.activity.FileDisplayActivity.FileUploadCompletedReceiver]
-     *  - [com.owncloud.android.ui.activity.UploadListActivity.UploadFinishReceiver]
+     *  - [com.fraylon.workspace.ui.activity.FileDisplayActivity.FileUploadCompletedReceiver]
+     *  - [com.fraylon.workspace.ui.activity.UploadListActivity.UploadFinishReceiver]
      *
      */
     fun sendUploadCompleted(upload: UploadFileOperation, uploadResult: RemoteOperationResult<*>, context: Context) {

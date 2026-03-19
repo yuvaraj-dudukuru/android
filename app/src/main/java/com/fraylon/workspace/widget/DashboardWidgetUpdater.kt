@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.widget
@@ -20,10 +20,10 @@ import com.bumptech.glide.request.target.AppWidgetTarget
 import com.nextcloud.android.lib.resources.dashboard.DashboardButton
 import com.fraylon.workspace.account.CurrentAccountProvider
 import com.fraylon.workspace.network.ClientFactory
-import com.nextcloud.utils.GlideHelper
-import com.owncloud.android.R
+import com.fraylon.utils.GlideHelper
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
-import com.owncloud.android.utils.BitmapUtils
+import com.fraylon.workspace.utils.BitmapUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

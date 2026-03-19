@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2017-2022 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
-  ~ SPDX-FileCopyrightText: 2012-2013 ownCloud Inc.
+  ~ SPDX-FileCopyrightText: 2012-2013 Fraylon Inc.
   ~ SPDX-FileCopyrightText: 2012 Bartosz Przybylski
   ~ SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
 -->
@@ -25,7 +25,7 @@
 	<PreferenceCategory
 		android:title="@string/drawer_synced_folders"
 		android:key="synced_folders_category">
-		<com.owncloud.android.ui.ThemeableSwitchPreference
+		<com.fraylon.workspace.ui.ThemeableSwitchPreference
 			android:title="@string/auto_upload_on_wifi"
 			android:key="synced_folder_on_wifi"/>
         <Preference
@@ -37,14 +37,14 @@
     <PreferenceCategory
         android:title="@string/prefs_category_files"
         android:key="files">
-        <com.owncloud.android.ui.ThemeableSwitchPreference
+        <com.fraylon.workspace.ui.ThemeableSwitchPreference
             android:title="@string/prefs_show_hidden_files"
             android:key="show_hidden_files" />
-        <com.owncloud.android.ui.ThemeableSwitchPreference
+        <com.fraylon.workspace.ui.ThemeableSwitchPreference
             android:defaultValue="true"
             android:title="@string/sort_folders_before_files"
             android:key="sort_folders_before_files" />
-        <com.owncloud.android.ui.ThemeableSwitchPreference
+        <com.fraylon.workspace.ui.ThemeableSwitchPreference
             android:defaultValue="true"
             android:title="@string/sort_favorites_first"
             android:key="sort_favorites_first" />
@@ -56,12 +56,12 @@
 			android:key="lock"
 			android:dialogTitle="@string/prefs_lock_title"
 			android:defaultValue="none"/>
-        <com.owncloud.android.ui.ThemeableSwitchPreference
+        <com.fraylon.workspace.ui.ThemeableSwitchPreference
             android:defaultValue="true"
             android:title="@string/prefs_show_ecosystem_apps"
             android:key="show_ecosystem_apps"
             android:summary="@string/prefs_show_ecosystem_apps_summary"/>
-        <com.owncloud.android.ui.ThemeableSwitchPreference
+        <com.fraylon.workspace.ui.ThemeableSwitchPreference
             android:title="@string/prefs_enable_media_scan_notifications"
             android:summary="@string/prefs_enable_media_scan_notifications_summary"
             android:key="show_media_scan_notifications"/>

@@ -1,0 +1,47 @@
+/*
+ * Fraylon - Android Client
+ *
+ * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
+ * SPDX-FileCopyrightText: 2017 Mario Danic <mario@lovelyhq.com>
+ * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
+ */
+package com.fraylon.workspace.utils;
+
+import android.content.Context;
+
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.preferences.AppPreferencesImpl;
+import com.fraylon.workspace.MainApp;
+import com.fraylon.workspace.datamodel.SignatureVerification;
+
+import java.security.Key;
+
+public final class PushUtils {
+    public static final String KEY_PUSH = "push";
+
+    private PushUtils() {
+    }
+
+    public static void pushRegistrationToServer(final UserAccountManager accountManager, final String pushToken) {
+        // do nothing
+    }
+
+    public static void reinitKeys(UserAccountManager accountManager) {
+        Context context = MainApp.getAppContext();
+        AppPreferencesImpl.fromContext(context).setKeysReInitEnabled();
+    }
+
+    public static Key readKeyFromFile(boolean readPublicKey) {
+        return null;
+    }
+
+    public static SignatureVerification verifySignature(
+        final Context context,
+        final UserAccountManager accountManager,
+        final byte[] signatureBytes,
+        final byte[] subjectBytes
+                                                       ) {
+        return null;
+    }
+
+}

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.media
@@ -16,9 +16,9 @@ import androidx.media3.datasource.okhttp.OkHttpDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import com.nextcloud.common.NextcloudClient
-import com.owncloud.android.MainApp
+import com.fraylon.workspace.MainApp
 
-object NextcloudExoPlayer {
+object FraylonExoPlayer {
     private const val FIVE_SECONDS_IN_MILLIS = 5000L
 
     /**
@@ -28,7 +28,7 @@ object NextcloudExoPlayer {
      */
     @OptIn(UnstableApi::class)
     @JvmStatic
-    fun createNextcloudExoplayer(context: Context, nextcloudClient: NextcloudClient): ExoPlayer {
+    fun createFraylonExoplayer(context: Context, nextcloudClient: NextcloudClient): ExoPlayer {
         val okHttpDataSourceFactory = OkHttpDataSource.Factory(nextcloudClient.client)
         okHttpDataSourceFactory.setUserAgent(MainApp.getUserAgent())
         val mediaSourceFactory = DefaultMediaSourceFactory(

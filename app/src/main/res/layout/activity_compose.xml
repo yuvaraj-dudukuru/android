@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
-  ~ SPDX-FileCopyrightText: 2024 Nextcloud GmbH
+  ~ SPDX-FileCopyrightText: 2024 Fraylon GmbH
   ~ SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
 -->
 <androidx.drawerlayout.widget.DrawerLayout android:id="@+id/drawer_layout"
@@ -34,7 +34,7 @@
             android:layout_gravity="bottom"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_navigation_menu"
-            app:layout_behavior="com.nextcloud.ui.behavior.OnScrollBehavior" />
+            app:layout_behavior="com.fraylon.ui.behavior.OnScrollBehavior" />
 
     </LinearLayout>
 

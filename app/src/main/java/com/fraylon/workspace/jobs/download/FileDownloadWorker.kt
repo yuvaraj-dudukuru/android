@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.download
@@ -21,24 +21,24 @@ import androidx.work.ForegroundInfo
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.account.UserAccountManager
-import com.nextcloud.utils.ForegroundServiceHelper
-import com.nextcloud.utils.extensions.getPercent
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.ForegroundServiceType
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.files.services.IndexedForest
+import com.fraylon.utils.ForegroundServiceHelper
+import com.fraylon.utils.extensions.getPercent
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.ForegroundServiceType
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.files.services.IndexedForest
 import com.owncloud.android.lib.common.OwnCloudAccount
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.network.OnDatatransferProgressListener
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.operations.DownloadType
-import com.owncloud.android.ui.events.EventBusFactory
-import com.owncloud.android.ui.events.FileDownloadProgressEvent
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.operations.DownloadType
+import com.fraylon.workspace.ui.events.EventBusFactory
+import com.fraylon.workspace.ui.events.FileDownloadProgressEvent
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import java.util.AbstractList
 import java.util.Optional
 import java.util.Vector

@@ -12,7 +12,7 @@
     <string name="bottom_navigation_menu_media_label">Media</string>
     <string name="file_list_error_headline">Poor connection</string>
     <string name="file_list_error_description">Check your internet connection or try again later</string>
-    <string name="about_android">%1$s – Powered by open-source Nextcloud\n© 2026 Fraylon Technologies. All rights reserved.</string>
+    <string name="about_android">%1$s – Powered by open-source Fraylon\n© 2026 Fraylon Technologies. All rights reserved.</string>
     <string name="about_version">version %1$s</string>
     <string name="about_version_with_build">version %1$s, build #%2$s</string>
     <string name="appbar_search_in">Search in %s</string>

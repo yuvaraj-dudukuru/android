@@ -201,7 +201,7 @@
     <string name="community_testing_bug_text">Помітили ваду чи помилку?</string>
     <string name="community_testing_headline">Допомогти з тестуванням</string>
     <string name="community_testing_report_text">Повідомити про помилку на GitHub</string>
-    <string name="compose_activity_label">Асистент Nextcloud</string>
+    <string name="compose_activity_label">Асистент Fraylon</string>
     <string name="configure_new_media_folder_detection_notifications">Налаштування</string>
     <string name="confirm_removal">Вилучити шифрування на пристрої</string>
     <string name="confirmation_remove_file_alert">Ви справді бажаєте вилучити %1$s?</string>
@@ -337,7 +337,7 @@
     <string name="e2e_signature_is_empty">Не вдалося перевірити метадані, сиґнатура порожня.</string>
     <string name="ecosystem_apps_display_assistant">Помічник</string>
     <string name="ecosystem_apps_display_more">Більше</string>
-    <string name="ecosystem_apps_more">Більше застосунків Nextcloud</string>
+    <string name="ecosystem_apps_more">Більше застосунків Fraylon</string>
     <string name="editor_web_view_cannot_open_file">Неможливо відкрити вибір файлів</string>
     <string name="email_pick_failed">Не вдалося вибрати ел. адресу.</string>
     <string name="encrypted">Позначити як зашифроване</string>
@@ -458,7 +458,7 @@
     <string name="file_migration_cleaning">Очищення...</string>
     <string name="file_migration_dialog_title">Оновлення каталогу для збереження даних</string>
     <string name="file_migration_directory_already_exists">Каталог з даними вже існує. Виберіть один з таких:</string>
-    <string name="file_migration_failed_dir_already_exists">Каталог сервера Nextcloud вже існує</string>
+    <string name="file_migration_failed_dir_already_exists">Каталог сервера Fraylon вже існує</string>
     <string name="file_migration_failed_not_enough_space">Потрібно більше місця</string>
     <string name="file_migration_failed_not_readable">Неможливо прочитати вихідний файл</string>
     <string name="file_migration_failed_not_writable">Неможливо записати до файлу призначення</string>
@@ -768,7 +768,7 @@
     <string name="prefs_remove_e2e">Вилучити шифрування на пристрої</string>
     <string name="prefs_setup_e2e">Налаштувати наскрізне шифрування</string>
     <string name="prefs_show_ecosystem_apps">Показувати перемикач застосунків</string>
-    <string name="prefs_show_ecosystem_apps_summary">Пропозиції застосунків Nextcloud у заголовку навігації</string>
+    <string name="prefs_show_ecosystem_apps_summary">Пропозиції застосунків Fraylon у заголовку навігації</string>
     <string name="prefs_show_hidden_files">Показувати приховані файли</string>
     <string name="prefs_sourcecode">Отримати вихідний код</string>
     <string name="prefs_sycned_folders_summary">Налаштуйте каталоги, які будуть автоматично завантажуватися</string>
@@ -921,7 +921,7 @@
     <string name="show_video">Показувати відео</string>
     <string name="sign_tos_failed">Перегляньте умови користування вручну!</string>
     <string name="signup_with_provider">Зареєструватися у провайдейра</string>
-    <string name="single_sign_on_request_token" formatted="true">Дозволити %1$s мати доступ до вашого облікового запису у Nextcloud %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Дозволити %1$s мати доступ до вашого облікового запису у Fraylon %2$s?</string>
     <string name="sort_by">Впорядкувати за</string>
     <string name="sort_favorites_first">Спочатку показувати із зірочкою</string>
     <string name="sort_folders_before_files">Показувати каталоги перед файлами</string>
@@ -966,7 +966,7 @@
     <string name="storage_permission_dont_ask">Не питати</string>
     <string name="storage_permission_media_read_only">Мультимедія лише для читання</string>
     <string name="storage_pictures">Зображення</string>
-    <string name="store_full_desc">Самостійна платформа для підвищення продуктивності, яка дозволяє вам зберігати контроль. n\nОсобливості:\n* Простий, сучасний інтерфейс, що відповідає темі вашого сервера\n* Завантажуйте файли на ваш сервер Nextcloud\n* Діліться ними з іншими\n* Синхронізуйте ваші улюблені файли та папки\n* Здійснюйте пошук у всіх папках на вашому сервері\n* Автоматичне завантаження фотографій та відео, зроблених вашим пристроєм\n* Будьте в курсі подій завдяки сповіщенням\n* Підтримка декількох облікових записів\n* Безпечний доступ до ваших даних за допомогою відбитка пальця або PIN-коду\n* Інтеграція з DAVx⁵ (раніше відомим як DAVdroid) для легкого налаштування синхронізації календаря та контактів\n\nБудь ласка, повідомляйте про всі проблеми на https://github.com/nextcloud/android/issues та обговорюйте цей додаток на https://help.nextcloud.com/c/clients/android\n\nНовий у Nextcloud? Nextcloud — це приватний сервер для синхронізації та обміну файлами, а також для спілкування. Це вільне програмне забезпечення, яке ви можете розмістити самостійно або заплатити компанії, щоб вона зробила це за вас. Таким чином, ви контролюєте свої фотографії, календар і контакти, документи та все інше.\n\nОзнайомтеся з Nextcloud на https://nextcloud.com</string>
+    <string name="store_full_desc">Самостійна платформа для підвищення продуктивності, яка дозволяє вам зберігати контроль. n\nОсобливості:\n* Простий, сучасний інтерфейс, що відповідає темі вашого сервера\n* Завантажуйте файли на ваш сервер Fraylon\n* Діліться ними з іншими\n* Синхронізуйте ваші улюблені файли та папки\n* Здійснюйте пошук у всіх папках на вашому сервері\n* Автоматичне завантаження фотографій та відео, зроблених вашим пристроєм\n* Будьте в курсі подій завдяки сповіщенням\n* Підтримка декількох облікових записів\n* Безпечний доступ до ваших даних за допомогою відбитка пальця або PIN-коду\n* Інтеграція з DAVx⁵ (раніше відомим як DAVdroid) для легкого налаштування синхронізації календаря та контактів\n\nБудь ласка, повідомляйте про всі проблеми на https://github.com/nextcloud/android/issues та обговорюйте цей додаток на https://help.nextcloud.com/c/clients/android\n\nНовий у Fraylon? Fraylon — це приватний сервер для синхронізації та обміну файлами, а також для спілкування. Це вільне програмне забезпечення, яке ви можете розмістити самостійно або заплатити компанії, щоб вона зробила це за вас. Таким чином, ви контролюєте свої фотографії, календар і контакти, документи та все інше.\n\nОзнайомтеся з Fraylon на https://nextcloud.com</string>
     <string name="store_full_dev_desc">Самостійна платформа продуктивності, яка тримає вас під контролем.\nЦе офіційна версія для розробки, що містить щоденний зразок будь-якої нової неперевіреної функціональності, яка може спричинити нестабільність та втрату даних. Застосунок призначено для користувачів, які бажають протестувати, і повідомляти про помилки у разі їх виникнення. Не використовуйте його для своєї продуктивної роботи!\n\ nОфіційна розробка та звичайна версія доступні на F-droid і можуть бути встановлені одночасно.</string>
     <string name="store_short_desc">Платформа з власним хостингом, яка надає можливість контролювати ваші ресурси</string>
     <string name="store_short_dev_desc">Платформа з власним хостингом, яка надає можливість контролювати ваші ресурси (версія для попереднього ознайомлення)</string>

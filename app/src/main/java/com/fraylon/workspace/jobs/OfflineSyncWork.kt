@@ -1,5 +1,5 @@
 /*
- * Nextcloud Android client application
+ * Fraylon Android client application
  *
  * @author Mario Danic
  * @author Chris Narkiewicz
@@ -18,13 +18,13 @@ import com.fraylon.workspace.account.User
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.device.PowerManagementService
 import com.fraylon.workspace.network.ConnectivityService
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.files.CheckEtagRemoteOperation
-import com.owncloud.android.operations.SynchronizeFileOperation
-import com.owncloud.android.utils.FileStorageUtils
+import com.fraylon.workspace.operations.SynchronizeFileOperation
+import com.fraylon.workspace.utils.FileStorageUtils
 import java.io.File
 
 @Suppress("LongParameterList") // Legacy code

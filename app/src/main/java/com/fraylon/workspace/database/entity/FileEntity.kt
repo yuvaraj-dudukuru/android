@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database.entity
@@ -10,7 +10,7 @@ package com.fraylon.workspace.database.entity
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
 
 @Entity(tableName = ProviderTableMeta.FILE_TABLE_NAME)
 data class FileEntity(

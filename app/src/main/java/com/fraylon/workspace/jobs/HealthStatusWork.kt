@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs
@@ -12,16 +12,16 @@ import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.account.UserAccountManager
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.UploadResult
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.UploadResult
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.status.Problem
 import com.owncloud.android.lib.resources.status.SendClientDiagnosticRemoteOperation
-import com.owncloud.android.utils.EncryptionUtils
-import com.owncloud.android.utils.theme.CapabilityUtils
+import com.fraylon.workspace.utils.EncryptionUtils
+import com.fraylon.workspace.utils.theme.CapabilityUtils
 
 class HealthStatusWork(
     private val context: Context,

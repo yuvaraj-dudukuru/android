@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -8,10 +8,10 @@
 package com.fraylon.workspace.utils
 
 import com.fraylon.workspace.preferences.SubFolderRule
-import com.nextcloud.utils.extensions.filterEnabledOrWithoutEnabledParent
-import com.owncloud.android.datamodel.MediaFolderType
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.datamodel.SyncedFolderDisplayItem
+import com.fraylon.utils.extensions.filterEnabledOrWithoutEnabledParent
+import com.fraylon.workspace.datamodel.MediaFolderType
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.datamodel.SyncedFolderDisplayItem
 import org.junit.Test
 
 class SyncedFolderDisplayItemExtensionsTests {

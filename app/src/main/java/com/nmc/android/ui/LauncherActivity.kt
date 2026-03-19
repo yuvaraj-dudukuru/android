@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2023 Andy Scherzinger <info@andy-scherzinger.de>
@@ -17,13 +17,13 @@ import android.view.View
 import androidx.annotation.VisibleForTesting
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.fraylon.workspace.preferences.AppPreferences
-import com.nextcloud.utils.mdm.MDMConfig
-import com.owncloud.android.R
-import com.owncloud.android.authentication.AuthenticatorActivity
-import com.owncloud.android.databinding.ActivitySplashBinding
-import com.owncloud.android.ui.activity.BaseActivity
-import com.owncloud.android.ui.activity.FileDisplayActivity
-import com.owncloud.android.ui.activity.SettingsActivity
+import com.fraylon.utils.mdm.MDMConfig
+import com.fraylon.workspace.R
+import com.fraylon.workspace.authentication.AuthenticatorActivity
+import com.fraylon.workspace.databinding.ActivitySplashBinding
+import com.fraylon.workspace.ui.activity.BaseActivity
+import com.fraylon.workspace.ui.activity.FileDisplayActivity
+import com.fraylon.workspace.ui.activity.SettingsActivity
 import javax.inject.Inject
 
 class LauncherActivity : BaseActivity() {

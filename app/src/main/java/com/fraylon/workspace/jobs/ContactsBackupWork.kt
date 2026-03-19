@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -26,15 +26,15 @@ import com.fraylon.workspace.files.UploadRequest
 import com.fraylon.workspace.jobs.transfer.TransferManagerConnection
 import com.fraylon.workspace.jobs.upload.PostUploadAction
 import com.fraylon.workspace.jobs.upload.UploadTrigger
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ArbitraryDataProvider
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.services.OperationsService
-import com.owncloud.android.services.OperationsService.OperationsServiceBinder
-import com.owncloud.android.ui.activity.ContactsPreferenceActivity
+import com.fraylon.workspace.services.OperationsService
+import com.fraylon.workspace.services.OperationsService.OperationsServiceBinder
+import com.fraylon.workspace.ui.activity.ContactsPreferenceActivity
 import ezvcard.Ezvcard
 import ezvcard.VCardVersion
 import java.io.File

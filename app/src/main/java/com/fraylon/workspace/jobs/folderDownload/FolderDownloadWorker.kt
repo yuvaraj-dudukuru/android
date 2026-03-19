@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -14,14 +14,14 @@ import androidx.work.ForegroundInfo
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.account.UserAccountManager
 import com.fraylon.workspace.jobs.download.FileDownloadHelper
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.operations.DownloadType
-import com.owncloud.android.ui.helpers.FileOperationsHelper
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.operations.DownloadType
+import com.fraylon.workspace.ui.helpers.FileOperationsHelper
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.util.concurrent.ConcurrentHashMap

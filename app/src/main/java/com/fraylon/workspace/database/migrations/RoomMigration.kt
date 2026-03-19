@@ -1,20 +1,20 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database.migrations
 
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.fraylon.workspace.database.NextcloudDatabase
+import com.fraylon.workspace.database.FraylonDatabase
 import com.fraylon.workspace.database.migrations.DatabaseMigrationUtil.TYPE_INTEGER
 import com.fraylon.workspace.database.migrations.DatabaseMigrationUtil.TYPE_INTEGER_PRIMARY_KEY
 import com.fraylon.workspace.database.migrations.DatabaseMigrationUtil.TYPE_TEXT
 
-class RoomMigration : Migration(NextcloudDatabase.FIRST_ROOM_DB_VERSION - 1, NextcloudDatabase.FIRST_ROOM_DB_VERSION) {
+class RoomMigration : Migration(FraylonDatabase.FIRST_ROOM_DB_VERSION - 1, FraylonDatabase.FIRST_ROOM_DB_VERSION) {
 
     override fun migrate(db: SupportSQLiteDatabase) {
         migrateFilesystemTable(db)

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Dariusz Olszewski <starypatyk@users.noreply.github.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database.dao
@@ -11,8 +11,8 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Update
 import com.fraylon.workspace.database.entity.FileEntity
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
-import com.owncloud.android.utils.MimeType
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.workspace.utils.MimeType
 
 @Suppress("TooManyFunctions")
 @Dao

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon - Android Client
   ~
   ~ SPDX-FileCopyrightText: 2024 Tobias Kaminsky <tobias@kaminsky.me>
   ~ SPDX-License-Identifier: AGPL-3.0-or-later
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.owncloud.android.ui.EmptyRecyclerView
+            <com.fraylon.workspace.ui.EmptyRecyclerView
                 android:id="@+id/list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

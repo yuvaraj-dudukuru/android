@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -14,14 +14,14 @@ import androidx.core.app.NotificationCompat
 import com.fraylon.workspace.database.entity.OfflineOperationEntity
 import com.fraylon.workspace.jobs.notification.WorkerNotificationManager
 import com.fraylon.workspace.jobs.offlineOperations.receiver.OfflineOperationReceiver
-import com.nextcloud.utils.extensions.getErrorMessage
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.utils.extensions.getErrorMessage
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.OCFile
 import com.owncloud.android.lib.common.operations.RemoteOperation
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
-import com.owncloud.android.ui.activity.ConflictsResolveActivity
-import com.owncloud.android.ui.notifications.NotificationUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.ui.activity.ConflictsResolveActivity
+import com.fraylon.workspace.ui.notifications.NotificationUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 
 class OfflineOperationsNotificationManager(private val context: Context, viewThemeUtils: ViewThemeUtils) :
     WorkerNotificationManager(

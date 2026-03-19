@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 TSI-mc <surinder.kumar@t-systems.com>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -12,10 +12,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.fraylon.workspace.documentscan.DocumentScanViewModel
 import com.fraylon.workspace.etm.EtmViewModel
 import com.fraylon.workspace.logger.ui.LogsViewModel
-import com.nextcloud.ui.fileactions.FileActionsViewModel
-import com.owncloud.android.ui.preview.pdf.PreviewPdfViewModel
-import com.nextcloud.ui.trashbinFileActions.TrashbinFileActionsViewModel
-import com.owncloud.android.ui.unifiedsearch.UnifiedSearchViewModel
+import com.fraylon.ui.fileactions.FileActionsViewModel
+import com.fraylon.workspace.ui.preview.pdf.PreviewPdfViewModel
+import com.fraylon.ui.trashbinFileActions.TrashbinFileActionsViewModel
+import com.fraylon.workspace.ui.unifiedsearch.UnifiedSearchViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

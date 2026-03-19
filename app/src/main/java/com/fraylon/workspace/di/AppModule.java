@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -42,23 +42,23 @@ import com.fraylon.workspace.notifications.AppNotificationManager;
 import com.fraylon.workspace.notifications.AppNotificationManagerImpl;
 import com.fraylon.workspace.preferences.AppPreferences;
 import com.fraylon.workspace.utils.Throttler;
-import com.owncloud.android.providers.UsersAndGroupsSearchConfig;
-import com.owncloud.android.authentication.PassCodeManager;
-import com.owncloud.android.datamodel.ArbitraryDataProvider;
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl;
-import com.owncloud.android.datamodel.FileDataStorageManager;
-import com.owncloud.android.datamodel.SyncedFolderProvider;
-import com.owncloud.android.datamodel.UploadsStorageManager;
-import com.owncloud.android.ui.activities.data.activities.ActivitiesRepository;
-import com.owncloud.android.ui.activities.data.activities.ActivitiesServiceApi;
-import com.owncloud.android.ui.activities.data.activities.ActivitiesServiceApiImpl;
-import com.owncloud.android.ui.activities.data.activities.RemoteActivitiesRepository;
-import com.owncloud.android.ui.activities.data.files.FilesRepository;
-import com.owncloud.android.ui.activities.data.files.FilesServiceApiImpl;
-import com.owncloud.android.ui.activities.data.files.RemoteFilesRepository;
-import com.owncloud.android.ui.dialog.setupEncryption.CertificateValidator;
-import com.owncloud.android.utils.overlay.OverlayManager;
-import com.owncloud.android.utils.theme.ViewThemeUtils;
+import com.fraylon.workspace.providers.UsersAndGroupsSearchConfig;
+import com.fraylon.workspace.authentication.PassCodeManager;
+import com.fraylon.workspace.datamodel.ArbitraryDataProvider;
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl;
+import com.fraylon.workspace.datamodel.FileDataStorageManager;
+import com.fraylon.workspace.datamodel.SyncedFolderProvider;
+import com.fraylon.workspace.datamodel.UploadsStorageManager;
+import com.fraylon.workspace.ui.activities.data.activities.ActivitiesRepository;
+import com.fraylon.workspace.ui.activities.data.activities.ActivitiesServiceApi;
+import com.fraylon.workspace.ui.activities.data.activities.ActivitiesServiceApiImpl;
+import com.fraylon.workspace.ui.activities.data.activities.RemoteActivitiesRepository;
+import com.fraylon.workspace.ui.activities.data.files.FilesRepository;
+import com.fraylon.workspace.ui.activities.data.files.FilesServiceApiImpl;
+import com.fraylon.workspace.ui.activities.data.files.RemoteFilesRepository;
+import com.fraylon.workspace.ui.dialog.setupEncryption.CertificateValidator;
+import com.fraylon.workspace.utils.overlay.OverlayManager;
+import com.fraylon.workspace.utils.theme.ViewThemeUtils;
 
 import org.greenrobot.eventbus.EventBus;
 

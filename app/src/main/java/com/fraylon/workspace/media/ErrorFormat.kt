@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
@@ -10,7 +10,7 @@ package com.fraylon.workspace.media
 import android.content.Context
 import android.media.MediaPlayer
 import androidx.media3.common.PlaybackException
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 
 /**
  * This code has been moved from legacy media player service.

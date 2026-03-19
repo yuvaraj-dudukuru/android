@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -10,12 +10,12 @@ package com.fraylon.workspace.jobs.download
 import android.content.Context
 import android.content.Intent
 import com.fraylon.workspace.account.User
-import com.owncloud.android.authentication.AuthenticatorActivity
-import com.owncloud.android.operations.DownloadFileOperation
-import com.owncloud.android.ui.activity.FileActivity
-import com.owncloud.android.ui.activity.FileDisplayActivity
-import com.owncloud.android.ui.preview.PreviewImageActivity
-import com.owncloud.android.ui.preview.PreviewImageFragment
+import com.fraylon.workspace.authentication.AuthenticatorActivity
+import com.fraylon.workspace.operations.DownloadFileOperation
+import com.fraylon.workspace.ui.activity.FileActivity
+import com.fraylon.workspace.ui.activity.FileDisplayActivity
+import com.fraylon.workspace.ui.preview.PreviewImageActivity
+import com.fraylon.workspace.ui.preview.PreviewImageFragment
 
 class FileDownloadIntents(private val context: Context) {
 

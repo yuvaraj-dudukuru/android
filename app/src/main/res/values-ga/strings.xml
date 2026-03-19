@@ -201,7 +201,7 @@
     <string name="community_testing_bug_text">Aimsíodh fabht? Oddments?</string>
     <string name="community_testing_headline">Cabhair trí thástáil</string>
     <string name="community_testing_report_text">Tuairiscigh saincheist ar GitHub</string>
-    <string name="compose_activity_label">Cúntóir Nextcloud</string>
+    <string name="compose_activity_label">Cúntóir Fraylon</string>
     <string name="configure_new_media_folder_detection_notifications">Cumraigh</string>
     <string name="confirm_removal">Bain criptiú áitiúil</string>
     <string name="confirmation_remove_file_alert">An bhfuil tú cinnte gur mhaith leat %1$s a scriosadh?</string>
@@ -337,7 +337,7 @@
     <string name="e2e_signature_is_empty">Níorbh fhéidir meiteashonraí a fhíorú, tá an síniú folamh.</string>
     <string name="ecosystem_apps_display_assistant">Cúntóir</string>
     <string name="ecosystem_apps_display_more">Tuilleadh</string>
-    <string name="ecosystem_apps_more">Tuilleadh aipeanna Nextcloud</string>
+    <string name="ecosystem_apps_more">Tuilleadh aipeanna Fraylon</string>
     <string name="editor_web_view_cannot_open_file">Ní féidir an roghnóir comhad a oscailt</string>
     <string name="email_pick_failed">Theip ar an seoladh ríomhphoist a phiocadh.</string>
     <string name="encrypted">Socraigh mar criptithe</string>
@@ -458,7 +458,7 @@
     <string name="file_migration_cleaning">Glanadh…</string>
     <string name="file_migration_dialog_title">Fillteán stórála sonraí á nuashonrú</string>
     <string name="file_migration_directory_already_exists">Tá fillteán sonraí ann cheana féin. Roghnaigh ceann amháin díobh seo a leanas:</string>
-    <string name="file_migration_failed_dir_already_exists">Tá fillteán Nextcloud ann cheana féin</string>
+    <string name="file_migration_failed_dir_already_exists">Tá fillteán Fraylon ann cheana féin</string>
     <string name="file_migration_failed_not_enough_space">Tuilleadh spáis ag teastáil</string>
     <string name="file_migration_failed_not_readable">Níorbh fhéidir an comhad foinse a léamh</string>
     <string name="file_migration_failed_not_writable">Níorbh fhéidir scríobh chuig an gcomhad sprice</string>
@@ -768,7 +768,7 @@
     <string name="prefs_remove_e2e">Bain criptiú go háitiúil</string>
     <string name="prefs_setup_e2e">Socraigh criptiú ceann go ceann</string>
     <string name="prefs_show_ecosystem_apps">Taispeáin athróir aip</string>
-    <string name="prefs_show_ecosystem_apps_summary">Moltaí aip Nextcloud sa cheannteideal nascleanúna</string>
+    <string name="prefs_show_ecosystem_apps_summary">Moltaí aip Fraylon sa cheannteideal nascleanúna</string>
     <string name="prefs_show_hidden_files">Taispeáin comhaid i bhfolach</string>
     <string name="prefs_sourcecode">Faigh cód foinse</string>
     <string name="prefs_sycned_folders_summary">Bainistigh fillteáin le haghaidh uaslódáil uathoibríoch</string>
@@ -921,7 +921,7 @@
     <string name="show_video">Taispeáin físeáin</string>
     <string name="sign_tos_failed">Seiceáil téarmaí seirbhíse de láimh le do thoil!</string>
     <string name="signup_with_provider">Cláraigh leis an soláthraí</string>
-    <string name="single_sign_on_request_token" formatted="true">Ceadaigh do %1$s rochtain a fháil ar do chuntas Nextcloud %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Ceadaigh do %1$s rochtain a fháil ar do chuntas Fraylon %2$s?</string>
     <string name="sort_by">Sórtáil de réir</string>
     <string name="sort_favorites_first">Sórtáil na cinn is ansa leat ar dtús</string>
     <string name="sort_folders_before_files">Sórtáil fillteáin roimh chomhaid</string>
@@ -966,7 +966,7 @@
     <string name="storage_permission_dont_ask">Ná fiafraigh</string>
     <string name="storage_permission_media_read_only">Meáin inléite amháin</string>
     <string name="storage_pictures">Pictiúir</string>
-    <string name="store_full_desc">An t-ardán táirgiúlachta féinóstáilte a choinníonn tú i gceannas.\n\nGnéithe:\n* Comhéadan éasca, nua-aimseartha, oiriúnach do théama do fhreastalaí\n* Uaslódáil comhaid chuig do fhreastalaí Nextcloud\n* Roinn iad le daoine eile\n* Coinnigh do chuid comhad agus fillteáin is fearr leat sioncrónaithe\n* Cuardaigh trasna na bhfillteán go léir ar do fhreastalaí\n* Uaslódáil Uathoibríoch le haghaidh grianghraif agus físeáin a thóg do ghléas\n* Coinnigh suas chun dáta le fógraí\n* Tacaíocht ilchuntais\n* Rochtain shlán ar do shonraí le méarloirg nó PIN\n* Comhtháthú le DAVx⁵ (ar a dtugtaí DAVdroid roimhe seo) le haghaidh socrú éasca ar shioncrónú féilire agus teagmhálacha\n\nTuairiscigh gach fadhb ag https://github.com/nextcloud/android/issues agus pléigh an aip seo ag https://help.nextcloud.com/c/clients/android\n\nNua le Nextcloud? Is freastalaí príobháideach sioncrónaithe, comhroinnte agus cumarsáide comhad é Nextcloud. Is bogearraí saor in aisce é, agus is féidir leat é a óstáil tú féin nó cuideachta a íoc chun é a dhéanamh duit. Ar an mbealach sin, tá smacht agat ar do ghrianghraif, do shonraí féilire agus teagmhála, do dhoiciméid agus gach rud eile.\n\nFéach ar Nextcloud ag https://nextcloud.com</string>
+    <string name="store_full_desc">An t-ardán táirgiúlachta féinóstáilte a choinníonn tú i gceannas.\n\nGnéithe:\n* Comhéadan éasca, nua-aimseartha, oiriúnach do théama do fhreastalaí\n* Uaslódáil comhaid chuig do fhreastalaí Fraylon\n* Roinn iad le daoine eile\n* Coinnigh do chuid comhad agus fillteáin is fearr leat sioncrónaithe\n* Cuardaigh trasna na bhfillteán go léir ar do fhreastalaí\n* Uaslódáil Uathoibríoch le haghaidh grianghraif agus físeáin a thóg do ghléas\n* Coinnigh suas chun dáta le fógraí\n* Tacaíocht ilchuntais\n* Rochtain shlán ar do shonraí le méarloirg nó PIN\n* Comhtháthú le DAVx⁵ (ar a dtugtaí DAVdroid roimhe seo) le haghaidh socrú éasca ar shioncrónú féilire agus teagmhálacha\n\nTuairiscigh gach fadhb ag https://github.com/nextcloud/android/issues agus pléigh an aip seo ag https://help.nextcloud.com/c/clients/android\n\nNua le Fraylon? Is freastalaí príobháideach sioncrónaithe, comhroinnte agus cumarsáide comhad é Fraylon. Is bogearraí saor in aisce é, agus is féidir leat é a óstáil tú féin nó cuideachta a íoc chun é a dhéanamh duit. Ar an mbealach sin, tá smacht agat ar do ghrianghraif, do shonraí féilire agus teagmhála, do dhoiciméid agus gach rud eile.\n\nFéach ar Fraylon ag https://nextcloud.com</string>
     <string name="store_full_dev_desc">An t-ardán táirgiúlachta féin-óstáilte a choinníonn smacht ort.\nSeo an leagan forbartha oifigiúil, ina bhfuil sampla laethúil d\'aon fheidhmiúlacht nua neamhthástáilte, a d\'fhéadfadh a bheith ina chúis le héagobhsaíocht agus caillteanas sonraí. Tá an aip le haghaidh úsáideoirí atá sásta tástáil a dhéanamh, agus tuairisc a thabhairt ar fhabhtanna má tharlaíonn siad. Ná húsáid le haghaidh do chuid oibre táirgiúla!\n\nTá an leagan oifigiúil agus an leagan rialta araon ar fáil ar F-droid, agus is féidir iad a shuiteáil ag an am céanna.</string>
     <string name="store_short_desc">An t-ardán táirgiúlachta féin-óstáilte a choinníonn tú i gceannas</string>
     <string name="store_short_dev_desc">An t-ardán táirgiúlachta féin-óstach a choinníonn smacht ort (leagan réamhamhairc dev)</string>

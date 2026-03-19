@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.documentscan
@@ -10,7 +10,7 @@ package com.fraylon.workspace.documentscan
 import android.graphics.pdf.PdfRenderer
 import android.os.ParcelFileDescriptor
 import com.fraylon.workspace.logger.Logger
-import com.owncloud.android.AbstractIT
+import com.fraylon.workspace.AbstractIT
 import io.mockk.MockKAnnotations
 import io.mockk.impl.annotations.MockK
 import org.junit.Assert.assertFalse

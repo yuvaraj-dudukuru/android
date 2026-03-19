@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 ZetaTom
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.editimage
@@ -22,16 +22,16 @@ import com.canhub.cropper.CropImageView
 import com.fraylon.workspace.di.Injectable
 import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.fraylon.workspace.jobs.upload.FileUploadWorker
-import com.nextcloud.utils.extensions.getParcelableArgument
-import com.owncloud.android.R
-import com.owncloud.android.databinding.ActivityEditImageBinding
-import com.owncloud.android.datamodel.OCFile
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.utils.extensions.getParcelableArgument
+import com.fraylon.workspace.R
+import com.fraylon.workspace.databinding.ActivityEditImageBinding
+import com.fraylon.workspace.datamodel.OCFile
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.operations.OnRemoteOperationListener
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.activity.FileActivity
-import com.owncloud.android.utils.DisplayUtils
-import com.owncloud.android.utils.MimeType
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.activity.FileActivity
+import com.fraylon.workspace.utils.DisplayUtils
+import com.fraylon.workspace.utils.MimeType
 import java.io.File
 
 class EditImageActivity :

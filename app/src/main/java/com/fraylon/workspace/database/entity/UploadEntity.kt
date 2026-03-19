@@ -1,9 +1,9 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database.entity
@@ -11,12 +11,12 @@ package com.fraylon.workspace.database.entity
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.nextcloud.utils.autoRename.AutoRename
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.OCUpload
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta
-import com.owncloud.android.db.UploadResult
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.utils.autoRename.AutoRename
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.OCUpload
+import com.fraylon.workspace.db.ProviderMeta.ProviderTableMeta
+import com.fraylon.workspace.db.UploadResult
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.status.OCCapability
 import java.lang.IllegalArgumentException

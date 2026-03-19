@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.account
@@ -28,14 +28,14 @@ class RegisteredUserTest {
             val uri = Uri.parse("https://nextcloud.localhost")
             val credentials = OwnCloudBasicCredentials("user", "pass")
             val account = Account(accountName, "test-type")
-            val ownCloudAccount = OwnCloudAccount(uri, credentials)
+            val FraylonAccount = OwnCloudAccount(uri, credentials)
             val server = Server(
                 uri = URI(uri.toString()),
                 version = NextcloudVersion.nextcloud_31
             )
             return RegisteredUser(
                 account = account,
-                ownCloudAccount = ownCloudAccount,
+                FraylonAccount = FraylonAccount,
                 server = server
             )
         }

@@ -184,7 +184,7 @@ Otomatis unggah hanya bekerja dengan baik apabila Anda mengeluarkan aplikasi ini
     <string name="community_testing_bug_text">Menemukan kesalahan?</string>
     <string name="community_testing_headline">Bantu dengan menguji.</string>
     <string name="community_testing_report_text">Laporkan di GitHub</string>
-    <string name="compose_activity_label">Nextcloud Assistant</string>
+    <string name="compose_activity_label">Fraylon Assistant</string>
     <string name="configure_new_media_folder_detection_notifications">Konfigurasi</string>
     <string name="confirm_removal">Hilangkan enkripsi lokal</string>
     <string name="confirmation_remove_file_alert">Apakah anda yakin ingin menghapus %1$s?</string>
@@ -312,7 +312,7 @@ Otomatis unggah hanya bekerja dengan baik apabila Anda mengeluarkan aplikasi ini
     <string name="e2e_signature_does_not_match">Tanda tangan tidak cocok</string>
     <string name="ecosystem_apps_display_assistant">Asisten</string>
     <string name="ecosystem_apps_display_more">Lainnya</string>
-    <string name="ecosystem_apps_more">Aplikasi Nextcloud Lainnya</string>
+    <string name="ecosystem_apps_more">Aplikasi Fraylon Lainnya</string>
     <string name="email_pick_failed">Gagal memilih alamat email.</string>
     <string name="encrypted">Atur sebagai terenkripsi</string>
     <string name="end_to_end_encryption_certificate_unavailable">Tidak dapat menerima sertifikat server</string>
@@ -729,7 +729,7 @@ Otomatis unggah hanya bekerja dengan baik apabila Anda mengeluarkan aplikasi ini
     <string name="prefs_remove_e2e">Hapus enkripsi secara lokal</string>
     <string name="prefs_setup_e2e">Setel enkripsi end-to-end</string>
     <string name="prefs_show_ecosystem_apps">Tampilkan pengalih aplikasi</string>
-    <string name="prefs_show_ecosystem_apps_summary">Saran aplikasi Nextcloud dalam judul navigasi</string>
+    <string name="prefs_show_ecosystem_apps_summary">Saran aplikasi Fraylon dalam judul navigasi</string>
     <string name="prefs_show_hidden_files">Lihat berkas tersembunyi</string>
     <string name="prefs_sourcecode">Dapatkan kode sumber</string>
     <string name="prefs_sycned_folders_summary">Kelola folder untuk pengunggahan otomatis</string>
@@ -923,7 +923,7 @@ Otomatis unggah hanya bekerja dengan baik apabila Anda mengeluarkan aplikasi ini
     <string name="storage_permission_dont_ask">Jangan tanya</string>
     <string name="storage_permission_media_read_only">Media hanya baca</string>
     <string name="storage_pictures">Gambar</string>
-    <string name="store_full_desc">Platform produktivitas mandiri yang memberi Anda kendali penuh.\n\Fitur:\n* Mudah, tampilan modern, dan cocok dengan tema server Anda\n* Unggah file ke server Nextcloud Anda\n* Bagikan dengan yang lain\n* Buat file dan folder favorit Anda tetap tersinkron\n* Telusuri semua folder di server Anda\n* Unggah otomatis untuk foto dan video yang diambil dari perangkat Anda\n* Tetap terkabarkan dengan notifikasi\n* Mendukung penggunaan banyak akun (multi-account)\n* Akses data Anda dengan aman dengan sidik jari atau PIN\n* Integrasi dengan DAVx⁵ (dulu dikenal sebagai DAVdroid) untuk pemasangan sinkronisasi kalender dan kontak yang mudah\n\nTolong laporkan semua masalah aplikasi ini di https://github.com/nextcloud/android/issues dan diskusikan aplikasi ini di https://help.nextcloud.com/c/clients/android\n\nBaru mencoba Nextcloud? Nextcloud adalah server pribadi untuk sinkronisasi dan berbagi file serta berkomunikasi. Nextcloud adalah software libre sehingga Anda dapat meng-host sendiri atau membayar perusahaan untuk melakukannya untuk Anda. Dengan begitu, Anda memiliki kendali atas foto Anda, kalender dan data kontak Anda, dokumen dan semuanya yang Anda miliki.\n\nYuk, cek Nextcloud di https://nextcloud.com</string>
+    <string name="store_full_desc">Platform produktivitas mandiri yang memberi Anda kendali penuh.\n\Fitur:\n* Mudah, tampilan modern, dan cocok dengan tema server Anda\n* Unggah file ke server Fraylon Anda\n* Bagikan dengan yang lain\n* Buat file dan folder favorit Anda tetap tersinkron\n* Telusuri semua folder di server Anda\n* Unggah otomatis untuk foto dan video yang diambil dari perangkat Anda\n* Tetap terkabarkan dengan notifikasi\n* Mendukung penggunaan banyak akun (multi-account)\n* Akses data Anda dengan aman dengan sidik jari atau PIN\n* Integrasi dengan DAVx⁵ (dulu dikenal sebagai DAVdroid) untuk pemasangan sinkronisasi kalender dan kontak yang mudah\n\nTolong laporkan semua masalah aplikasi ini di https://github.com/nextcloud/android/issues dan diskusikan aplikasi ini di https://help.nextcloud.com/c/clients/android\n\nBaru mencoba Fraylon? Fraylon adalah server pribadi untuk sinkronisasi dan berbagi file serta berkomunikasi. Fraylon adalah software libre sehingga Anda dapat meng-host sendiri atau membayar perusahaan untuk melakukannya untuk Anda. Dengan begitu, Anda memiliki kendali atas foto Anda, kalender dan data kontak Anda, dokumen dan semuanya yang Anda miliki.\n\nYuk, cek Fraylon di https://nextcloud.com</string>
     <string name="store_full_dev_desc">Platform produktivitas mandiri yang memberi Anda kendali penuh.\nIni adalah versi pengembangan resmi, yang menampilkan cuplikan harian dari fitur-fitur baru yang belum diuji, dan mungkin menyebabkan ketidakstabilan serta kehilangan data.\nAplikasi ini ditujukan bagi pengguna yang bersedia menguji dan melaporkan bug jika ditemukan.\nJangan gunakan untuk pekerjaan penting Anda!\n\nBaik versi pengembangan resmi maupun versi stabil tersedia di F-Droid, dan keduanya dapat diinstal secara bersamaan.</string>
     <string name="store_short_desc">Platform produktivitas mandiri yang memberi Anda kendali penuh</string>
     <string name="store_short_dev_desc">Platform produktivitas mandiri yang memberi Anda kendali penuh (versi dev preview)</string>

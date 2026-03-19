@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -20,7 +20,7 @@ import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.fraylon.workspace.account.User
 import com.fraylon.workspace.core.Clock
-import com.nextcloud.utils.extensions.toByteArray
+import com.fraylon.utils.extensions.toByteArray
 import com.owncloud.android.lib.common.utils.Log_OC
 import org.apache.commons.io.FileUtils
 import org.junit.Assert.assertEquals

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-FileCopyrightText: 2024 TSI-mc <surinder.kumar@t-systems.com>
@@ -13,12 +13,12 @@ import android.content.Intent
 import android.content.res.Resources
 import com.fraylon.workspace.account.CurrentAccountProvider
 import com.fraylon.workspace.preferences.AppPreferences
-import com.nextcloud.utils.mdm.MDMConfig
-import com.owncloud.android.BuildConfig
-import com.owncloud.android.R
-import com.owncloud.android.authentication.AuthenticatorActivity
-import com.owncloud.android.features.FeatureItem
-import com.owncloud.android.ui.activity.PassCodeActivity
+import com.fraylon.utils.mdm.MDMConfig
+import com.fraylon.workspace.BuildConfig
+import com.fraylon.workspace.R
+import com.fraylon.workspace.authentication.AuthenticatorActivity
+import com.fraylon.workspace.features.FeatureItem
+import com.fraylon.workspace.ui.activity.PassCodeActivity
 
 internal class OnboardingServiceImpl(
     private val resources: Resources,

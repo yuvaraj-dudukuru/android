@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -13,8 +13,8 @@ import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonSerializationContext
 import com.google.gson.JsonSerializer
-import com.nextcloud.model.OfflineOperationRawType
-import com.nextcloud.model.OfflineOperationType
+import com.fraylon.model.OfflineOperationRawType
+import com.fraylon.model.OfflineOperationType
 
 import java.lang.reflect.Type
 

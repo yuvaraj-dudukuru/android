@@ -200,7 +200,7 @@
     <string name="community_testing_bug_text">¿Encontraste un error? ¿Algo va mal?</string>
     <string name="community_testing_headline">Ayúdanos a realizar pruebas</string>
     <string name="community_testing_report_text">Informar de un problema en GitHub</string>
-    <string name="compose_activity_label">Asistente de Nextcloud</string>
+    <string name="compose_activity_label">Asistente de Fraylon</string>
     <string name="configure_new_media_folder_detection_notifications">Configurar</string>
     <string name="confirm_removal">Eliminar cifrado local</string>
     <string name="confirmation_remove_file_alert">¿Estás seguro de que quieres eliminar %1$s?</string>
@@ -336,7 +336,7 @@
     <string name="e2e_signature_is_empty">No se pueden verificar los metadatos, la firma está vacía.</string>
     <string name="ecosystem_apps_display_assistant">Asistente</string>
     <string name="ecosystem_apps_display_more">Más</string>
-    <string name="ecosystem_apps_more">Más apps de Nextcloud</string>
+    <string name="ecosystem_apps_more">Más apps de Fraylon</string>
     <string name="editor_web_view_cannot_open_file">No se puede abrir el selector de archivos</string>
     <string name="email_pick_failed">Fallo al seleccionar dirección de correo.</string>
     <string name="encrypted">Establecer como cifrado</string>
@@ -456,7 +456,7 @@
     <string name="file_migration_cleaning">Limpiando…</string>
     <string name="file_migration_dialog_title">Actualizando carpeta de almacenamiento de datos</string>
     <string name="file_migration_directory_already_exists">La carpeta de datos ya existe. Escoge una de las siguientes opciones:</string>
-    <string name="file_migration_failed_dir_already_exists">La carpeta de Nextcloud ya existe</string>
+    <string name="file_migration_failed_dir_already_exists">La carpeta de Fraylon ya existe</string>
     <string name="file_migration_failed_not_enough_space">Se necesita más espacio</string>
     <string name="file_migration_failed_not_readable">No se ha podido leer el archivo origen</string>
     <string name="file_migration_failed_not_writable">No se ha podido escribir el archivo de destino</string>
@@ -763,7 +763,7 @@
     <string name="prefs_remove_e2e">Eliminar cifrado localmente</string>
     <string name="prefs_setup_e2e">Configurar el cifrado de extremo a extremo</string>
     <string name="prefs_show_ecosystem_apps">Mostrar conmutador de apps</string>
-    <string name="prefs_show_ecosystem_apps_summary">Sugerencias de Nextcloud app en encabezado de navegación</string>
+    <string name="prefs_show_ecosystem_apps_summary">Sugerencias de Fraylon app en encabezado de navegación</string>
     <string name="prefs_show_hidden_files">Mostrar archivos ocultos</string>
     <string name="prefs_sourcecode">Obtener el código fuente</string>
     <string name="prefs_sycned_folders_summary">Administrar carpetas para auto-subida</string>
@@ -916,7 +916,7 @@
     <string name="show_video">Mostrar vídeos</string>
     <string name="sign_tos_failed">¡Por favor, revise manualmente los términos de servicio!</string>
     <string name="signup_with_provider">Registrarse con un proveedor</string>
-    <string name="single_sign_on_request_token" formatted="true">¿Permitir a %1$s acceder a tu cuenta de Nextcloud %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">¿Permitir a %1$s acceder a tu cuenta de Fraylon %2$s?</string>
     <string name="sort_by">Ordenar por</string>
     <string name="sort_favorites_first">Ordenar los favoritos primero</string>
     <string name="sort_folders_before_files">Ordenar carpetas antes que archivos</string>
@@ -961,7 +961,7 @@
     <string name="storage_permission_dont_ask">No preguntar</string>
     <string name="storage_permission_media_read_only">Medios en sólo lectura</string>
     <string name="storage_pictures">Imágenes</string>
-    <string name="store_full_desc">La plataforma de productividad auto-hospedada que le mantiene en control.\n\nCaracterísticas;\n* Interfaz moderna y fácil de usar adecuada al tema de su servidor\n* Cargue archivos a su servidor Nextcloud\n* Comparta los mismos con otros\n* Mantenga sus archivos y carpetas favoritas sincronizados\n* Busque en todas las carpetas de su servidor\n* Carga automática para fotos y videos capturados en su dispositivo\n* Manténgase al día con notificaciones\n* Soporte para múltiples cuentas\n* Acceda a su información de forma segura usando su huella dactilar o PIN\n* Integración con DAVx5 (anteriormente conocido como DAVdroid) para configurar fácilmente la sincronización del calendario y contactos\n\nPor favor, reporte cualquier problema en https://github.com/nextcloud/android/issues y discuta acerca de esta aplicación en https://help.nextcloud.com/c/clients/android\n\n¿Es Ud. nuevo en Nextcloud? Nextcloud es un servidor privado para sincronizar y compartir archivos, y comunicación. Es un programa de uso libre, y lo puede hospedar Ud. mismo o pagar a una compañía para hacerlo por Ud. De esa manera, Ud. está en control de sus fotos, su calendario e información de sus contactos, sus documentos y todo lo demás.\n\nConozca Nextcloud en https://nextcloud.com</string>
+    <string name="store_full_desc">La plataforma de productividad auto-hospedada que le mantiene en control.\n\nCaracterísticas;\n* Interfaz moderna y fácil de usar adecuada al tema de su servidor\n* Cargue archivos a su servidor Fraylon\n* Comparta los mismos con otros\n* Mantenga sus archivos y carpetas favoritas sincronizados\n* Busque en todas las carpetas de su servidor\n* Carga automática para fotos y videos capturados en su dispositivo\n* Manténgase al día con notificaciones\n* Soporte para múltiples cuentas\n* Acceda a su información de forma segura usando su huella dactilar o PIN\n* Integración con DAVx5 (anteriormente conocido como DAVdroid) para configurar fácilmente la sincronización del calendario y contactos\n\nPor favor, reporte cualquier problema en https://github.com/nextcloud/android/issues y discuta acerca de esta aplicación en https://help.nextcloud.com/c/clients/android\n\n¿Es Ud. nuevo en Fraylon? Fraylon es un servidor privado para sincronizar y compartir archivos, y comunicación. Es un programa de uso libre, y lo puede hospedar Ud. mismo o pagar a una compañía para hacerlo por Ud. De esa manera, Ud. está en control de sus fotos, su calendario e información de sus contactos, sus documentos y todo lo demás.\n\nConozca Fraylon en https://nextcloud.com</string>
     <string name="store_full_dev_desc">La plataforma de productividad auto-hospedada que te mantiene al mando.\nEsta es la versión oficial de desarrollo, que incluye una muestra diaria de cualquier funcionalidad sin probar, lo que puede causar inestabilidad y pérdida de datos. Esta app es para usuarios que desean probar, e informar de los fallos que ocurran. ¡No la uses para tu trabajo productivo!\n\nTanto la versión normal como la oficial de desarrollo están disponibles en F-Droid y pueden estar instaladas al mismo tiempo.</string>
     <string name="store_short_desc">La plataforma de productividad auto-hospedada que te mantiene al mando</string>
     <string name="store_short_dev_desc">La plataforma de productividad auto-hospedada que te mantiene al mando (versión de prueba para desarrolladores)</string>

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2022 Álvaro Brey <alvaro@alvarobrey.com>
- * SPDX-FileCopyrightText: 2022 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2022 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.database
@@ -21,15 +21,15 @@ class DatabaseModule {
 
     @Provides
     @Singleton
-    fun database(context: Context, clock: Clock): NextcloudDatabase = NextcloudDatabase.getInstance(context, clock)
+    fun database(context: Context, clock: Clock): FraylonDatabase = FraylonDatabase.getInstance(context, clock)
 
     @Provides
-    fun arbitraryDataDao(nextcloudDatabase: NextcloudDatabase): ArbitraryDataDao = nextcloudDatabase.arbitraryDataDao()
+    fun arbitraryDataDao(nextcloudDatabase: FraylonDatabase): ArbitraryDataDao = nextcloudDatabase.arbitraryDataDao()
 
     @Provides
-    fun fileDao(nextcloudDatabase: NextcloudDatabase): FileDao = nextcloudDatabase.fileDao()
+    fun fileDao(nextcloudDatabase: FraylonDatabase): FileDao = nextcloudDatabase.fileDao()
 
     @Provides
-    fun offlineOperationsDao(nextcloudDatabase: NextcloudDatabase): OfflineOperationDao =
+    fun offlineOperationsDao(nextcloudDatabase: FraylonDatabase): OfflineOperationDao =
         nextcloudDatabase.offlineOperationDao()
 }

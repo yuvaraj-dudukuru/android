@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019-2023 Tobias Kaminsky <tobias@kaminsky.me>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -12,8 +12,8 @@ import android.os.Bundle;
 
 import com.fraylon.workspace.preferences.AppPreferences;
 import com.fraylon.workspace.preferences.AppPreferencesImpl;
-import com.owncloud.android.AbstractOnServerIT;
-import com.owncloud.android.datamodel.OCFile;
+import com.fraylon.workspace.AbstractOnServerIT;
+import com.fraylon.workspace.datamodel.OCFile;
 import com.owncloud.android.lib.common.accounts.AccountUtils;
 
 import org.junit.Before;

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
@@ -14,7 +14,7 @@ import android.os.IBinder
 import android.widget.MediaController
 import androidx.core.content.ContextCompat
 import com.fraylon.workspace.account.User
-import com.owncloud.android.datamodel.OCFile
+import com.fraylon.workspace.datamodel.OCFile
 
 @Suppress("TooManyFunctions") // implementing large interface
 class PlayerServiceConnection(private val context: Context) : MediaController.MediaPlayerControl {

@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Tobias Kaminsky <tobias@kaminsky.me>
- * SPDX-FileCopyrightText: 2020 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2020 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.network
@@ -13,7 +13,7 @@ import android.net.ConnectivityManager
 import com.fraylon.workspace.account.UserAccountManagerImpl
 import com.fraylon.workspace.core.ClockImpl
 import com.fraylon.workspace.network.ConnectivityServiceImpl.GetRequestBuilder
-import com.owncloud.android.AbstractOnServerIT
+import com.fraylon.workspace.AbstractOnServerIT
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test

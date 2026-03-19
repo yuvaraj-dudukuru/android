@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -14,7 +14,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
 import com.fraylon.workspace.database.entity.AssistantEntity
-import com.owncloud.android.db.ProviderMeta
+import com.fraylon.workspace.db.ProviderMeta
 
 @Dao
 interface AssistantDao {

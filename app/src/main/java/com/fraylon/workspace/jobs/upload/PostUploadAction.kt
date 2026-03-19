@@ -1,5 +1,5 @@
 /*
- * Nextcloud Android client application
+ * Fraylon Android client application
  *
  * @author Chris Narkiewicz
  * Copyright (C) 2021 Chris Narkiewicz <hello@ezaquarii.com>

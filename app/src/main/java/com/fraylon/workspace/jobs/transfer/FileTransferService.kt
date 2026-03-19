@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.transfer
@@ -24,11 +24,11 @@ import com.fraylon.workspace.logger.Logger
 import com.fraylon.workspace.network.ClientFactory
 import com.fraylon.workspace.network.ConnectivityService
 import com.fraylon.workspace.notifications.AppNotificationManager
-import com.nextcloud.utils.ForegroundServiceHelper
-import com.nextcloud.utils.extensions.getParcelableArgument
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.ForegroundServiceType
-import com.owncloud.android.datamodel.UploadsStorageManager
+import com.fraylon.utils.ForegroundServiceHelper
+import com.fraylon.utils.extensions.getParcelableArgument
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.ForegroundServiceType
+import com.fraylon.workspace.datamodel.UploadsStorageManager
 import dagger.android.AndroidInjection
 import javax.inject.Inject
 import javax.inject.Named

@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2019 The Android Open Source Project
  * SPDX-License-Identifier: Apache-2.0

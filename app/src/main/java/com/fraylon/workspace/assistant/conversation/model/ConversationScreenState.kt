@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 
 package com.fraylon.workspace.assistant.conversation.model
 
-import com.owncloud.android.R
+import com.fraylon.workspace.R
 
 sealed class ConversationScreenState {
     data object Loading : ConversationScreenState()

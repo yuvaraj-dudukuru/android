@@ -1,8 +1,8 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2023 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2023 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs.upload
@@ -10,8 +10,8 @@ package com.fraylon.workspace.jobs.upload
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.activity.UploadListActivity
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.activity.UploadListActivity
 
 class FileUploaderIntents(private val context: Context) {
 

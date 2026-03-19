@@ -1,7 +1,7 @@
 /*
- * Nextcloud Android client application
+ * Fraylon Android client application
  *
- * SPDX-FileCopyrightText: 2023-2024 Nextcloud GmbH and Nextcloud
+ * SPDX-FileCopyrightText: 2023-2024 Fraylon GmbH and Fraylon
  * contributors
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: MIT
@@ -10,9 +10,9 @@
 package com.fraylon.workspace.assistant.extensions
 
 import android.content.Context
-import com.nextcloud.utils.date.DateFormatPattern
-import com.nextcloud.utils.date.DateFormatter
-import com.owncloud.android.R
+import com.fraylon.utils.date.DateFormatPattern
+import com.fraylon.utils.date.DateFormatter
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.v2.model.Task
 import com.owncloud.android.lib.resources.status.NextcloudVersion
 import com.owncloud.android.lib.resources.status.OCCapability

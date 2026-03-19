@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -23,27 +23,27 @@ import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.fraylon.workspace.jobs.upload.FileUploadWorker
 import com.fraylon.workspace.jobs.utils.UploadErrorNotificationManager
 import com.fraylon.workspace.network.ConnectivityService
-import com.nextcloud.utils.extensions.getLog
-import com.nextcloud.utils.extensions.isNonRetryable
-import com.nextcloud.utils.extensions.updateStatus
-import com.owncloud.android.R
-import com.owncloud.android.datamodel.ArbitraryDataProviderImpl
-import com.owncloud.android.datamodel.FileDataStorageManager
-import com.owncloud.android.datamodel.SyncedFolder
-import com.owncloud.android.datamodel.SyncedFolderProvider
-import com.owncloud.android.datamodel.UploadsStorageManager
-import com.owncloud.android.db.OCUpload
-import com.owncloud.android.db.UploadResult
-import com.owncloud.android.files.services.NameCollisionPolicy
+import com.fraylon.utils.extensions.getLog
+import com.fraylon.utils.extensions.isNonRetryable
+import com.fraylon.utils.extensions.updateStatus
+import com.fraylon.workspace.R
+import com.fraylon.workspace.datamodel.ArbitraryDataProviderImpl
+import com.fraylon.workspace.datamodel.FileDataStorageManager
+import com.fraylon.workspace.datamodel.SyncedFolder
+import com.fraylon.workspace.datamodel.SyncedFolderProvider
+import com.fraylon.workspace.datamodel.UploadsStorageManager
+import com.fraylon.workspace.db.OCUpload
+import com.fraylon.workspace.db.UploadResult
+import com.fraylon.workspace.files.services.NameCollisionPolicy
 import com.owncloud.android.lib.common.OwnCloudAccount
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.operations.RemoteOperationResult
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.status.OCCapability
-import com.owncloud.android.operations.UploadFileOperation
-import com.owncloud.android.ui.activity.SettingsActivity
-import com.owncloud.android.utils.theme.CapabilityUtils
-import com.owncloud.android.utils.theme.ViewThemeUtils
+import com.fraylon.workspace.operations.UploadFileOperation
+import com.fraylon.workspace.ui.activity.SettingsActivity
+import com.fraylon.workspace.utils.theme.CapabilityUtils
+import com.fraylon.workspace.utils.theme.ViewThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.isActive

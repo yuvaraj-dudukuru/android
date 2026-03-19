@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2023 Jonas Mayer <jonas.a.mayer@gmx.net>
  * SPDX-FileCopyrightText: 2023 TSI-mc
@@ -10,10 +10,10 @@
  */
 package com.fraylon.workspace.preferences;
 
-import com.nextcloud.appReview.AppReviewShownModel;
+import com.fraylon.appReview.AppReviewShownModel;
 import com.fraylon.workspace.jobs.LogEntry;
-import com.owncloud.android.datamodel.OCFile;
-import com.owncloud.android.utils.FileSortOrder;
+import com.fraylon.workspace.datamodel.OCFile;
+import com.fraylon.workspace.utils.FileSortOrder;
 
 import java.util.List;
 
@@ -133,7 +133,7 @@ public interface AppPreferences {
      *
      * @param folder Folder
      * @return preference value, default is
-     * {@link com.owncloud.android.ui.fragment.OCFileListFragment#FOLDER_LAYOUT_LIST}
+     * {@link com.fraylon.workspace.ui.fragment.OCFileListFragment#FOLDER_LAYOUT_LIST}
      */
     String getFolderLayout(OCFile folder);
 

@@ -1,9 +1,9 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2020 Chris Narkiewicz <hello@ezaquarii.com>
  * SPDX-FileCopyrightText: 2017 Tobias Kaminsky
- * SPDX-FileCopyrightText: 2017 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2017 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.jobs
@@ -16,10 +16,10 @@ import android.provider.ContactsContract
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.fraylon.workspace.logger.Logger
-import com.nextcloud.utils.extensions.toIntArray
+import com.fraylon.utils.extensions.toIntArray
 import com.owncloud.android.lib.common.utils.Log_OC
-import com.owncloud.android.ui.fragment.contactsbackup.BackupListFragment
-import com.owncloud.android.ui.fragment.contactsbackup.VCardComparator
+import com.fraylon.workspace.ui.fragment.contactsbackup.BackupListFragment
+import com.fraylon.workspace.ui.fragment.contactsbackup.VCardComparator
 import ezvcard.Ezvcard
 import ezvcard.VCard
 import org.apache.commons.io.FileUtils

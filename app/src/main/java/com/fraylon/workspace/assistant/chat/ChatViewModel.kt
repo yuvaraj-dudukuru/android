@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2026 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -10,10 +10,10 @@ package com.fraylon.workspace.assistant.chat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fraylon.workspace.assistant.repository.remote.AssistantRemoteRepository
-import com.nextcloud.utils.TimeConstants.MILLIS_PER_SECOND
-import com.nextcloud.utils.date.DateFormatPattern
-import com.nextcloud.utils.date.DateFormatter
-import com.nextcloud.utils.extensions.isHuman
+import com.fraylon.utils.TimeConstants.MILLIS_PER_SECOND
+import com.fraylon.utils.date.DateFormatPattern
+import com.fraylon.utils.date.DateFormatter
+import com.fraylon.utils.extensions.isHuman
 import com.owncloud.android.lib.resources.assistant.chat.model.ChatMessage
 import com.owncloud.android.lib.resources.assistant.chat.model.ChatMessageRequest
 import kotlinx.coroutines.Dispatchers

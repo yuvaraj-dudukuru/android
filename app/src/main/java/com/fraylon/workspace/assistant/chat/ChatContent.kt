@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Alper Ozturk <alper.ozturk@nextcloud.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
@@ -56,9 +56,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.nextcloud.utils.TimeConstants
-import com.nextcloud.utils.extensions.time
-import com.owncloud.android.R
+import com.fraylon.utils.TimeConstants
+import com.fraylon.utils.extensions.time
+import com.fraylon.workspace.R
 import com.owncloud.android.lib.resources.assistant.chat.model.ChatMessage
 import java.time.Instant
 

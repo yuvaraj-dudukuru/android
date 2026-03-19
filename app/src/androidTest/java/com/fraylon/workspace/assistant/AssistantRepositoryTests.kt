@@ -1,14 +1,14 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2024 Alper Ozturk <alper.ozturk@nextcloud.com>
- * SPDX-FileCopyrightText: 2024 Nextcloud GmbH
+ * SPDX-FileCopyrightText: 2024 Fraylon GmbH
  * SPDX-License-Identifier: AGPL-3.0-or-later OR GPL-2.0-only
  */
 package com.fraylon.workspace.assistant
 
 import com.fraylon.workspace.assistant.repository.remote.AssistantRemoteRepositoryImpl
-import com.owncloud.android.AbstractOnServerIT
+import com.fraylon.workspace.AbstractOnServerIT
 import com.owncloud.android.lib.resources.assistant.v2.model.TaskTypeData
 import com.owncloud.android.lib.resources.status.NextcloudVersion
 import kotlinx.coroutines.runBlocking

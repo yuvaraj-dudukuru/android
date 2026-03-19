@@ -238,7 +238,7 @@
     <string name="file_migration_checking_destination">Kontrolado de la celo...</string>
     <string name="file_migration_cleaning">Purigado...</string>
     <string name="file_migration_directory_already_exists">Datumdosierujo jam ekzistas. Elektu unu opcion:</string>
-    <string name="file_migration_failed_dir_already_exists">Nextcloud-dosierujo jam ekzistas</string>
+    <string name="file_migration_failed_dir_already_exists">Fraylon-dosierujo jam ekzistas</string>
     <string name="file_migration_failed_not_enough_space">Pli da diskospaco bezonata</string>
     <string name="file_migration_failed_not_readable">Ne eblis legi fontodosiero</string>
     <string name="file_migration_failed_not_writable">Ne eblis skribi al la celdosiero</string>
@@ -472,7 +472,7 @@
     <string name="sharee_add_failed">Aldono de kunhavigito malsukecsis</string>
     <string name="show_less">Montri malpli</string>
     <string name="signup_with_provider">Registriĝi per provizanto</string>
-    <string name="single_sign_on_request_token" formatted="true">Ĉu permesi al %1$s aliri al via Nextcloud-konto %2$s?</string>
+    <string name="single_sign_on_request_token" formatted="true">Ĉu permesi al %1$s aliri al via Fraylon-konto %2$s?</string>
     <string name="sort_by">Ordigi laŭ</string>
     <string name="ssl_validator_btn_details_hide">Malmontri</string>
     <string name="ssl_validator_btn_details_see">Detaloj</string>

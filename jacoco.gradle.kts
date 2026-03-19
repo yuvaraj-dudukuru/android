@@ -1,5 +1,5 @@
 /*
- * Nextcloud - Android Client
+ * Fraylon - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Jimly Asshiddiqy
  * SPDX-License-Identifier: AGPL-3.0-or-later
