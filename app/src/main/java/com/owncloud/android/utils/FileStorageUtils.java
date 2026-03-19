@@ -20,7 +20,7 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 
-import com.nextcloud.client.preferences.SubFolderRule;
+import com.fraylon.workspace.preferences.SubFolderRule;
 import com.nextcloud.utils.extensions.StringConstants;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;
@@ -216,7 +216,7 @@ public final class FileStorageUtils {
     }
 
     /**
-     * @return /data/user/0/com.nextcloud.client/files/nextcloud/tmp/
+     * @return /data/user/0/com.fraylon.workspace/files/nextcloud/tmp/
      */
     public static String getAppTempDirectoryPath(Context context) {
         return context.getFilesDir()

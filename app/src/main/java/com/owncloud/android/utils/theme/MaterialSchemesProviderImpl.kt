@@ -10,10 +10,10 @@ package com.owncloud.android.utils.theme
 import android.content.Context
 import androidx.core.content.ContextCompat
 import com.nextcloud.android.common.ui.theme.MaterialSchemes
-import com.nextcloud.client.account.AnonymousUser
-import com.nextcloud.client.account.User
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.logger.Logger
+import com.fraylon.workspace.account.AnonymousUser
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.logger.Logger
 import com.owncloud.android.R
 import com.owncloud.android.lib.resources.status.OCCapability
 import java.util.concurrent.ConcurrentHashMap

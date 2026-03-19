@@ -20,10 +20,10 @@ import android.widget.ImageView
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.nextcloud.client.account.User
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.mdm.MDMConfig
 import com.owncloud.android.R

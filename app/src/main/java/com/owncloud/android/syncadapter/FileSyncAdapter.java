@@ -25,7 +25,7 @@ import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 
-import com.nextcloud.client.account.UserAccountManager;
+import com.fraylon.workspace.account.UserAccountManager;
 import com.owncloud.android.R;
 import com.owncloud.android.authentication.AuthenticatorActivity;
 import com.owncloud.android.datamodel.FileDataStorageManager;

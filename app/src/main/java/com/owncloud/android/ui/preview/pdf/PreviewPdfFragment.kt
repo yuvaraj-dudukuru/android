@@ -17,8 +17,8 @@ import androidx.annotation.VisibleForTesting
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.di.ViewModelFactory
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.di.ViewModelFactory
 import com.nextcloud.utils.MenuUtils
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.owncloud.android.R

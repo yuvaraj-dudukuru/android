@@ -12,7 +12,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nextcloud.client.logger.Logger
+import com.fraylon.workspace.logger.Logger
 import com.nextcloud.ui.fileactions.FileActionsViewModel
 import com.owncloud.android.R
 import com.owncloud.android.lib.resources.trashbin.model.TrashbinFile

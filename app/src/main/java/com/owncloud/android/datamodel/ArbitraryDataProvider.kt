@@ -7,7 +7,7 @@
  */
 package com.owncloud.android.datamodel
 
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 
 @Suppress("Detekt.TooManyFunctions") // legacy interface, will get rid of `accountName` methods in the future
 interface ArbitraryDataProvider {

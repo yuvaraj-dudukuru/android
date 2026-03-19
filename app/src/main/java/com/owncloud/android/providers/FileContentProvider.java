@@ -26,8 +26,8 @@ import android.net.Uri;
 import android.os.Binder;
 import android.text.TextUtils;
 
-import com.nextcloud.client.core.Clock;
-import com.nextcloud.client.database.NextcloudDatabase;
+import com.fraylon.workspace.core.Clock;
+import com.fraylon.workspace.database.NextcloudDatabase;
 import com.owncloud.android.R;
 import com.owncloud.android.db.ProviderMeta.ProviderTableMeta;
 import com.owncloud.android.lib.common.utils.Log_OC;

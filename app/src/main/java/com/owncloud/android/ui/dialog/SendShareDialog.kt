@@ -24,8 +24,8 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.snackbar.Snackbar
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.utils.IntentUtil.createSendIntent
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.utils.IntentUtil.createSendIntent
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.mdm.MDMConfig
 import com.owncloud.android.BuildConfig

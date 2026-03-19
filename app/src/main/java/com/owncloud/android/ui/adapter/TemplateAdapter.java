@@ -16,8 +16,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nextcloud.client.account.CurrentAccountProvider;
-import com.nextcloud.client.network.ClientFactory;
+import com.fraylon.workspace.account.CurrentAccountProvider;
+import com.fraylon.workspace.network.ClientFactory;
 import com.nextcloud.utils.GlideHelper;
 import com.owncloud.android.databinding.TemplateButtonBinding;
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;

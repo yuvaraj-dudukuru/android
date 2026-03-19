@@ -28,7 +28,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.button.MaterialButton
 import com.nextcloud.android.lib.resources.profile.Action
 import com.nextcloud.android.lib.resources.profile.HoverCard
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.owncloud.android.R
 import com.owncloud.android.databinding.ProfileBottomSheetFragmentBinding
 import com.owncloud.android.utils.DisplayUtils

@@ -21,7 +21,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
-import com.nextcloud.client.di.Injectable;
+import com.fraylon.workspace.di.Injectable;
 import com.nextcloud.utils.extensions.BundleExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.features.FeatureItem;

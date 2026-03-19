@@ -16,9 +16,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.nextcloud.client.account.User
-import com.nextcloud.client.database.entity.OfflineOperationEntity
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.database.entity.OfflineOperationEntity
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.extensions.getSerializableArgument
 import com.owncloud.android.R

@@ -17,9 +17,9 @@ package com.owncloud.android.db;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.jobs.upload.FileUploadHelper;
-import com.nextcloud.client.jobs.upload.FileUploadWorker;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.jobs.upload.FileUploadHelper;
+import com.fraylon.workspace.jobs.upload.FileUploadWorker;
 import com.owncloud.android.datamodel.OCFile;
 import com.owncloud.android.datamodel.UploadsStorageManager;
 import com.owncloud.android.datamodel.UploadsStorageManager.UploadStatus;

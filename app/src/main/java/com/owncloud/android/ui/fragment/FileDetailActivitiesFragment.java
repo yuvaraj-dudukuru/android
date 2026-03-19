@@ -18,10 +18,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.di.Injectable;
-import com.nextcloud.client.network.ClientFactory;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.di.Injectable;
+import com.fraylon.workspace.network.ClientFactory;
 import com.nextcloud.common.NextcloudClient;
 import com.nextcloud.utils.extensions.BundleExtensionsKt;
 import com.nextcloud.utils.extensions.FileExtensionsKt;

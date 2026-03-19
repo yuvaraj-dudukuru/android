@@ -19,9 +19,9 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.nextcloud.android.lib.resources.tos.GetTermsRemoteOperation
 import com.nextcloud.android.lib.resources.tos.SignTermRemoteOperation
 import com.nextcloud.android.lib.resources.tos.Term
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.common.NextcloudClient
 import com.nextcloud.utils.extensions.setHtmlContent
 import com.owncloud.android.R

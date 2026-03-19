@@ -21,8 +21,8 @@ import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
 import android.content.Context;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
 import com.owncloud.android.datamodel.FileDataStorageManager;
 import com.owncloud.android.lib.common.OwnCloudAccount;
 import com.owncloud.android.lib.common.OwnCloudClient;

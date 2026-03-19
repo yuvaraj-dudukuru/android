@@ -11,7 +11,7 @@ package com.owncloud.android.ui.asynctasks;
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.FileDataStorageManager;

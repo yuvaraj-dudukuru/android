@@ -8,7 +8,7 @@
 package com.nextcloud.utils
 
 import com.google.gson.Gson
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.owncloud.android.datamodel.ArbitraryDataProvider
 import com.owncloud.android.lib.common.DirectEditing
 import com.owncloud.android.lib.common.Editor

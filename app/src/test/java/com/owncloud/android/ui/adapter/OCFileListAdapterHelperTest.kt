@@ -8,7 +8,7 @@
 package com.owncloud.android.ui.adapter
 
 import android.content.Context
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.MainApp
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.ui.adapter.helper.OCFileListAdapterHelper

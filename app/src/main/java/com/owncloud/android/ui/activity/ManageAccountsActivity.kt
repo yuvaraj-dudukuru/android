@@ -32,11 +32,11 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.common.collect.Sets
-import com.nextcloud.client.account.User
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.jobs.download.FileDownloadEventBroadcaster
-import com.nextcloud.client.jobs.download.FileDownloadHelper
-import com.nextcloud.client.onboarding.FirstRunActivity
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.jobs.download.FileDownloadEventBroadcaster
+import com.fraylon.workspace.jobs.download.FileDownloadHelper
+import com.fraylon.workspace.onboarding.FirstRunActivity
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.mdm.MDMConfig.multiAccountSupport
 import com.owncloud.android.MainApp

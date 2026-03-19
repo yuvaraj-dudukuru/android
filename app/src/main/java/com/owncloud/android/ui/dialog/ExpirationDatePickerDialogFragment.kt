@@ -21,7 +21,7 @@ import android.text.format.DateUtils
 import android.widget.DatePicker
 import androidx.fragment.app.DialogFragment
 import com.google.android.material.button.MaterialButton
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.di.Injectable
 import com.owncloud.android.R
 import com.owncloud.android.utils.theme.ViewThemeUtils
 import java.util.Calendar

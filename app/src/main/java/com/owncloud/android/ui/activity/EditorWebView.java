@@ -26,7 +26,7 @@ import android.webkit.WebView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.nextcloud.utils.extensions.IntentExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.databinding.RichdocumentsWebviewBinding;

@@ -8,7 +8,7 @@
 package com.owncloud.android.utils
 
 import com.google.gson.reflect.TypeToken
-import com.nextcloud.client.account.MockUser
+import com.fraylon.workspace.account.MockUser
 import com.nextcloud.common.User
 import com.nextcloud.utils.extensions.findMetadataKeyByUserId
 import com.owncloud.android.EncryptionIT

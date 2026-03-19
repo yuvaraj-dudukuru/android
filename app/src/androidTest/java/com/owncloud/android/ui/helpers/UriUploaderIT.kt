@@ -8,7 +8,7 @@ package com.owncloud.android.ui.helpers
 
 import android.net.Uri
 import androidx.test.core.app.launchActivity
-import com.nextcloud.client.jobs.upload.FileUploadWorker
+import com.fraylon.workspace.jobs.upload.FileUploadWorker
 import com.nextcloud.test.TestActivity
 import com.owncloud.android.AbstractIT
 import org.junit.Assert
@@ -21,7 +21,7 @@ class UriUploaderIT : AbstractIT() {
         launchActivity<TestActivity>().use { scenario ->
             scenario.onActivity { activity ->
                 val packageName = activity.packageName
-                val path = "file:///data/data/$packageName/shared_prefs/com.nextcloud.client_preferences.xml"
+                val path = "file:///data/data/$packageName/shared_prefs/com.fraylon.workspace_preferences.xml"
                 testPrivatePath(activity, path)
             }
         }

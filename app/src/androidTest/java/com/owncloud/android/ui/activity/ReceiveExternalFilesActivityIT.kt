@@ -23,7 +23,7 @@ import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.facebook.testing.screenshot.internal.TestNameDetector
-import com.nextcloud.client.preferences.AppPreferencesImpl
+import com.fraylon.workspace.preferences.AppPreferencesImpl
 import com.nextcloud.test.GrantStoragePermissionRule
 import com.nextcloud.test.withSelectedText
 import com.nextcloud.utils.extensions.removeFileExtension

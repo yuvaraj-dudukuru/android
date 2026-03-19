@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.bumptech.glide.Glide
-import com.nextcloud.client.account.User
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.R
 import com.owncloud.android.databinding.UnifiedSearchCurrentDirectoryItemBinding
 import com.owncloud.android.databinding.UnifiedSearchEmptyBinding

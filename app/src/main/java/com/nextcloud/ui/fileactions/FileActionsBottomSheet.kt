@@ -30,9 +30,9 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
 import com.nextcloud.android.lib.resources.clientintegration.Endpoint
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.di.ViewModelFactory
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.di.ViewModelFactory
 import com.nextcloud.utils.extensions.setVisibleIf
 import com.owncloud.android.R
 import com.owncloud.android.databinding.FileActionsBottomSheetBinding

@@ -24,10 +24,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.nextcloud.client.account.User
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.core.AsyncRunner
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.core.AsyncRunner
+import com.fraylon.workspace.di.Injectable
 import com.owncloud.android.R
 import com.owncloud.android.databinding.SetStatusMessageBottomSheetBinding
 import com.owncloud.android.datamodel.ArbitraryDataProvider

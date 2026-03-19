@@ -11,7 +11,7 @@ package com.owncloud.android.utils.glide
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.data.DataFetcher
-import com.nextcloud.client.account.UserAccountManagerImpl
+import com.fraylon.workspace.account.UserAccountManagerImpl
 import com.owncloud.android.MainApp
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory
 import com.owncloud.android.lib.common.operations.RemoteOperation

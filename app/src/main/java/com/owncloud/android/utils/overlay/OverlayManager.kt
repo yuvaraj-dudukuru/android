@@ -12,9 +12,9 @@ import android.view.View
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import com.elyeproj.loaderviewlibrary.LoaderImageView
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.datamodel.SyncedFolderObserver
 import com.owncloud.android.datamodel.SyncedFolderProvider

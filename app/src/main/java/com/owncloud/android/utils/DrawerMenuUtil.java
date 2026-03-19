@@ -10,7 +10,7 @@ package com.owncloud.android.utils;
 import android.content.res.Resources;
 import android.view.Menu;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.R;
 import com.owncloud.android.lib.resources.status.OCCapability;
 

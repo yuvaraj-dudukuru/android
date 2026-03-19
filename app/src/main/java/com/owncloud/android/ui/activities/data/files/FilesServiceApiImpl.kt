@@ -9,9 +9,9 @@
 package com.owncloud.android.ui.activities.data.files
 
 import androidx.lifecycle.lifecycleScope
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.network.ClientFactory
-import com.nextcloud.client.network.ClientFactory.CreationException
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.network.ClientFactory
+import com.fraylon.workspace.network.ClientFactory.CreationException
 import com.owncloud.android.MainApp
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.OCFile

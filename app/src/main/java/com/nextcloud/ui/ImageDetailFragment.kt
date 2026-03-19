@@ -22,9 +22,9 @@ import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.NominatimClient
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.NominatimClient
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.extensions.logFileSize
 import com.owncloud.android.MainApp

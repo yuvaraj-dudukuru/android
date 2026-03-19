@@ -11,8 +11,8 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import com.nextcloud.android.lib.resources.recommendations.GetRecommendationsRemoteOperation
 import com.nextcloud.android.lib.richWorkspace.RichWorkspaceDirectEditingRemoteOperation
-import com.nextcloud.client.database.entity.toEntity
-import com.nextcloud.client.database.entity.toOCFile
+import com.fraylon.workspace.database.entity.toEntity
+import com.fraylon.workspace.database.entity.toOCFile
 import com.nextcloud.repository.ClientRepository
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile

@@ -18,10 +18,10 @@ import android.content.Context;
 import android.view.Menu;
 
 import com.nextcloud.android.files.FileLockingHelper;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.editimage.EditImageActivity;
-import com.nextcloud.client.jobs.download.FileDownloadHelper;
-import com.nextcloud.client.jobs.upload.FileUploadHelper;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.editimage.EditImageActivity;
+import com.fraylon.workspace.jobs.download.FileDownloadHelper;
+import com.fraylon.workspace.jobs.upload.FileUploadHelper;
 import com.nextcloud.ui.fileactions.FileAction;
 import com.nextcloud.utils.EditorUtils;
 import com.nextcloud.utils.mdm.MDMConfig;

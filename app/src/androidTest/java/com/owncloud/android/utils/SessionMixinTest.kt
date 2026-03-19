@@ -10,9 +10,9 @@ import android.content.Intent
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.rules.ActivityScenarioRule
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.account.UserAccountManagerImpl
-import com.nextcloud.client.mixins.SessionMixin
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.account.UserAccountManagerImpl
+import com.fraylon.workspace.mixins.SessionMixin
 import com.owncloud.android.AbstractIT
 import com.owncloud.android.ui.activity.FileDisplayActivity
 import org.junit.Before

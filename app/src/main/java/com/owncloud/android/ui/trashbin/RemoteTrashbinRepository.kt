@@ -13,9 +13,9 @@
 package com.owncloud.android.ui.trashbin
 
 import android.os.AsyncTask
-import com.nextcloud.client.account.User
-import com.nextcloud.client.network.ClientFactory
-import com.nextcloud.client.network.ClientFactory.CreationException
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.network.ClientFactory
+import com.fraylon.workspace.network.ClientFactory.CreationException
 import com.owncloud.android.R
 import com.owncloud.android.lib.common.utils.Log_OC
 import com.owncloud.android.lib.resources.trashbin.EmptyTrashbinRemoteOperation

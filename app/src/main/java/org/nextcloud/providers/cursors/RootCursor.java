@@ -12,7 +12,7 @@ import android.content.Context;
 import android.database.MatrixCursor;
 import android.provider.DocumentsContract.Root;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.R;
 import com.owncloud.android.providers.DocumentsStorageProvider;
 

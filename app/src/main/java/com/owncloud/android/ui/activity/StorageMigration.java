@@ -19,7 +19,7 @@ import android.os.AsyncTask;
 import android.view.View;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.FileDataStorageManager;

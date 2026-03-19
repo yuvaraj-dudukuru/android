@@ -22,9 +22,9 @@ import android.widget.CompoundButton
 import android.widget.DatePicker
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.lifecycleScope
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.jobs.BackgroundJobManager
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.jobs.BackgroundJobManager
 import com.nextcloud.utils.extensions.getSerializableArgument
 import com.nextcloud.utils.extensions.setVisibleIf
 import com.owncloud.android.R

@@ -14,8 +14,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.jobs.download.FileDownloadHelper;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.jobs.download.FileDownloadHelper;
 import com.owncloud.android.datamodel.FileDataStorageManager;
 import com.owncloud.android.datamodel.OCFile;
 import com.owncloud.android.datamodel.e2e.v1.decrypted.DecryptedFolderMetadataFileV1;

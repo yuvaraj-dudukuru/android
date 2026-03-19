@@ -9,7 +9,7 @@ package com.owncloud.android.ui.asynctasks;
 
 import android.os.AsyncTask;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.datamodel.OCFile;
 import com.owncloud.android.lib.common.operations.RemoteOperationResult;
 import com.owncloud.android.operations.RichDocumentsUrlOperation;

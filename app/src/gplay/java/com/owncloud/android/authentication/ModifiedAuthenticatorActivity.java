@@ -8,7 +8,7 @@ package com.owncloud.android.authentication;
 
 import android.os.Bundle;
 
-import com.nextcloud.client.di.Injectable;
+import com.fraylon.workspace.di.Injectable;
 import com.owncloud.android.utils.GooglePlayUtils;
 
 public class ModifiedAuthenticatorActivity extends AuthenticatorActivity implements Injectable {

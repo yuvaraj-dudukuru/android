@@ -7,8 +7,8 @@
 
 package com.owncloud.android.datamodel
 
-import com.nextcloud.client.account.User
-import com.nextcloud.client.database.dao.SyncedFolderDao
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.database.dao.SyncedFolderDao
 import com.owncloud.android.lib.resources.files.model.ServerFileInterface
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

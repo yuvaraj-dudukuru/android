@@ -15,9 +15,9 @@ import android.view.View
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.nextcloud.client.account.User
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
 import com.owncloud.android.R
 import com.owncloud.android.databinding.MultipleAccountsBinding
 import com.owncloud.android.ui.adapter.UserListAdapter

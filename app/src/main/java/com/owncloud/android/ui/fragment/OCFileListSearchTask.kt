@@ -12,8 +12,8 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.ContentValues
 import androidx.lifecycle.lifecycleScope
-import com.nextcloud.client.account.User
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile

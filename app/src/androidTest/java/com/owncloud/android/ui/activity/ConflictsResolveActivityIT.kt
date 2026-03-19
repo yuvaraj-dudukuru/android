@@ -18,7 +18,7 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.matcher.ViewMatchers.withId
-import com.nextcloud.client.account.UserAccountManagerImpl
+import com.fraylon.workspace.account.UserAccountManagerImpl
 import com.nextcloud.utils.extensions.getDecryptedPath
 import com.owncloud.android.AbstractIT
 import com.owncloud.android.R

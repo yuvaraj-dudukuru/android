@@ -9,7 +9,7 @@ package com.nextcloud.strings
 
 import android.content.Context
 import androidx.test.platform.app.InstrumentationRegistry
-import com.nextcloud.client.jobs.upload.FileUploadHelper.Companion.MAX_FILE_COUNT
+import com.fraylon.workspace.jobs.upload.FileUploadHelper.Companion.MAX_FILE_COUNT
 import com.owncloud.android.R
 import org.junit.Assert.assertEquals
 import org.junit.Before

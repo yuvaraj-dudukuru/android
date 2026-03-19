@@ -22,7 +22,7 @@ import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.nextcloud.client.onboarding.FirstRunActivity
+import com.fraylon.workspace.onboarding.FirstRunActivity
 import com.nextcloud.test.TestActivity
 import com.owncloud.android.R
 import com.owncloud.android.authentication.AuthenticatorActivity

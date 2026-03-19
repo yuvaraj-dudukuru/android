@@ -12,7 +12,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.nextcloud.client.account.CurrentAccountProvider
+import com.fraylon.workspace.account.CurrentAccountProvider
 import com.nextcloud.common.NextcloudClient
 import com.owncloud.android.databinding.VersionListItemBinding
 import com.owncloud.android.lib.resources.activities.model.Activity

@@ -30,7 +30,7 @@ import com.nextcloud.android.lib.resources.clientintegration.Element
 import com.nextcloud.android.lib.resources.clientintegration.ElementTypeAdapter
 import com.nextcloud.android.lib.resources.clientintegration.Endpoint
 import com.nextcloud.android.lib.resources.clientintegration.TooltipResponse
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.common.JSONRequestBody
 import com.nextcloud.operations.GetMethod
 import com.nextcloud.operations.PostMethod

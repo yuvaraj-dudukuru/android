@@ -43,10 +43,10 @@ import com.caverock.androidsvg.SVG
 import com.caverock.androidsvg.SVGParseException
 import com.github.chrisbanes.photoview.PhotoView
 import com.google.android.material.snackbar.Snackbar
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.jobs.BackgroundJobManager
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.jobs.BackgroundJobManager
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.ui.fileactions.FileAction
 import com.nextcloud.ui.fileactions.FileActionsBottomSheet.Companion.newInstance
 import com.nextcloud.utils.extensions.clickWithDebounce

@@ -18,8 +18,8 @@ import androidx.test.espresso.web.webdriver.Locator
 import androidx.test.filters.LargeTest
 import androidx.test.filters.SdkSuppress
 import androidx.test.platform.app.InstrumentationRegistry
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.account.UserAccountManagerImpl
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.account.UserAccountManagerImpl
 import com.nextcloud.test.GrantStoragePermissionRule
 import com.nextcloud.test.RetryTestRule
 import com.owncloud.android.AbstractIT

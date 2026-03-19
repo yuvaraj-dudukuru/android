@@ -8,10 +8,10 @@
 package com.owncloud.android.utils
 
 import android.content.Context
-import com.nextcloud.client.database.dao.FileSystemDao
-import com.nextcloud.client.jobs.autoUpload.AutoUploadHelper
-import com.nextcloud.client.jobs.autoUpload.FileSystemRepository
-import com.nextcloud.client.preferences.SubFolderRule
+import com.fraylon.workspace.database.dao.FileSystemDao
+import com.fraylon.workspace.jobs.autoUpload.AutoUploadHelper
+import com.fraylon.workspace.jobs.autoUpload.FileSystemRepository
+import com.fraylon.workspace.preferences.SubFolderRule
 import com.nextcloud.utils.extensions.shouldSkipFile
 import com.owncloud.android.datamodel.MediaFolderType
 import com.owncloud.android.datamodel.SyncedFolder

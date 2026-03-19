@@ -7,7 +7,7 @@
  */
 package com.owncloud.android.ui.adapter
 
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.utils.FileSortOrder

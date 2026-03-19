@@ -17,7 +17,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.utils.mdm.MDMConfig.shareViaLink
 import com.owncloud.android.R
 import com.owncloud.android.databinding.FileDetailsShareInternalShareLinkBinding

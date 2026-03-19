@@ -18,8 +18,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.nextcloud.utils.extensions.ViewExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.databinding.ListFooterBinding;

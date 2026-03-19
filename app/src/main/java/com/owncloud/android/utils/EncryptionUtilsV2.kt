@@ -11,7 +11,7 @@ import android.accounts.AccountManager
 import android.content.Context
 import androidx.annotation.VisibleForTesting
 import com.google.gson.reflect.TypeToken
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.utils.autoRename.AutoRename
 import com.nextcloud.utils.e2ee.E2EVersionHelper
 import com.nextcloud.utils.extensions.showToast

@@ -11,10 +11,10 @@ package com.owncloud.android.datamodel;
 
 import android.content.Context;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.database.NextcloudDatabase;
-import com.nextcloud.client.database.dao.ArbitraryDataDao;
-import com.nextcloud.client.database.entity.ArbitraryDataEntity;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.database.NextcloudDatabase;
+import com.fraylon.workspace.database.dao.ArbitraryDataDao;
+import com.fraylon.workspace.database.entity.ArbitraryDataEntity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -17,7 +17,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 
-import com.nextcloud.client.preferences.AppPreferencesImpl;
+import com.fraylon.workspace.preferences.AppPreferencesImpl;
 import com.owncloud.android.R;
 import com.owncloud.android.authentication.PassCodeManager;
 import com.owncloud.android.lib.common.utils.Log_OC;

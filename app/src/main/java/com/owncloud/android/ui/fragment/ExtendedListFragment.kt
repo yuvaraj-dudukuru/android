@@ -51,10 +51,10 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
 import com.google.android.material.button.MaterialButton
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
-import com.nextcloud.client.preferences.AppPreferencesImpl
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferencesImpl
 import com.nextcloud.utils.extensions.getTypedActivity
 import com.nextcloud.utils.extensions.mainThread
 import com.owncloud.android.MainApp

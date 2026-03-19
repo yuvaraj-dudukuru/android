@@ -16,9 +16,9 @@ import android.widget.ArrayAdapter
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.jobs.BackgroundJobManager
-import com.nextcloud.client.jobs.download.FileDownloadWorker
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.jobs.BackgroundJobManager
+import com.fraylon.workspace.jobs.download.FileDownloadWorker
 import com.nextcloud.utils.extensions.hourPlural
 import com.nextcloud.utils.extensions.minPlural
 import com.nextcloud.utils.extensions.setVisibleIf

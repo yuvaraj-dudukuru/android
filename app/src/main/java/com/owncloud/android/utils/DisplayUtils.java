@@ -50,8 +50,8 @@ import android.widget.ImageView;
 
 import com.elyeproj.loaderviewlibrary.LoaderImageView;
 import com.google.android.material.snackbar.Snackbar;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.nextcloud.model.OfflineOperationType;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;

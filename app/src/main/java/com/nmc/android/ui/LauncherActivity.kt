@@ -16,7 +16,7 @@ import android.text.TextUtils
 import android.view.View
 import androidx.annotation.VisibleForTesting
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.utils.mdm.MDMConfig
 import com.owncloud.android.R
 import com.owncloud.android.authentication.AuthenticatorActivity

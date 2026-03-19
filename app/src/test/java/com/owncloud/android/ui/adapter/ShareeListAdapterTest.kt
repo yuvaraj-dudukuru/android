@@ -9,8 +9,8 @@ package com.owncloud.android.ui.adapter
 
 import android.content.Context
 import android.content.res.Resources
-import com.nextcloud.client.account.AnonymousUser
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.AnonymousUser
+import com.fraylon.workspace.account.User
 import com.owncloud.android.datamodel.SharesType
 import com.owncloud.android.lib.resources.shares.OCShare
 import com.owncloud.android.lib.resources.shares.ShareType

@@ -11,8 +11,8 @@ import android.content.Context
 import android.view.View
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.User
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.databinding.UnifiedSearchCurrentDirectoryItemBinding
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile

@@ -13,7 +13,7 @@ package com.owncloud.android.operations;
 import android.accounts.AccountManager;
 import android.content.Context;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.lib.common.OwnCloudClient;
 import com.owncloud.android.lib.common.accounts.AccountUtils.Constants;
 import com.owncloud.android.lib.common.operations.RemoteOperation;

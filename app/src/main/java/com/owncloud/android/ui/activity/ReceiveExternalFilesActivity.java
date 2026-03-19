@@ -48,11 +48,11 @@ import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.di.Injectable;
-import com.nextcloud.client.jobs.upload.FileUploadHelper;
-import com.nextcloud.client.jobs.upload.FileUploadWorker;
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.di.Injectable;
+import com.fraylon.workspace.jobs.upload.FileUploadHelper;
+import com.fraylon.workspace.jobs.upload.FileUploadWorker;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.nextcloud.utils.extensions.BundleExtensionsKt;
 import com.nextcloud.utils.extensions.FileExtensionsKt;
 import com.nextcloud.utils.extensions.IntentExtensionsKt;

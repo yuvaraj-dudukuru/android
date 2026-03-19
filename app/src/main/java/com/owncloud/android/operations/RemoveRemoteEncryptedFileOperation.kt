@@ -10,7 +10,7 @@ package com.owncloud.android.operations
 import android.content.Context
 import androidx.core.util.component1
 import androidx.core.util.component2
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.utils.e2ee.E2EVersionHelper
 import com.owncloud.android.datamodel.ArbitraryDataProvider
 import com.owncloud.android.datamodel.ArbitraryDataProviderImpl

@@ -21,11 +21,11 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.common.collect.Sets
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.network.ClientFactory
-import com.nextcloud.client.network.ClientFactory.CreationException
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.network.ClientFactory
+import com.fraylon.workspace.network.ClientFactory.CreationException
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.fileNameValidator.FileNameValidator
 import com.owncloud.android.MainApp

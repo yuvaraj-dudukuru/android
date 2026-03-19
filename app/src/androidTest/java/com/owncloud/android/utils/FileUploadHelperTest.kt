@@ -6,11 +6,11 @@
  */
 package com.owncloud.android.utils
 
-import com.nextcloud.client.database.dao.UploadDao
-import com.nextcloud.client.database.entity.UploadEntity
-import com.nextcloud.client.database.entity.toOCUpload
-import com.nextcloud.client.database.entity.toUploadEntity
-import com.nextcloud.client.jobs.upload.FileUploadHelper
+import com.fraylon.workspace.database.dao.UploadDao
+import com.fraylon.workspace.database.entity.UploadEntity
+import com.fraylon.workspace.database.entity.toOCUpload
+import com.fraylon.workspace.database.entity.toUploadEntity
+import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.nextcloud.utils.extensions.checkWCFRestrictions
 import com.owncloud.android.datamodel.UploadsStorageManager.UploadStatus
 import com.owncloud.android.db.OCUpload
@@ -41,7 +41,7 @@ class FileUploadHelperTest {
         every { mockCapability.checkWCFRestrictions() } returns value
 
         val mockFileStorageManager = mockk<com.owncloud.android.datamodel.FileDataStorageManager>(relaxed = true)
-        every { mockFileStorageManager.getCapability(any<com.nextcloud.client.account.User>()) } returns mockCapability
+        every { mockFileStorageManager.getCapability(any<com.fraylon.workspace.account.User>()) } returns mockCapability
 
         val field = FileUploadHelper::class.java.getDeclaredField("fileStorageManager")
         field.isAccessible = true

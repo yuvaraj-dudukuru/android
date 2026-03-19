@@ -22,9 +22,9 @@ import androidx.fragment.app.DialogFragment
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.common.collect.Sets
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.utils.autoRename.AutoRename
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.extensions.typedActivity

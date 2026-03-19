@@ -27,8 +27,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.ArbitraryDataProvider;
 import com.owncloud.android.datamodel.ArbitraryDataProviderImpl;

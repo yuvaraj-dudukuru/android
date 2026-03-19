@@ -14,11 +14,11 @@ import android.content.ActivityNotFoundException;
 import android.content.ContentResolver;
 import android.content.Context;
 
-import com.nextcloud.client.account.CurrentAccountProvider;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.account.UserAccountManagerImpl;
-import com.nextcloud.client.database.entity.UploadEntityKt;
+import com.fraylon.workspace.account.CurrentAccountProvider;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.account.UserAccountManagerImpl;
+import com.fraylon.workspace.database.entity.UploadEntityKt;
 import com.nextcloud.test.RandomStringGenerator;
 import com.owncloud.android.AbstractIT;
 import com.owncloud.android.MainApp;

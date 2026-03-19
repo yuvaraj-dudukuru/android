@@ -14,8 +14,8 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nextcloud.android.lib.resources.groupfolders.Groupfolder
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.logger.Logger
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.logger.Logger
 import com.owncloud.android.MainApp
 import com.owncloud.android.R
 import com.owncloud.android.ui.EmptyRecyclerView

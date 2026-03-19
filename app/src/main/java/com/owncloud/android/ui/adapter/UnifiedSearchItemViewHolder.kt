@@ -14,8 +14,8 @@ import androidx.core.widget.ImageViewCompat
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.bumptech.glide.Glide
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.User
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.common.NextcloudClient
 import com.nextcloud.model.SearchResultEntryType
 import com.nextcloud.utils.CalendarEventManager

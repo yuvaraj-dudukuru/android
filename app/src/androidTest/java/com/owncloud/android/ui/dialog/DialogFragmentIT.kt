@@ -34,10 +34,10 @@ import com.google.gson.reflect.TypeToken
 import com.nextcloud.android.common.ui.color.ColorUtil
 import com.nextcloud.android.lib.resources.profile.Action
 import com.nextcloud.android.lib.resources.profile.HoverCard
-import com.nextcloud.client.account.RegisteredUser
-import com.nextcloud.client.account.Server
-import com.nextcloud.client.device.DeviceInfo
-import com.nextcloud.client.documentscan.AppScanOptionalFeature
+import com.fraylon.workspace.account.RegisteredUser
+import com.fraylon.workspace.account.Server
+import com.fraylon.workspace.device.DeviceInfo
+import com.fraylon.workspace.documentscan.AppScanOptionalFeature
 import com.nextcloud.ui.ChooseAccountDialogFragment
 import com.nextcloud.ui.ChooseAccountDialogFragment.Companion.newInstance
 import com.nextcloud.ui.SetOnlineStatusBottomSheet

@@ -14,8 +14,8 @@ import android.util.SparseArray
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.nextcloud.client.account.User
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.datamodel.VirtualFolderType

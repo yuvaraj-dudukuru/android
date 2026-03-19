@@ -22,9 +22,9 @@ import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.google.android.material.button.MaterialButton
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.core.Clock
-import com.nextcloud.client.device.PowerManagementService
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.core.Clock
+import com.fraylon.workspace.device.PowerManagementService
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.utils.extensions.calculateScanInterval
 import com.nextcloud.utils.extensions.filterEnabledOrWithoutEnabledParent
 import com.nextcloud.utils.extensions.hasEnabledParent

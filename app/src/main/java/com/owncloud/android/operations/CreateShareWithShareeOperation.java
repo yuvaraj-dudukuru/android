@@ -13,9 +13,9 @@ package com.owncloud.android.operations;
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.network.ClientFactory;
-import com.nextcloud.client.network.ClientFactoryImpl;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.network.ClientFactory;
+import com.fraylon.workspace.network.ClientFactoryImpl;
 import com.nextcloud.common.NextcloudClient;
 import com.nextcloud.utils.extensions.DecryptedUserExtensionsKt;
 import com.owncloud.android.R;

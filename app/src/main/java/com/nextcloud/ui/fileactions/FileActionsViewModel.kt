@@ -13,8 +13,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.logger.Logger
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.logger.Logger
 import com.nextcloud.utils.TimeConstants
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.files.FileMenuFilter

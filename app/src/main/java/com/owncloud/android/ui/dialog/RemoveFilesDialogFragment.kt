@@ -17,8 +17,8 @@ import android.os.Bundle
 import android.view.ActionMode
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.button.MaterialButton
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.utils.extensions.getTypedActivity
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.FileDataStorageManager

@@ -14,7 +14,7 @@ import com.google.android.play.core.review.ReviewManager
 import com.google.android.play.core.review.ReviewManagerFactory
 import com.nextcloud.appReview.AppReviewShownModel
 import com.nextcloud.appReview.InAppReviewHelper
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.utils.extensions.getFormattedStringDate
 import com.nextcloud.utils.extensions.isCurrentYear
 import com.owncloud.android.lib.common.utils.Log_OC

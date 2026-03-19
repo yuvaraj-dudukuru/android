@@ -7,8 +7,8 @@
 
 package com.nextcloud.ui
 
-import com.nextcloud.client.account.User
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.network.ClientFactory
 import com.owncloud.android.lib.resources.users.GetStatusRemoteOperation
 import com.owncloud.android.lib.resources.users.Status
 import com.owncloud.android.lib.resources.users.StatusType

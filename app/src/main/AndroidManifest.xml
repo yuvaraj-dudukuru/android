@@ -296,7 +296,7 @@
             android:name=".ui.activity.InternalTwoWaySyncActivity"
             android:exported="false" />
         <activity
-            android:name="com.nextcloud.client.widget.DashboardWidgetConfigurationActivity"
+            android:name="com.fraylon.workspace.widget.DashboardWidgetConfigurationActivity"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
@@ -308,25 +308,25 @@
             tools:replace="android:exported" />
 
         <receiver
-            android:name="com.nextcloud.client.notifications.action.SyncConflictNotificationBroadcastReceiver"
+            android:name="com.fraylon.workspace.notifications.action.SyncConflictNotificationBroadcastReceiver"
             android:exported="false" />
         <receiver
-            android:name="com.nextcloud.client.jobs.offlineOperations.receiver.OfflineOperationReceiver"
+            android:name="com.fraylon.workspace.jobs.offlineOperations.receiver.OfflineOperationReceiver"
             android:exported="false" />
         <receiver
             android:name=".operations.upload.UploadFileBroadcastReceiver"
             android:exported="false" />
         <receiver
-            android:name="com.nextcloud.client.jobs.MediaFoldersDetectionWork$NotificationReceiver"
+            android:name="com.fraylon.workspace.jobs.MediaFoldersDetectionWork$NotificationReceiver"
             android:exported="false" />
         <receiver
-            android:name="com.nextcloud.client.jobs.upload.FileUploadBroadcastReceiver"
+            android:name="com.fraylon.workspace.jobs.upload.FileUploadBroadcastReceiver"
             android:exported="false" />
         <receiver
-            android:name="com.nextcloud.client.jobs.NotificationWork$NotificationReceiver"
+            android:name="com.fraylon.workspace.jobs.NotificationWork$NotificationReceiver"
             android:exported="false" />
         <receiver
-            android:name="com.nextcloud.client.widget.DashboardWidgetProvider"
+            android:name="com.fraylon.workspace.widget.DashboardWidgetProvider"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -404,7 +404,7 @@
             android:theme="@style/Theme.ownCloud.Media" />
 
         <service
-            android:name="com.nextcloud.client.media.BackgroundPlayerService"
+            android:name="com.fraylon.workspace.media.BackgroundPlayerService"
             android:exported="true"
             android:foregroundServiceType="mediaPlayback"
             tools:ignore="ExportedService">
@@ -437,7 +437,7 @@
                 android:resource="@xml/syncadapter_files" />
         </service>
         <service
-            android:name="com.nextcloud.client.widget.DashboardWidgetService"
+            android:name="com.fraylon.workspace.widget.DashboardWidgetService"
             android:exported="true"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
@@ -563,11 +563,11 @@
             android:name=".services.OperationsService"
             android:exported="false" />
         <service
-            android:name="com.nextcloud.client.jobs.transfer.FileTransferService"
+            android:name="com.fraylon.workspace.jobs.transfer.FileTransferService"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
         <service
-            android:name="com.nextcloud.client.media.PlayerService"
+            android:name="com.fraylon.workspace.media.PlayerService"
             android:exported="false"
             android:foregroundServiceType="mediaPlayback" />
 
@@ -586,10 +586,10 @@
             android:name=".ui.activity.ErrorsWhileCopyingHandlerActivity"
             android:exported="false" />
         <activity
-            android:name="com.nextcloud.client.logger.ui.LogsActivity"
+            android:name="com.fraylon.workspace.logger.ui.LogsActivity"
             android:exported="false" />
         <activity
-            android:name="com.nextcloud.client.errorhandling.ShowErrorActivity"
+            android:name="com.fraylon.workspace.errorhandling.ShowErrorActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:finishOnTaskLaunch="true"
@@ -604,10 +604,10 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true" />
         <activity
-            android:name="com.nextcloud.client.onboarding.WhatsNewActivity"
+            android:name="com.fraylon.workspace.onboarding.WhatsNewActivity"
             android:theme="@style/Theme.ownCloud.noActionBar.Login" />
         <activity
-            android:name="com.nextcloud.client.onboarding.FirstRunActivity"
+            android:name="com.fraylon.workspace.onboarding.FirstRunActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false"
             android:theme="@style/Theme.ownCloud.noActionBar.Login" />
@@ -624,7 +624,7 @@
         </receiver>
 
         <receiver
-            android:name="com.nextcloud.client.jobs.folderDownload.FolderDownloadWorkerReceiver"
+            android:name="com.fraylon.workspace.jobs.folderDownload.FolderDownloadWorkerReceiver"
             android:exported="false" />
 
         <activity
@@ -672,7 +672,7 @@
             android:exported="true"
             android:theme="@style/Theme.ownCloud.Dialog.NoTitle" />
         <activity
-            android:name="com.nextcloud.client.etm.EtmActivity"
+            android:name="com.fraylon.workspace.etm.EtmActivity"
             android:exported="false"
             android:theme="@style/Theme.ownCloud.Toolbar" />
         <activity
@@ -680,11 +680,11 @@
             android:exported="false"
             android:theme="@style/Theme.ownCloud.OverlayGrey" />
         <activity
-            android:name="com.nextcloud.client.documentscan.DocumentScanActivity"
+            android:name="com.fraylon.workspace.documentscan.DocumentScanActivity"
             android:exported="false"
             android:theme="@style/Theme.ownCloud.Toolbar" />
         <activity
-            android:name="com.nextcloud.client.editimage.EditImageActivity"
+            android:name="com.fraylon.workspace.editimage.EditImageActivity"
             android:exported="false"
             android:theme="@style/Theme.ownCloud.Toolbar.NullBackground" />
         <activity

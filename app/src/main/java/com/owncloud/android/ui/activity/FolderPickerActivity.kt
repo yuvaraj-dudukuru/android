@@ -23,8 +23,8 @@ import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.lifecycle.lifecycleScope
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.fileNameValidator.FileNameValidator
 import com.owncloud.android.R

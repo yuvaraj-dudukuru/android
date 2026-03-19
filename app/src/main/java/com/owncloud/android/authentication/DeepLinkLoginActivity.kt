@@ -9,7 +9,7 @@ package com.owncloud.android.authentication
 
 import android.os.Bundle
 import android.widget.TextView
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.mdm.MDMConfig
 import com.owncloud.android.R
 import com.owncloud.android.utils.DisplayUtils

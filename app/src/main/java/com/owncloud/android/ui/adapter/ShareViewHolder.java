@@ -18,7 +18,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.nextcloud.utils.extensions.ImageViewExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.databinding.FileDetailsShareShareItemBinding;

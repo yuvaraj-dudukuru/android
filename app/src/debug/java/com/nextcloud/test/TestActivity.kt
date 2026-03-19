@@ -11,11 +11,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.nextcloud.client.database.NextcloudDatabase
-import com.nextcloud.client.jobs.download.FileDownloadWorker
-import com.nextcloud.client.jobs.upload.FileUploadHelper
-import com.nextcloud.client.network.Connectivity
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.database.NextcloudDatabase
+import com.fraylon.workspace.jobs.download.FileDownloadWorker
+import com.fraylon.workspace.jobs.upload.FileUploadHelper
+import com.fraylon.workspace.network.Connectivity
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.utils.EditorUtils
 import com.owncloud.android.R
 import com.owncloud.android.databinding.TestLayoutBinding

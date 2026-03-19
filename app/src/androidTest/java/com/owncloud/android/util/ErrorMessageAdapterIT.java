@@ -10,8 +10,8 @@ package com.owncloud.android.util;
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.nextcloud.client.account.MockUser;
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.MockUser;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.datamodel.FileDataStorageManager;
 import com.owncloud.android.datamodel.OCFile;

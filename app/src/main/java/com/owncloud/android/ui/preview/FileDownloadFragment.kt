@@ -18,9 +18,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.jobs.download.FileDownloadHelper.Companion.instance
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.jobs.download.FileDownloadHelper.Companion.instance
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.nextcloud.utils.extensions.getTypedActivity
 import com.owncloud.android.R

@@ -10,7 +10,7 @@ package com.nextcloud.receiver
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.network.ConnectivityService
 
 interface NetworkChangeListener {
     fun networkAndServerConnectionListener(isNetworkAndServerAvailable: Boolean)

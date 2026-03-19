@@ -27,8 +27,8 @@ import android.os.Process;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
 import com.nextcloud.common.NextcloudClient;
 import com.nextcloud.utils.extensions.IntentExtensionsKt;
 import com.owncloud.android.MainApp;

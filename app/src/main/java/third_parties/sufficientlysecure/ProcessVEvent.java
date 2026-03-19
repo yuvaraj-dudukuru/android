@@ -22,7 +22,7 @@ import android.provider.CalendarContract.Reminders;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.owncloud.android.R;
 import com.owncloud.android.lib.common.utils.Log_OC;
 

@@ -16,8 +16,8 @@ import android.graphics.Paint;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
 import com.owncloud.android.utils.BitmapUtils;
 
 import java.util.Locale;

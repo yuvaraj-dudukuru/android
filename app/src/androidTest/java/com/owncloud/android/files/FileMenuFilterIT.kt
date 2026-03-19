@@ -9,9 +9,9 @@ package com.owncloud.android.files
 
 import androidx.test.core.app.launchActivity
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.nextcloud.client.account.User
-import com.nextcloud.client.jobs.download.FileDownloadWorker
-import com.nextcloud.client.jobs.upload.FileUploadHelper
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.jobs.download.FileDownloadWorker
+import com.fraylon.workspace.jobs.upload.FileUploadHelper
 import com.nextcloud.test.TestActivity
 import com.nextcloud.utils.EditorUtils
 import com.owncloud.android.AbstractIT

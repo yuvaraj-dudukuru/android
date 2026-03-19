@@ -18,7 +18,7 @@ import android.text.TextUtils
 import androidx.work.Data
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
-import com.nextcloud.client.jobs.clipboard.ClipboardClearWorker
+import com.fraylon.workspace.jobs.clipboard.ClipboardClearWorker
 import com.nextcloud.utils.mdm.MDMConfig
 import com.owncloud.android.R
 import com.owncloud.android.lib.common.utils.Log_OC

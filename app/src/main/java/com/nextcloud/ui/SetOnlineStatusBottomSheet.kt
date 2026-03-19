@@ -21,9 +21,9 @@ import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.card.MaterialCardView
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.core.AsyncRunner
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.core.AsyncRunner
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.extensions.setVisibleIf
 import com.owncloud.android.R
 import com.owncloud.android.databinding.SetOnlineStatusBottomSheetBinding

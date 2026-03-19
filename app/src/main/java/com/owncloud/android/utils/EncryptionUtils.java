@@ -16,7 +16,7 @@ import com.google.common.collect.Lists;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.nextcloud.utils.e2ee.E2EVersionHelper;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.ArbitraryDataProvider;

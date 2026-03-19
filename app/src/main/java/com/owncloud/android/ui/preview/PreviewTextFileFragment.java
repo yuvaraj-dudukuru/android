@@ -18,7 +18,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.nextcloud.ui.fileactions.FileAction;
 import com.nextcloud.ui.fileactions.FileActionsBottomSheet;
 import com.nextcloud.utils.extensions.BundleExtensionsKt;

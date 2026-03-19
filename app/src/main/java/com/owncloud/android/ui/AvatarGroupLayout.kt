@@ -17,7 +17,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.utils.GlideHelper.loadCircularBitmapIntoImageView
 import com.owncloud.android.R
 import com.owncloud.android.lib.common.utils.Log_OC

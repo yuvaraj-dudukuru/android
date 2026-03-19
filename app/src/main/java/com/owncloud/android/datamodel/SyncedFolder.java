@@ -10,9 +10,9 @@
 
 package com.owncloud.android.datamodel;
 
-import com.nextcloud.client.device.PowerManagementService;
-import com.nextcloud.client.network.ConnectivityService;
-import com.nextcloud.client.preferences.SubFolderRule;
+import com.fraylon.workspace.device.PowerManagementService;
+import com.fraylon.workspace.network.ConnectivityService;
+import com.fraylon.workspace.preferences.SubFolderRule;
 import com.nextcloud.utils.extensions.SyncedFolderExtensionsKt;
 import com.owncloud.android.files.services.NameCollisionPolicy;
 import com.owncloud.android.utils.MimeTypeUtil;

@@ -7,7 +7,7 @@
 
 package com.nextcloud.utils.extensions
 
-import com.nextcloud.client.database.entity.ShareEntity
+import com.fraylon.workspace.database.entity.ShareEntity
 import com.owncloud.android.lib.resources.shares.OCShare
 
 fun OCShare?.remainingDownloadLimit(): Int? {

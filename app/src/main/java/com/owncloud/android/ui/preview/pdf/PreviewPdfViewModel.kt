@@ -13,7 +13,7 @@ import android.os.ParcelFileDescriptor
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.MainApp
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.lib.common.utils.Log_OC

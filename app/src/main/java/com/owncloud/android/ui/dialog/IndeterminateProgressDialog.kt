@@ -17,7 +17,7 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.widget.ProgressBar
 import androidx.fragment.app.DialogFragment
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.di.Injectable
 import com.owncloud.android.R
 import com.owncloud.android.utils.theme.ViewThemeUtils
 import javax.inject.Inject

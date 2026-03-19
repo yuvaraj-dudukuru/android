@@ -10,8 +10,8 @@
  */
 package com.owncloud.android.ui.activity;
 
-import com.nextcloud.client.jobs.download.FileDownloadWorker;
-import com.nextcloud.client.jobs.upload.FileUploadHelper;
+import com.fraylon.workspace.jobs.download.FileDownloadWorker;
+import com.fraylon.workspace.jobs.upload.FileUploadHelper;
 import com.owncloud.android.datamodel.FileDataStorageManager;
 import com.owncloud.android.services.OperationsService.OperationsServiceBinder;
 import com.owncloud.android.ui.helpers.FileOperationsHelper;

@@ -7,7 +7,7 @@
  */
 package com.owncloud.android.ui.dialog
 
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 
 interface AccountChooserInterface {
     fun onAccountChosen(user: User)

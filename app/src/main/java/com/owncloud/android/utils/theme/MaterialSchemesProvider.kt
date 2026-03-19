@@ -8,7 +8,7 @@
 package com.owncloud.android.utils.theme
 
 import com.nextcloud.android.common.ui.theme.MaterialSchemes
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.owncloud.android.lib.resources.status.OCCapability
 
 interface MaterialSchemesProvider {

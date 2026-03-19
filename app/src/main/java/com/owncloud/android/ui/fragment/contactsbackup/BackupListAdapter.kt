@@ -25,8 +25,8 @@ import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.utils.GlideHelper
 import com.owncloud.android.R
 import com.owncloud.android.databinding.BackupListItemHeaderBinding

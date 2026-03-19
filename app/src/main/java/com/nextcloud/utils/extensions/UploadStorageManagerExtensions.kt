@@ -7,7 +7,7 @@
 
 package com.nextcloud.utils.extensions
 
-import com.nextcloud.client.database.entity.UploadEntity
+import com.fraylon.workspace.database.entity.UploadEntity
 import com.owncloud.android.datamodel.UploadsStorageManager
 
 fun UploadsStorageManager.updateStatus(entity: UploadEntity?, status: UploadsStorageManager.UploadStatus) {

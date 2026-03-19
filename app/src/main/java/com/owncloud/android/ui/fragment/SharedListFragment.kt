@@ -11,9 +11,9 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import androidx.lifecycle.lifecycleScope
-import com.nextcloud.client.account.User
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.logger.Logger
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.logger.Logger
 import com.nextcloud.common.SessionTimeOut
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.OCFile

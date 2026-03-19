@@ -10,8 +10,8 @@ package com.owncloud.android.ui.dialog.parcel;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.nextcloud.client.jobs.upload.FileUploadWorker;
-import com.nextcloud.client.preferences.SubFolderRule;
+import com.fraylon.workspace.jobs.upload.FileUploadWorker;
+import com.fraylon.workspace.preferences.SubFolderRule;
 import com.owncloud.android.datamodel.MediaFolderType;
 import com.owncloud.android.datamodel.SyncedFolderDisplayItem;
 import com.owncloud.android.files.services.NameCollisionPolicy;

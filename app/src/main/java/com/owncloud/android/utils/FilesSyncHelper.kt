@@ -9,11 +9,11 @@
  */
 package com.owncloud.android.utils
 
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.device.PowerManagementService
-import com.nextcloud.client.jobs.BackgroundJobManager
-import com.nextcloud.client.jobs.upload.FileUploadHelper.Companion.instance
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.device.PowerManagementService
+import com.fraylon.workspace.jobs.BackgroundJobManager
+import com.fraylon.workspace.jobs.upload.FileUploadHelper.Companion.instance
+import com.fraylon.workspace.network.ConnectivityService
 import com.owncloud.android.datamodel.SyncedFolderProvider
 import com.owncloud.android.datamodel.UploadsStorageManager
 import com.owncloud.android.lib.common.utils.Log_OC

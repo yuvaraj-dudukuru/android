@@ -12,8 +12,8 @@ import android.accounts.Account;
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManagerImpl;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManagerImpl;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.FileDataStorageManager;

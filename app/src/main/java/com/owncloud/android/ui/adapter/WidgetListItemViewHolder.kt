@@ -10,9 +10,9 @@ package com.owncloud.android.ui.adapter
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
 import com.nextcloud.android.lib.resources.dashboard.DashboardWidget
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.network.ClientFactory
-import com.nextcloud.client.widget.DashboardWidgetConfigurationInterface
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.network.ClientFactory
+import com.fraylon.workspace.widget.DashboardWidgetConfigurationInterface
 import com.nextcloud.utils.GlideHelper
 import com.owncloud.android.R
 import com.owncloud.android.databinding.WidgetListItemBinding

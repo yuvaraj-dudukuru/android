@@ -7,7 +7,7 @@
 
 package com.owncloud.android.ui.adapter.helper
 
-import com.nextcloud.client.database.entity.FileEntity
+import com.fraylon.workspace.database.entity.FileEntity
 import com.owncloud.android.datamodel.OCFile
 
 interface OCFileListAdapterDataProvider {

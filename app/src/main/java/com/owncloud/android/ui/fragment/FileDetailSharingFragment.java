@@ -35,12 +35,12 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.database.entity.FileEntity;
-import com.nextcloud.client.di.Injectable;
-import com.nextcloud.client.network.ClientFactory;
-import com.nextcloud.client.utils.IntentUtil;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.database.entity.FileEntity;
+import com.fraylon.workspace.di.Injectable;
+import com.fraylon.workspace.network.ClientFactory;
+import com.fraylon.workspace.utils.IntentUtil;
 import com.nextcloud.utils.extensions.BundleExtensionsKt;
 import com.nextcloud.utils.extensions.FileExtensionsKt;
 import com.nextcloud.utils.extensions.OCShareExtensionsKt;

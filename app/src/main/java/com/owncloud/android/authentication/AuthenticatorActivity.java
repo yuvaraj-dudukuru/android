@@ -54,14 +54,14 @@ import com.google.gson.reflect.TypeToken;
 import com.nextcloud.android.common.ui.color.ColorUtil;
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
 import com.nextcloud.android.lib.resources.users.GenerateOneTimeAppPasswordRemoteOperation;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.device.DeviceInfo;
-import com.nextcloud.client.di.Injectable;
-import com.nextcloud.client.network.ClientFactory;
-import com.nextcloud.client.onboarding.FirstRunActivity;
-import com.nextcloud.client.onboarding.OnboardingService;
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.device.DeviceInfo;
+import com.fraylon.workspace.di.Injectable;
+import com.fraylon.workspace.network.ClientFactory;
+import com.fraylon.workspace.onboarding.FirstRunActivity;
+import com.fraylon.workspace.onboarding.OnboardingService;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.nextcloud.common.NextcloudClient;
 import com.nextcloud.common.PlainClient;
 import com.nextcloud.operations.PostMethod;
@@ -709,6 +709,10 @@ public class AuthenticatorActivity extends AccountAuthenticatorActivity
         viewThemeUtils.platform.colorTextView(accountSetupBinding.authStatusText, ColorRole.ON_PRIMARY);
         viewThemeUtils.material.colorTextInputLayout(accountSetupBinding.hostUrlContainer, ColorRole.ON_PRIMARY);
         viewThemeUtils.platform.colorEditTextOnPrimary(accountSetupBinding.hostUrlInput);
+
+        if (TextUtils.isEmpty(accountSetupBinding.hostUrlInput.getText())) {
+            accountSetupBinding.hostUrlInput.setText("https://nextcloud.fraylon.in");
+        }
 
         if (deviceInfo.hasCamera(this)) {
             accountSetupBinding.scanQr.setOnClickListener(v -> onScan());

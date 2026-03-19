@@ -19,8 +19,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.utils.IntentUtil.createSendIntent
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.utils.IntentUtil.createSendIntent
 import com.owncloud.android.R
 import com.owncloud.android.databinding.SendFilesFragmentBinding
 import com.owncloud.android.datamodel.OCFile

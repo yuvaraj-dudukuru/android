@@ -7,9 +7,9 @@
  */
 package com.owncloud.android.ui.unifiedsearch
 
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.core.AsyncRunner
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.core.AsyncRunner
+import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.common.NextcloudClient
 import com.owncloud.android.lib.common.SearchProviders
 import com.owncloud.android.lib.common.utils.Log_OC

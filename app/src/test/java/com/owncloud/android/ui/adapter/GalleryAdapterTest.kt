@@ -9,9 +9,9 @@ package com.owncloud.android.ui.adapter
 
 import android.content.Context
 import android.text.TextUtils
-import com.nextcloud.client.account.User
-import com.nextcloud.client.jobs.upload.FileUploadHelper
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.jobs.upload.FileUploadHelper
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.GalleryItems
 import com.owncloud.android.datamodel.GalleryRow

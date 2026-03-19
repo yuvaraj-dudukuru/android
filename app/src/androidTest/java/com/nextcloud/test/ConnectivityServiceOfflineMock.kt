@@ -6,8 +6,8 @@
  */
 package com.nextcloud.test
 
-import com.nextcloud.client.network.Connectivity
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.network.Connectivity
+import com.fraylon.workspace.network.ConnectivityService
 
 /** A mocked connectivity service returning that the device is offline **/
 class ConnectivityServiceOfflineMock : ConnectivityService {

@@ -13,7 +13,7 @@
 
 package com.owncloud.android.ui.adapter;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.lib.resources.shares.OCShare;
 
 public interface ShareeListAdapterListener {

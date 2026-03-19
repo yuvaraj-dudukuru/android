@@ -6,7 +6,7 @@
  */
 package com.owncloud.android.utils
 
-import com.nextcloud.client.preferences.SubFolderRule
+import com.fraylon.workspace.preferences.SubFolderRule
 import com.owncloud.android.AbstractIT
 import com.owncloud.android.datamodel.MediaFolder
 import com.owncloud.android.datamodel.MediaFolderType

@@ -15,4 +15,4 @@
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="1800000"
     android:widgetCategory="home_screen"
-    android:configure="com.nextcloud.client.widget.DashboardWidgetConfigurationActivity" />
+    android:configure="com.fraylon.workspace.widget.DashboardWidgetConfigurationActivity" />

@@ -32,12 +32,12 @@ import android.os.IBinder;
 import android.text.TextUtils;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.jobs.BackgroundJobManager;
-import com.nextcloud.client.jobs.download.FileDownloadWorker;
-import com.nextcloud.client.jobs.upload.FileUploadHelper;
-import com.nextcloud.client.network.ConnectivityService;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.jobs.BackgroundJobManager;
+import com.fraylon.workspace.jobs.download.FileDownloadWorker;
+import com.fraylon.workspace.jobs.upload.FileUploadHelper;
+import com.fraylon.workspace.network.ConnectivityService;
 import com.nextcloud.receiver.NetworkChangeListener;
 import com.nextcloud.receiver.NetworkChangeReceiver;
 import com.nextcloud.utils.EditorUtils;

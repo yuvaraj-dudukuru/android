@@ -15,10 +15,10 @@ import androidx.core.net.toUri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.core.AsyncRunner
-import com.nextcloud.client.network.ClientFactory
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.core.AsyncRunner
+import com.fraylon.workspace.network.ClientFactory
+import com.fraylon.workspace.network.ConnectivityService
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.FileDataStorageManager
 import com.owncloud.android.datamodel.OCFile

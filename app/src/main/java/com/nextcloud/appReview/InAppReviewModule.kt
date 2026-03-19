@@ -8,7 +8,7 @@
 package com.nextcloud.appReview
 
 import com.nextcloud.android.appReview.InAppReviewHelperImpl
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

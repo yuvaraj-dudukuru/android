@@ -30,7 +30,7 @@ import androidx.annotation.DrawableRes
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import com.nextcloud.client.account.CurrentAccountProvider
+import com.fraylon.workspace.account.CurrentAccountProvider
 import com.nextcloud.common.NextcloudClient
 import com.nextcloud.utils.GlideHelper
 import com.owncloud.android.MainApp

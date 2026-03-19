@@ -18,8 +18,8 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Pair;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.jobs.download.FileDownloadEventBroadcaster;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.jobs.download.FileDownloadEventBroadcaster;
 import com.owncloud.android.datamodel.OCFile;
 import com.owncloud.android.files.services.IndexedForest;
 import com.owncloud.android.lib.common.OwnCloudAccount;

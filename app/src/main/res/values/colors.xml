@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Nextcloud - Android Client
+  ~ Fraylon Workspace - Android Client
   ~
-  ~ SPDX-FileCopyrightText: 2022 Álvaro Brey  <alvaro@alvarobrey.com>
-  ~ SPDX-FileCopyrightText: 2016-2020 Andy Scherzinger <info@andy-scherzinger.de>
-  ~ SPDX-FileCopyrightText: 2020 Joris Bodin <joris.bodin@infomaniak.com>
-  ~ SPDX-FileCopyrightText: 2018 Tobias Kaminsky <tobias@kaminsky.me>
-  ~ SPDX-FileCopyrightText: 2012 Bartosz Przybylski
+  ~ SPDX-FileCopyrightText: 2026 Fraylon Technologies
   ~ SPDX-License-Identifier: GPL-2.0-only AND (AGPL-3.0-or-later OR GPL-2.0-only)
 -->
 <resources>
@@ -14,7 +10,7 @@
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="white_helper_text">#B3FFFFFF</color>
-    <color name="text_color">#333333</color>
+    <color name="text_color">#001A33</color>
     <color name="grid_file_features_icon_color">#303034</color>
     <color name="grid_file_features_background_color">#E9E8EB</color>
     <color name="drawer_text_color">@color/secondary_text_color</color>
@@ -66,7 +62,7 @@
     <color name="drawer_shadow">#000000</color>
     <color name="online">#2D7B41</color>
     <color name="busy">#DB0606</color>
-    <color name="offline">@color/high_emphasis_text</color>
+    <color name="offline">#001A33</color>
 
     <color name="background_color_png">#FFFFFF</color>
 

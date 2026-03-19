@@ -18,8 +18,8 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.net.toUri
-import com.nextcloud.client.account.CurrentAccountProvider
-import com.nextcloud.client.network.ClientFactory
+import com.fraylon.workspace.account.CurrentAccountProvider
+import com.fraylon.workspace.network.ClientFactory
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.OCFile

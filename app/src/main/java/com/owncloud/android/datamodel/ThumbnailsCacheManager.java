@@ -35,8 +35,8 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.network.ConnectivityService;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.network.ConnectivityService;
 import com.nextcloud.utils.BitmapExtensionsKt;
 import com.nextcloud.utils.extensions.OCFileExtensionsKt;
 import com.nextcloud.utils.extensions.OwnCloudClientExtensionsKt;

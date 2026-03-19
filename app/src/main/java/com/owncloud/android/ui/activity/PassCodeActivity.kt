@@ -22,8 +22,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.utils.extensions.setVisibleIf
 import com.owncloud.android.R
 import com.owncloud.android.authentication.PassCodeManager

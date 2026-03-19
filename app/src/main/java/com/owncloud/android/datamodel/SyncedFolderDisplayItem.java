@@ -7,7 +7,7 @@
  */
 package com.owncloud.android.datamodel;
 
-import com.nextcloud.client.preferences.SubFolderRule;
+import com.fraylon.workspace.preferences.SubFolderRule;
 
 import java.util.List;
 

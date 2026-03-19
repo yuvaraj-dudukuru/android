@@ -18,10 +18,10 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.button.MaterialButton
 import com.google.gson.Gson
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.User
-import com.nextcloud.client.device.DeviceInfo
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.documentscan.AppScanOptionalFeature
+import com.fraylon.workspace.account.User
+import com.fraylon.workspace.device.DeviceInfo
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.documentscan.AppScanOptionalFeature
 import com.nextcloud.utils.BuildHelper.isFlavourGPlay
 import com.nextcloud.utils.EditorUtils
 import com.nextcloud.utils.extensions.setVisibleIf

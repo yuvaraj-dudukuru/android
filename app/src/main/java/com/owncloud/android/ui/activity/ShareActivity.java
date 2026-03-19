@@ -17,7 +17,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.owncloud.android.R;
 import com.owncloud.android.databinding.ShareActivityBinding;
 import com.owncloud.android.datamodel.OCFile;

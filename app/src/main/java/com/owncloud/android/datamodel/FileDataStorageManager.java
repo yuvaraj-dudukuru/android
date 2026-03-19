@@ -33,16 +33,16 @@ import android.text.TextUtils;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.nextcloud.android.lib.resources.files.FileDownloadLimit;
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.database.NextcloudDatabase;
-import com.nextcloud.client.database.dao.FileDao;
-import com.nextcloud.client.database.dao.OfflineOperationDao;
-import com.nextcloud.client.database.dao.RecommendedFileDao;
-import com.nextcloud.client.database.dao.ShareDao;
-import com.nextcloud.client.database.entity.FileEntity;
-import com.nextcloud.client.database.entity.OfflineOperationEntity;
-import com.nextcloud.client.jobs.offlineOperations.repository.OfflineOperationsRepository;
-import com.nextcloud.client.jobs.offlineOperations.repository.OfflineOperationsRepositoryType;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.database.NextcloudDatabase;
+import com.fraylon.workspace.database.dao.FileDao;
+import com.fraylon.workspace.database.dao.OfflineOperationDao;
+import com.fraylon.workspace.database.dao.RecommendedFileDao;
+import com.fraylon.workspace.database.dao.ShareDao;
+import com.fraylon.workspace.database.entity.FileEntity;
+import com.fraylon.workspace.database.entity.OfflineOperationEntity;
+import com.fraylon.workspace.jobs.offlineOperations.repository.OfflineOperationsRepository;
+import com.fraylon.workspace.jobs.offlineOperations.repository.OfflineOperationsRepositoryType;
 import com.nextcloud.model.OfflineOperationRawType;
 import com.nextcloud.model.OfflineOperationType;
 import com.nextcloud.model.ShareeEntry;
@@ -1220,7 +1220,7 @@ public class FileDataStorageManager {
 
     /**
      * This method does not require {@link FileDataStorageManager} being initialized with any specific user. Migration
-     * can be performed with {@link com.nextcloud.client.account.AnonymousUser}.
+     * can be performed with {@link com.fraylon.workspace.account.AnonymousUser}.
      */
     public void migrateStoredFiles(String sourcePath, String destinationPath)
         throws RemoteException, OperationApplicationException {

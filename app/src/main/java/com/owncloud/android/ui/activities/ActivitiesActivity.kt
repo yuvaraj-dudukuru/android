@@ -15,7 +15,7 @@ import androidx.core.view.size
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.network.ConnectivityService
 import com.nextcloud.common.NextcloudClient
 import com.owncloud.android.R
 import com.owncloud.android.databinding.ActivityListLayoutBinding

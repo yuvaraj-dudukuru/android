@@ -14,9 +14,9 @@ import androidx.lifecycle.lifecycleScope
 import androidx.work.WorkManager
 import com.google.android.material.snackbar.Snackbar
 import com.nextcloud.android.common.ui.util.extensions.applyEdgeToEdgeWithSystemBarPadding
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.R
 import com.owncloud.android.databinding.ActivityManageSpaceBinding
 import com.owncloud.android.lib.common.utils.Log_OC

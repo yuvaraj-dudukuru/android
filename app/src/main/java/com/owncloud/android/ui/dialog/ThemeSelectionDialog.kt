@@ -15,9 +15,9 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
-import com.nextcloud.client.preferences.DarkMode
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
+import com.fraylon.workspace.preferences.DarkMode
 import com.owncloud.android.MainApp
 import com.owncloud.android.R
 import com.owncloud.android.databinding.DialogThemeSelectionBinding

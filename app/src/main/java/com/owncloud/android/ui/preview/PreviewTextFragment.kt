@@ -25,9 +25,9 @@ import android.widget.TextView
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
 import com.nextcloud.android.common.ui.theme.utils.ColorRole
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.device.DeviceInfo
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.device.DeviceInfo
+import com.fraylon.workspace.di.Injectable
 import com.nextcloud.utils.LinkHelper
 import com.nextcloud.utils.extensions.setHtmlContent
 import com.owncloud.android.MainApp

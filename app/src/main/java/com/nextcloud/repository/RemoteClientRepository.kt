@@ -10,7 +10,7 @@ package com.nextcloud.repository
 import android.content.Context
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.common.NextcloudClient
 import com.owncloud.android.lib.common.OwnCloudClient
 import com.owncloud.android.lib.common.OwnCloudClientManagerFactory

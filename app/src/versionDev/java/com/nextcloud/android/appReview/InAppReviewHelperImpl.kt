@@ -9,7 +9,7 @@ package com.nextcloud.android.appReview
 
 import androidx.appcompat.app.AppCompatActivity
 import com.nextcloud.appReview.InAppReviewHelper
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferences
 
 class InAppReviewHelperImpl(appPreferences: AppPreferences) : InAppReviewHelper {
     override fun resetAndIncrementAppRestartCounter() {

@@ -12,8 +12,8 @@ import androidx.core.net.toUri
 import androidx.webkit.WebSettingsCompat
 import androidx.webkit.WebViewFeature
 import com.nextcloud.android.common.ui.util.PlatformThemeUtil
-import com.nextcloud.client.appinfo.AppInfo
-import com.nextcloud.client.device.DeviceInfo
+import com.fraylon.workspace.appinfo.AppInfo
+import com.fraylon.workspace.device.DeviceInfo
 import com.nextcloud.utils.EditorUtils
 import com.owncloud.android.R
 import com.owncloud.android.ui.asynctasks.TextEditorLoadUrlTask

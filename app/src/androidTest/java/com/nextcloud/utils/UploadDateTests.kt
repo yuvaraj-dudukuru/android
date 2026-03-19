@@ -11,9 +11,9 @@ package com.nextcloud.utils
 import android.content.Context
 import android.text.format.DateUtils
 import androidx.test.platform.app.InstrumentationRegistry
-import com.nextcloud.client.database.entity.UploadEntity
-import com.nextcloud.client.database.entity.toOCUpload
-import com.nextcloud.client.database.entity.toUploadEntity
+import com.fraylon.workspace.database.entity.UploadEntity
+import com.fraylon.workspace.database.entity.toOCUpload
+import com.fraylon.workspace.database.entity.toUploadEntity
 import com.nextcloud.utils.date.DateFormatPattern
 import com.owncloud.android.R
 import com.owncloud.android.utils.DisplayUtils

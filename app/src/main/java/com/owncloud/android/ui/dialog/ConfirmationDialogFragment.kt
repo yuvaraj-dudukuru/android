@@ -19,7 +19,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.nextcloud.client.di.Injectable
+import com.fraylon.workspace.di.Injectable
 import com.owncloud.android.utils.theme.ViewThemeUtils
 import javax.inject.Inject
 

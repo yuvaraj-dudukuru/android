@@ -17,7 +17,7 @@ import android.os.Looper;
 import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 
-import com.nextcloud.client.account.User;
+import com.fraylon.workspace.account.User;
 import com.nextcloud.utils.extensions.ContextExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.ArbitraryDataProviderImpl;

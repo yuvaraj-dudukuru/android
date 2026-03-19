@@ -24,7 +24,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.nextcloud.android.common.ui.theme.utils.ColorRole;
-import com.nextcloud.client.preferences.AppPreferences;
+import com.fraylon.workspace.preferences.AppPreferences;
 import com.nextcloud.utils.FileHelper;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.ThumbnailsCacheManager;

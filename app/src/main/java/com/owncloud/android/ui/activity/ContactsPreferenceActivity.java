@@ -12,8 +12,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.nextcloud.client.account.User;
-import com.nextcloud.client.jobs.BackgroundJobManager;
+import com.fraylon.workspace.account.User;
+import com.fraylon.workspace.jobs.BackgroundJobManager;
 import com.nextcloud.utils.extensions.IntentExtensionsKt;
 import com.owncloud.android.R;
 import com.owncloud.android.datamodel.OCFile;

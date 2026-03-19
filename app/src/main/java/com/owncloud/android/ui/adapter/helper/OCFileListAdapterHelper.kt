@@ -7,8 +7,8 @@
 
 package com.owncloud.android.ui.adapter.helper
 
-import com.nextcloud.client.database.entity.FileEntity
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.database.entity.FileEntity
+import com.fraylon.workspace.preferences.AppPreferences
 import com.nextcloud.utils.extensions.filterFilenames
 import com.nextcloud.utils.extensions.isTempFile
 import com.owncloud.android.MainApp

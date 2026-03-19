@@ -20,8 +20,8 @@ import androidx.fragment.app.FragmentActivity
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.ui.PlayerView
-import com.nextcloud.client.media.ExoplayerListener
-import com.nextcloud.client.media.NextcloudExoPlayer
+import com.fraylon.workspace.media.ExoplayerListener
+import com.fraylon.workspace.media.NextcloudExoPlayer
 import com.nextcloud.common.NextcloudClient
 import com.owncloud.android.databinding.DialogPreviewVideoBinding
 import com.owncloud.android.lib.common.utils.Log_OC

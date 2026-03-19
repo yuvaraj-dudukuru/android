@@ -7,9 +7,9 @@
 
 package com.nextcloud.utils.extensions
 
-import com.nextcloud.client.device.PowerManagementService
-import com.nextcloud.client.jobs.BackgroundJobManagerImpl
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.device.PowerManagementService
+import com.fraylon.workspace.jobs.BackgroundJobManagerImpl
+import com.fraylon.workspace.network.ConnectivityService
 import com.owncloud.android.R
 import com.owncloud.android.datamodel.MediaFolderType
 import com.owncloud.android.datamodel.SyncedFolder

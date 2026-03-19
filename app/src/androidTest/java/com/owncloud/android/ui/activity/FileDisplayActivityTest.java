@@ -8,7 +8,7 @@ package com.owncloud.android.ui.activity;
 
 import android.app.Activity;
 
-import com.nextcloud.client.onboarding.WhatsNewActivity;
+import com.fraylon.workspace.onboarding.WhatsNewActivity;
 import com.owncloud.android.AbstractIT;
 
 import org.junit.Test;

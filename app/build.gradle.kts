@@ -2,7 +2,7 @@
  * Nextcloud - Android Client
  *
  * SPDX-FileCopyrightText: 2025 Jimly Asshiddiqy <jimly.asshiddiqy@accenture.com>
- * SPDX-License-Identifier: AGPL-3.0-or-later
+ * SPDX-License-Identifier: AGPL-3.0-or-later-later
  */
 @file:Suppress("UnstableApiUsage", "DEPRECATION")
 
@@ -87,7 +87,7 @@ android {
     // install this NDK version and Cmake to produce smaller APKs. Build will still work if not installed
     ndkVersion = "${ndkEnv["NDK_VERSION"]}"
 
-    namespace = "com.owncloud.android"
+    namespace = "com.fraylon.workspace"
     testNamespace = "${namespace}.test"
 
     androidResources.generateLocaleConfig = true
@@ -99,7 +99,7 @@ android {
             "TEST_SERVER_PASSWORD" to ncTestServerPassword.toString(),
             "disableAnalytics" to "true"
         )
-        applicationId = "com.nextcloud.client"
+        applicationId = "com.fraylon.workspace"
         minSdk = 28
         targetSdk = 36
         compileSdk = 36
@@ -109,7 +109,7 @@ android {
 
         // arguments to be passed to functional tests
         testInstrumentationRunner = if (shotTest) "com.karumi.shot.ShotTestRunner"
-        else "com.nextcloud.client.TestRunner"
+        else "com.fraylon.workspace.TestRunner"
 
         versionCode = versionMajor * 10000000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
         versionName = when {
@@ -138,29 +138,29 @@ android {
         productFlavors {
             // used for f-droid
             register("generic") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "com.fraylon.workspace"
                 dimension = "default"
             }
 
             register("gplay") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "com.fraylon.workspace"
                 dimension = "default"
             }
 
             register("huawei") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "com.fraylon.workspace"
                 dimension = "default"
             }
 
             register("versionDev") {
-                applicationId = "com.nextcloud.android.beta"
+                applicationId = "com.fraylon.workspace.beta"
                 dimension = "default"
                 versionCode = 20220322
                 versionName = "20220322"
             }
 
             register("qa") {
-                applicationId = "com.nextcloud.android.qa"
+                applicationId = "com.fraylon.workspace.qa"
                 dimension = "default"
                 versionCode = 1
                 versionName = "1"

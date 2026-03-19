@@ -11,7 +11,7 @@
     <bool name="dev_version_direct_download_enabled">false</bool>
 
     <!-- App name  and other strings-->
-    <string name="app_name">Nextcloud</string>
+    <string name="app_name">Fraylon Workspace</string>
     <string name="account_type">nextcloud</string>     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
     <string name="authority">org.nextcloud</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
     <string name="users_and_groups_search_authority">com.nextcloud.android.providers.UsersAndGroupsSearchProvider</string>
@@ -66,9 +66,9 @@
     <array name="whatsnew_urls"></array>
 
     <!-- Colors -->
-    <color name="primary">#0082c9</color>
-    <color name="primary_dark">#006AA3</color>
-    <color name="color_accent">#007cc2</color>
+    <color name="primary">#00A8E8</color>
+    <color name="primary_dark">#0082B5</color>
+    <color name="color_accent">#FF7A00</color>
     <color name="login_text_color">#ffffff</color>
     <color name="login_text_hint_color">#7fC0E3</color>
 
@@ -85,20 +85,20 @@
     <bool name="device_credentials_enabled">true</bool>
     <bool name="show_hidden_files_enabled">true</bool>
     <bool name="davdroid_integration_enabled">true</bool>
-    <bool name="help_enabled">true</bool>
-    <string name="url_help">https://help.nextcloud.com/c/clients/android/</string>
-    <bool name="privacy_enabled">true</bool>
-    <string name="privacy_url">https://nextcloud.com/privacy</string>
+    <bool name="help_enabled">false</bool>
+    <string name="url_help">https://fraylontech.com/help</string>
+    <bool name="privacy_enabled">false</bool>
+    <string name="privacy_url">https://fraylontech.com/privacy</string>
     <bool name="imprint_enabled">false</bool>
-    <bool name="recommend_enabled">true</bool>
+    <bool name="recommend_enabled">false</bool>
     <bool name="logger_enabled">false</bool>
-    <bool name="sourcecode_enabled">true</bool>
+    <bool name="sourcecode_enabled">false</bool>
     <string name="sourcecode_url" translatable="false">https://github.com/nextcloud/android</string>
-    <bool name="license_enabled">true</bool>
+    <bool name="license_enabled">false</bool>
     <string name="license_url" translatable="false">https://www.gnu.org/licenses/gpl-2.0.html</string>
     <string name="url_imprint"></string>
-    <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.nextcloud.client"</string>
-    <string name="url_server_install">https://nextcloud.com/install</string>
+    <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.fraylon.workspace"</string>
+    <string name="url_server_install">https://fraylontech.com/install</string>
 
     <!-- synced folder light; if enabled: move to setting & global upload settings -->
     <bool name="syncedFolder_light">false</bool>
@@ -111,12 +111,12 @@
     <string name="mail_logger"></string>
 
     <!-- Determine is participate enabled -->
-    <bool name="participate_enabled">true</bool>
+    <bool name="participate_enabled">false</bool>
     <!-- Participate links -->
     <string name="fdroid_beta_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.nextcloud.android.beta</string>
     <string name="beta_apk_link" translatable="false">https://download.nextcloud.com/android/dev/latest.apk</string>
-    <string name="play_store_register_beta" translatable="false">https://play.google.com/apps/testing/com.nextcloud.client</string>
-    <string name="fdroid_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.nextcloud.client</string>
+    <string name="play_store_register_beta" translatable="false">https://play.google.com/apps/testing/com.fraylon.workspace</string>
+    <string name="fdroid_link" translatable="false">https://f-droid.org/repository/browse/?fdid=com.fraylon.workspace</string>
     <string name="help_link" translatable="false">https://help.nextcloud.com/c/clients/android</string>
     <string name="translation_link" translatable="false">https://app.transifex.com/nextcloud/nextcloud/android/</string>
     <string name="contributing_link" translatable="false">https://github.com/nextcloud/android/blob/master/CONTRIBUTING.md</string>
@@ -142,8 +142,8 @@
     <string name="push_server_url" translatable="false"></string>
 
     <!-- if contains values, will be used to show branding title below app icon in splash screen -->
-    <string name="splashScreenBold"></string>
-    <string name="splashScreenNormal"></string>
+    <string name="splashScreenBold">Fraylon Workspace</string>
+    <string name="splashScreenNormal">Engineering the Future</string>
 
     <!-- Geocoding -->
     <string name="osm_geocoder_url" translatable="false">https://nominatim.openstreetmap.org/</string>

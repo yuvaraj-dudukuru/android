@@ -14,8 +14,8 @@ import android.os.PowerManager
 import android.view.View
 import android.view.WindowManager
 import androidx.annotation.VisibleForTesting
-import com.nextcloud.client.core.Clock
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.core.Clock
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.MainApp
 import com.owncloud.android.ui.activity.PassCodeActivity
 import com.owncloud.android.ui.activity.RequestCredentialsActivity

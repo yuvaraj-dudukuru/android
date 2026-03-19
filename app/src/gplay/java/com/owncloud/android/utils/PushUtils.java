@@ -16,9 +16,9 @@ import android.text.TextUtils;
 import android.util.Base64;
 
 import com.google.gson.Gson;
-import com.nextcloud.client.account.UserAccountManager;
-import com.nextcloud.client.preferences.AppPreferences;
-import com.nextcloud.client.preferences.AppPreferencesImpl;
+import com.fraylon.workspace.account.UserAccountManager;
+import com.fraylon.workspace.preferences.AppPreferences;
+import com.fraylon.workspace.preferences.AppPreferencesImpl;
 import com.nextcloud.common.NextcloudClient;
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;

@@ -10,7 +10,7 @@ package com.owncloud.android.ui.activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.nextcloud.client.account.User
+import com.fraylon.workspace.account.User
 import com.nextcloud.utils.extensions.getParcelableArgument
 import com.owncloud.android.R
 import com.owncloud.android.ui.dialog.setupEncryption.SetupEncryptionDialogFragment

@@ -7,8 +7,8 @@
  */
 package com.owncloud.android.ui.activity;
 
-import com.nextcloud.client.jobs.upload.FileUploadWorker;
-import com.nextcloud.client.preferences.SubFolderRule;
+import com.fraylon.workspace.jobs.upload.FileUploadWorker;
+import com.fraylon.workspace.preferences.SubFolderRule;
 import com.owncloud.android.datamodel.MediaFolderType;
 import com.owncloud.android.datamodel.SyncedFolder;
 import com.owncloud.android.datamodel.SyncedFolderDisplayItem;

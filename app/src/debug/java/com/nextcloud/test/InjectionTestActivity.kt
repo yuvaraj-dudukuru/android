@@ -9,8 +9,8 @@ package com.nextcloud.test
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.nextcloud.client.di.Injectable
-import com.nextcloud.client.preferences.AppPreferences
+import com.fraylon.workspace.di.Injectable
+import com.fraylon.workspace.preferences.AppPreferences
 import com.owncloud.android.databinding.ActivityInjectionTestBinding
 import javax.inject.Inject
 

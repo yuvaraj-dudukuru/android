@@ -8,14 +8,14 @@
  */
 package com.owncloud.android.files.services
 
-import com.nextcloud.client.account.UserAccountManager
-import com.nextcloud.client.account.UserAccountManagerImpl
-import com.nextcloud.client.device.BatteryStatus
-import com.nextcloud.client.device.PowerManagementService
-import com.nextcloud.client.jobs.upload.FileUploadHelper
-import com.nextcloud.client.jobs.upload.FileUploadWorker
-import com.nextcloud.client.network.Connectivity
-import com.nextcloud.client.network.ConnectivityService
+import com.fraylon.workspace.account.UserAccountManager
+import com.fraylon.workspace.account.UserAccountManagerImpl
+import com.fraylon.workspace.device.BatteryStatus
+import com.fraylon.workspace.device.PowerManagementService
+import com.fraylon.workspace.jobs.upload.FileUploadHelper
+import com.fraylon.workspace.jobs.upload.FileUploadWorker
+import com.fraylon.workspace.network.Connectivity
+import com.fraylon.workspace.network.ConnectivityService
 import com.owncloud.android.AbstractOnServerIT
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.datamodel.UploadsStorageManager

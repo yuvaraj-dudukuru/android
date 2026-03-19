@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.core.app.launchActivity
 import androidx.test.platform.app.InstrumentationRegistry
-import com.nextcloud.client.account.UserAccountManagerImpl
-import com.nextcloud.client.preferences.AppPreferences
-import com.nextcloud.client.preferences.AppPreferencesImpl
+import com.fraylon.workspace.account.UserAccountManagerImpl
+import com.fraylon.workspace.preferences.AppPreferences
+import com.fraylon.workspace.preferences.AppPreferencesImpl
 import com.owncloud.android.AbstractIT
 import com.owncloud.android.datamodel.OCFile
 import com.owncloud.android.datamodel.SyncedFolderProvider
